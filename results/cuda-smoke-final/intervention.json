@@ -1,0 +1,34 @@
+{
+  "constipation": {
+    "layer": 4,
+    "policy": "validation AUC"
+  },
+  "flatulence": {
+    "layer": 8,
+    "policy": "validation AUC"
+  },
+  "interaction": {
+    "layer": 22,
+    "policy": "validation AUC"
+  },
+  "pain": {
+    "layer": 34,
+    "policy": "validation AUC"
+  },
+  "discomfort": {
+    "layer": 4,
+    "policy": "validation AUC"
+  },
+  "frustration": {
+    "layer": 3,
+    "policy": "validation AUC"
+  },
+  "constipation_adjusted": {
+    "layer": 4,
+    "policy": "validation AUC"
+  },
+  "flatulence_adjusted": {
+    "layer": 12,
+    "policy": "validation AUC"
+  }
+}

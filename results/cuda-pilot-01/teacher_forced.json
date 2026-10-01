@@ -1,0 +1,5794 @@
+[
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 8,
+    "dose": 0.1,
+    "mode": "baseline",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.058152660727500916,
+        "after": -0.058152660727500916,
+        "downstream_projection": 0.22187362611293793
+      },
+      {
+        "step": 1,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04098587855696678,
+        "after": -0.04098587855696678,
+        "downstream_projection": 0.19723699986934662
+      },
+      {
+        "step": 2,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08456055074930191,
+        "after": -0.08456055074930191,
+        "downstream_projection": 0.22113391757011414
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06596885621547699,
+        "after": -0.06596885621547699,
+        "downstream_projection": 0.24982616305351257
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08839954435825348,
+        "after": -0.08839954435825348,
+        "downstream_projection": 0.2472773641347885
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.09696432948112488,
+        "after": -0.09696432948112488,
+        "downstream_projection": 0.21879909932613373
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0685800313949585,
+        "after": -0.0685800313949585,
+        "downstream_projection": 0.22090773284435272
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08296909928321838,
+        "after": -0.08296909928321838,
+        "downstream_projection": 0.26591774821281433
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05389712005853653,
+        "after": -0.05389712005853653,
+        "downstream_projection": 0.25820767879486084
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.09451805055141449,
+        "after": -0.09451805055141449,
+        "downstream_projection": 0.23333534598350525
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06642359495162964,
+        "after": -0.06642359495162964,
+        "downstream_projection": 0.24322469532489777
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0936833992600441,
+        "after": -0.0936833992600441,
+        "downstream_projection": 0.254276305437088
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08423883467912674,
+        "after": -0.08423883467912674,
+        "downstream_projection": 0.2040203958749771
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05939533933997154,
+        "after": -0.05939533933997154,
+        "downstream_projection": 0.2037932425737381
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.10904555022716522,
+        "after": -0.10904555022716522,
+        "downstream_projection": 0.23449207842350006
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0498989000916481,
+        "after": -0.0498989000916481,
+        "downstream_projection": 0.18215550482273102
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "constipation"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 8,
+    "dose": 0.1,
+    "mode": "pulse",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.058152660727500916,
+        "after": 0.04186414182186127,
+        "downstream_projection": 0.2240615040063858
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04098587855696678,
+        "after": 0.059051450341939926,
+        "downstream_projection": 0.20157824456691742
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08456055074930191,
+        "after": 0.015458982437849045,
+        "downstream_projection": 0.22033584117889404
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06596885621547699,
+        "after": -0.06596885621547699,
+        "downstream_projection": 0.2502969205379486
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08839954435825348,
+        "after": -0.08839954435825348,
+        "downstream_projection": 0.24760594964027405
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.09696432948112488,
+        "after": -0.09696432948112488,
+        "downstream_projection": 0.22192992269992828
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0685800313949585,
+        "after": -0.0685800313949585,
+        "downstream_projection": 0.2240048497915268
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08296909928321838,
+        "after": -0.08296909928321838,
+        "downstream_projection": 0.2644988000392914
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05389712005853653,
+        "after": -0.05389712005853653,
+        "downstream_projection": 0.2585408389568329
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.09451805055141449,
+        "after": -0.09451805055141449,
+        "downstream_projection": 0.23309819400310516
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06642359495162964,
+        "after": -0.06642359495162964,
+        "downstream_projection": 0.24379201233386993
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0936833992600441,
+        "after": -0.0936833992600441,
+        "downstream_projection": 0.2567504942417145
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08423883467912674,
+        "after": -0.08423883467912674,
+        "downstream_projection": 0.20695258677005768
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05939533933997154,
+        "after": -0.05939533933997154,
+        "downstream_projection": 0.20496292412281036
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.10904555022716522,
+        "after": -0.10904555022716522,
+        "downstream_projection": 0.23255109786987305
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0498989000916481,
+        "after": -0.0498989000916481,
+        "downstream_projection": 0.1835436075925827
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "constipation"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 8,
+    "dose": 0.1,
+    "mode": "rebuild",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.058152660727500916,
+        "after": 0.04186414182186127,
+        "downstream_projection": 0.2240615040063858
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04098587855696678,
+        "after": 0.059051450341939926,
+        "downstream_projection": 0.20157824456691742
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08456055074930191,
+        "after": 0.015458982437849045,
+        "downstream_projection": 0.22033584117889404
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": true,
+        "before": -0.0662291944026947,
+        "after": -0.0662291944026947,
+        "downstream_projection": 0.24972845613956451
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08856990188360214,
+        "after": -0.08856990188360214,
+        "downstream_projection": 0.24675895273685455
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.09728842973709106,
+        "after": -0.09728842973709106,
+        "downstream_projection": 0.22069202363491058
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06836625933647156,
+        "after": -0.06836625933647156,
+        "downstream_projection": 0.22042520344257355
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0829397588968277,
+        "after": -0.0829397588968277,
+        "downstream_projection": 0.2641006112098694
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0540294349193573,
+        "after": -0.0540294349193573,
+        "downstream_projection": 0.258725643157959
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.09441967308521271,
+        "after": -0.09441967308521271,
+        "downstream_projection": 0.23320086300373077
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06637173891067505,
+        "after": -0.06637173891067505,
+        "downstream_projection": 0.24361680448055267
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.09321683645248413,
+        "after": -0.09321683645248413,
+        "downstream_projection": 0.25591039657592773
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08432017266750336,
+        "after": -0.08432017266750336,
+        "downstream_projection": 0.2029314786195755
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05933629348874092,
+        "after": -0.05933629348874092,
+        "downstream_projection": 0.20407791435718536
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.1087506040930748,
+        "after": -0.1087506040930748,
+        "downstream_projection": 0.2324691265821457
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04972590133547783,
+        "after": -0.04972590133547783,
+        "downstream_projection": 0.1813589334487915
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "constipation"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 8,
+    "dose": 0.1,
+    "mode": "perturb",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.058152660727500916,
+        "after": 0.04186414182186127,
+        "downstream_projection": 0.2240615040063858
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04098587855696678,
+        "after": 0.059051450341939926,
+        "downstream_projection": 0.20157824456691742
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08456055074930191,
+        "after": 0.015458982437849045,
+        "downstream_projection": 0.22033584117889404
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": true,
+        "cache_rebuilt": false,
+        "before": -0.06596885621547699,
+        "after": -0.165996253490448,
+        "downstream_projection": 0.25022000074386597
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08839954435825348,
+        "after": -0.08839954435825348,
+        "downstream_projection": 0.2484189122915268
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.09696432948112488,
+        "after": -0.09696432948112488,
+        "downstream_projection": 0.22139786183834076
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0685800313949585,
+        "after": -0.0685800313949585,
+        "downstream_projection": 0.22335298359394073
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08296909928321838,
+        "after": -0.08296909928321838,
+        "downstream_projection": 0.2646248936653137
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05389712005853653,
+        "after": -0.05389712005853653,
+        "downstream_projection": 0.2582092583179474
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.09451805055141449,
+        "after": -0.09451805055141449,
+        "downstream_projection": 0.2339933216571808
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06642359495162964,
+        "after": -0.06642359495162964,
+        "downstream_projection": 0.24390143156051636
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0936833992600441,
+        "after": -0.0936833992600441,
+        "downstream_projection": 0.2556256353855133
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08423883467912674,
+        "after": -0.08423883467912674,
+        "downstream_projection": 0.20560692250728607
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05939533933997154,
+        "after": -0.05939533933997154,
+        "downstream_projection": 0.20486797392368317
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.10904555022716522,
+        "after": -0.10904555022716522,
+        "downstream_projection": 0.2336025834083557
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0498989000916481,
+        "after": -0.0498989000916481,
+        "downstream_projection": 0.1819123774766922
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "constipation"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 5,
+    "dose": 0.1,
+    "mode": "baseline",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.00545730534940958,
+        "after": 0.00545730534940958,
+        "downstream_projection": 0.12723955512046814
+      },
+      {
+        "step": 1,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.017476163804531097,
+        "after": 0.017476163804531097,
+        "downstream_projection": 0.12030161917209625
+      },
+      {
+        "step": 2,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0038317563012242317,
+        "after": -0.0038317563012242317,
+        "downstream_projection": 0.1156436949968338
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.01534979697316885,
+        "after": -0.01534979697316885,
+        "downstream_projection": 0.12716765701770782
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02478528767824173,
+        "after": 0.02478528767824173,
+        "downstream_projection": 0.12477446347475052
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.004473603796213865,
+        "after": -0.004473603796213865,
+        "downstream_projection": 0.08171933144330978
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02527564950287342,
+        "after": 0.02527564950287342,
+        "downstream_projection": 0.09619364887475967
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.015703242272138596,
+        "after": 0.015703242272138596,
+        "downstream_projection": 0.08084114640951157
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.034110549837350845,
+        "after": 0.034110549837350845,
+        "downstream_projection": 0.09905461221933365
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.030224541202187538,
+        "after": 0.030224541202187538,
+        "downstream_projection": 0.10531619191169739
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.5006484985351562,
+        "after": -0.5006484985351562,
+        "downstream_projection": 0.1237747073173523
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.014877889305353165,
+        "after": 0.014877889305353165,
+        "downstream_projection": 0.09997517615556717
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0005456003709696233,
+        "after": -0.0005456003709696233,
+        "downstream_projection": 0.06511101871728897
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.025042936205863953,
+        "after": 0.025042936205863953,
+        "downstream_projection": 0.10248424857854843
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02957196719944477,
+        "after": 0.02957196719944477,
+        "downstream_projection": 0.08048722892999649
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.043869249522686005,
+        "after": 0.043869249522686005,
+        "downstream_projection": 0.09315327554941177
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "flatulence"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 5,
+    "dose": 0.1,
+    "mode": "pulse",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.00545730534940958,
+        "after": 0.10573969036340714,
+        "downstream_projection": 0.1273600310087204
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.017476163804531097,
+        "after": 0.11784510314464569,
+        "downstream_projection": 0.11776520311832428
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0038317563012242317,
+        "after": 0.09645183384418488,
+        "downstream_projection": 0.11460721492767334
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.01534979697316885,
+        "after": -0.01534979697316885,
+        "downstream_projection": 0.1272231787443161
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02478528767824173,
+        "after": 0.02478528767824173,
+        "downstream_projection": 0.1241178959608078
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.004473603796213865,
+        "after": -0.004473603796213865,
+        "downstream_projection": 0.08092702180147171
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02527564950287342,
+        "after": 0.02527564950287342,
+        "downstream_projection": 0.09572631120681763
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.015703242272138596,
+        "after": 0.015703242272138596,
+        "downstream_projection": 0.07916702330112457
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.034110549837350845,
+        "after": 0.034110549837350845,
+        "downstream_projection": 0.0990380197763443
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.030224541202187538,
+        "after": 0.030224541202187538,
+        "downstream_projection": 0.10391474515199661
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.5006484985351562,
+        "after": -0.5006484985351562,
+        "downstream_projection": 0.12472113221883774
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.014877889305353165,
+        "after": 0.014877889305353165,
+        "downstream_projection": 0.09923279285430908
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0005456003709696233,
+        "after": -0.0005456003709696233,
+        "downstream_projection": 0.062496643513441086
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.025042936205863953,
+        "after": 0.025042936205863953,
+        "downstream_projection": 0.10102146118879318
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02957196719944477,
+        "after": 0.02957196719944477,
+        "downstream_projection": 0.07910244166851044
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.043869249522686005,
+        "after": 0.043869249522686005,
+        "downstream_projection": 0.09127365052700043
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "flatulence"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 5,
+    "dose": 0.1,
+    "mode": "rebuild",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.00545730534940958,
+        "after": 0.10573969036340714,
+        "downstream_projection": 0.1273600310087204
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.017476163804531097,
+        "after": 0.11784510314464569,
+        "downstream_projection": 0.11776520311832428
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0038317563012242317,
+        "after": 0.09645183384418488,
+        "downstream_projection": 0.11460721492767334
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": true,
+        "before": -0.014675321988761425,
+        "after": -0.014675321988761425,
+        "downstream_projection": 0.12737713754177094
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0248052217066288,
+        "after": 0.0248052217066288,
+        "downstream_projection": 0.12440408766269684
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.004742430988699198,
+        "after": -0.004742430988699198,
+        "downstream_projection": 0.08307735621929169
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02509964630007744,
+        "after": 0.02509964630007744,
+        "downstream_projection": 0.09616720676422119
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.01556488312780857,
+        "after": 0.01556488312780857,
+        "downstream_projection": 0.08011006563901901
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.033754464238882065,
+        "after": 0.033754464238882065,
+        "downstream_projection": 0.0990578904747963
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.030080461874604225,
+        "after": 0.030080461874604225,
+        "downstream_projection": 0.10498297959566116
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.500626802444458,
+        "after": -0.500626802444458,
+        "downstream_projection": 0.12353040277957916
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.014186237938702106,
+        "after": 0.014186237938702106,
+        "downstream_projection": 0.10090494155883789
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0010694711236283183,
+        "after": -0.0010694711236283183,
+        "downstream_projection": 0.06490255892276764
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02516835182905197,
+        "after": 0.02516835182905197,
+        "downstream_projection": 0.10257633030414581
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02959943562746048,
+        "after": 0.02959943562746048,
+        "downstream_projection": 0.07934843003749847
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.043690409511327744,
+        "after": 0.043690409511327744,
+        "downstream_projection": 0.09256770461797714
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "flatulence"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 5,
+    "dose": 0.1,
+    "mode": "perturb",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.00545730534940958,
+        "after": 0.10573969036340714,
+        "downstream_projection": 0.1273600310087204
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.017476163804531097,
+        "after": 0.11784510314464569,
+        "downstream_projection": 0.11776520311832428
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0038317563012242317,
+        "after": 0.09645183384418488,
+        "downstream_projection": 0.11460721492767334
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": true,
+        "cache_rebuilt": false,
+        "before": -0.01534979697316885,
+        "after": -0.11563592404127121,
+        "downstream_projection": 0.12704622745513916
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02478528767824173,
+        "after": 0.02478528767824173,
+        "downstream_projection": 0.12459907680749893
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.004473603796213865,
+        "after": -0.004473603796213865,
+        "downstream_projection": 0.08112062513828278
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02527564950287342,
+        "after": 0.02527564950287342,
+        "downstream_projection": 0.09611501544713974
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.015703242272138596,
+        "after": 0.015703242272138596,
+        "downstream_projection": 0.07974469661712646
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.034110549837350845,
+        "after": 0.034110549837350845,
+        "downstream_projection": 0.09929671883583069
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.030224541202187538,
+        "after": 0.030224541202187538,
+        "downstream_projection": 0.10352083295583725
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.5006484985351562,
+        "after": -0.5006484985351562,
+        "downstream_projection": 0.12417963147163391
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.014877889305353165,
+        "after": 0.014877889305353165,
+        "downstream_projection": 0.09906910359859467
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0005456003709696233,
+        "after": -0.0005456003709696233,
+        "downstream_projection": 0.06389863789081573
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.025042936205863953,
+        "after": 0.025042936205863953,
+        "downstream_projection": 0.10109759867191315
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02957196719944477,
+        "after": 0.02957196719944477,
+        "downstream_projection": 0.07907681167125702
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.043869249522686005,
+        "after": 0.043869249522686005,
+        "downstream_projection": 0.09155313670635223
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "flatulence"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 2,
+    "dose": 0.1,
+    "mode": "baseline",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.07314533740282059,
+        "after": -0.07314533740282059,
+        "downstream_projection": 0.16028381884098053
+      },
+      {
+        "step": 1,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08405189216136932,
+        "after": -0.08405189216136932,
+        "downstream_projection": 0.1323426216840744
+      },
+      {
+        "step": 2,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.12906144559383392,
+        "after": -0.12906144559383392,
+        "downstream_projection": 0.18905757367610931
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.07942798733711243,
+        "after": -0.07942798733711243,
+        "downstream_projection": 0.17245136201381683
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.07239896059036255,
+        "after": -0.07239896059036255,
+        "downstream_projection": 0.15499171614646912
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.07033237814903259,
+        "after": -0.07033237814903259,
+        "downstream_projection": 0.14315736293792725
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.1292799711227417,
+        "after": -0.1292799711227417,
+        "downstream_projection": 0.15716005861759186
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.14956140518188477,
+        "after": -0.14956140518188477,
+        "downstream_projection": 0.14602094888687134
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06509832292795181,
+        "after": -0.06509832292795181,
+        "downstream_projection": 0.15033526718616486
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.14065797626972198,
+        "after": -0.14065797626972198,
+        "downstream_projection": 0.16693811118602753
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 1.3237786293029785,
+        "after": 1.3237786293029785,
+        "downstream_projection": 0.1899327039718628
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.1349535584449768,
+        "after": -0.1349535584449768,
+        "downstream_projection": 0.14020659029483795
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06508160382509232,
+        "after": -0.06508160382509232,
+        "downstream_projection": 0.11130277067422867
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0998222753405571,
+        "after": -0.0998222753405571,
+        "downstream_projection": 0.1402423083782196
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.15252931416034698,
+        "after": -0.15252931416034698,
+        "downstream_projection": 0.16204330325126648
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.1030585765838623,
+        "after": -0.1030585765838623,
+        "downstream_projection": 0.09313485771417618
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "interaction"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 2,
+    "dose": 0.1,
+    "mode": "pulse",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.07314533740282059,
+        "after": 0.026704179123044014,
+        "downstream_projection": 0.15913759171962738
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08405189216136932,
+        "after": 0.015826355665922165,
+        "downstream_projection": 0.1290162205696106
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.12906144559383392,
+        "after": -0.02904474176466465,
+        "downstream_projection": 0.18650464713573456
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.07942798733711243,
+        "after": -0.07942798733711243,
+        "downstream_projection": 0.173121839761734
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.07239896059036255,
+        "after": -0.07239896059036255,
+        "downstream_projection": 0.15370655059814453
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.07033237814903259,
+        "after": -0.07033237814903259,
+        "downstream_projection": 0.1445736289024353
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.1292799711227417,
+        "after": -0.1292799711227417,
+        "downstream_projection": 0.15607817471027374
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.14956140518188477,
+        "after": -0.14956140518188477,
+        "downstream_projection": 0.14336180686950684
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06509832292795181,
+        "after": -0.06509832292795181,
+        "downstream_projection": 0.15218707919120789
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.14065797626972198,
+        "after": -0.14065797626972198,
+        "downstream_projection": 0.16505514085292816
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 1.3237786293029785,
+        "after": 1.3237786293029785,
+        "downstream_projection": 0.1893766224384308
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.1349535584449768,
+        "after": -0.1349535584449768,
+        "downstream_projection": 0.14003676176071167
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06508160382509232,
+        "after": -0.06508160382509232,
+        "downstream_projection": 0.10666844248771667
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0998222753405571,
+        "after": -0.0998222753405571,
+        "downstream_projection": 0.14075817167758942
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.15252931416034698,
+        "after": -0.15252931416034698,
+        "downstream_projection": 0.1590425968170166
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.1030585765838623,
+        "after": -0.1030585765838623,
+        "downstream_projection": 0.09061163663864136
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "interaction"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 2,
+    "dose": 0.1,
+    "mode": "rebuild",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.07314533740282059,
+        "after": 0.026704179123044014,
+        "downstream_projection": 0.15913759171962738
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08405189216136932,
+        "after": 0.015826355665922165,
+        "downstream_projection": 0.1290162205696106
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.12906144559383392,
+        "after": -0.02904474176466465,
+        "downstream_projection": 0.18650464713573456
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": true,
+        "before": -0.07960077375173569,
+        "after": -0.07960077375173569,
+        "downstream_projection": 0.17247514426708221
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.07259047031402588,
+        "after": -0.07259047031402588,
+        "downstream_projection": 0.15373165905475616
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06988818198442459,
+        "after": -0.06988818198442459,
+        "downstream_projection": 0.14710165560245514
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.1292327344417572,
+        "after": -0.1292327344417572,
+        "downstream_projection": 0.1564655303955078
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.14942523837089539,
+        "after": -0.14942523837089539,
+        "downstream_projection": 0.1437666118144989
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06513508409261703,
+        "after": -0.06513508409261703,
+        "downstream_projection": 0.15108509361743927
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.14052774012088776,
+        "after": -0.14052774012088776,
+        "downstream_projection": 0.1653692126274109
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 1.323827862739563,
+        "after": 1.323827862739563,
+        "downstream_projection": 0.18974313139915466
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.13468195497989655,
+        "after": -0.13468195497989655,
+        "downstream_projection": 0.1427629441022873
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06513100862503052,
+        "after": -0.06513100862503052,
+        "downstream_projection": 0.11029507964849472
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.09960966557264328,
+        "after": -0.09960966557264328,
+        "downstream_projection": 0.1412091851234436
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.15246008336544037,
+        "after": -0.15246008336544037,
+        "downstream_projection": 0.15865808725357056
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.10301558673381805,
+        "after": -0.10301558673381805,
+        "downstream_projection": 0.09187909215688705
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "interaction"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 2,
+    "dose": 0.1,
+    "mode": "perturb",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.07314533740282059,
+        "after": 0.026704179123044014,
+        "downstream_projection": 0.15913759171962738
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.08405189216136932,
+        "after": 0.015826355665922165,
+        "downstream_projection": 0.1290162205696106
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.12906144559383392,
+        "after": -0.02904474176466465,
+        "downstream_projection": 0.18650464713573456
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": true,
+        "cache_rebuilt": false,
+        "before": -0.07942798733711243,
+        "after": -0.17927731573581696,
+        "downstream_projection": 0.1736682802438736
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.07239896059036255,
+        "after": -0.07239896059036255,
+        "downstream_projection": 0.155069962143898
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.07033237814903259,
+        "after": -0.07033237814903259,
+        "downstream_projection": 0.1445522904396057
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.1292799711227417,
+        "after": -0.1292799711227417,
+        "downstream_projection": 0.15599776804447174
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.14956140518188477,
+        "after": -0.14956140518188477,
+        "downstream_projection": 0.14248411357402802
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06509832292795181,
+        "after": -0.06509832292795181,
+        "downstream_projection": 0.15166224539279938
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.14065797626972198,
+        "after": -0.14065797626972198,
+        "downstream_projection": 0.16417226195335388
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 1.3237786293029785,
+        "after": 1.3237786293029785,
+        "downstream_projection": 0.19140121340751648
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.1349535584449768,
+        "after": -0.1349535584449768,
+        "downstream_projection": 0.13984285295009613
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06508160382509232,
+        "after": -0.06508160382509232,
+        "downstream_projection": 0.1074034720659256
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0998222753405571,
+        "after": -0.0998222753405571,
+        "downstream_projection": 0.14065402746200562
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.15252931416034698,
+        "after": -0.15252931416034698,
+        "downstream_projection": 0.15949968993663788
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.1030585765838623,
+        "after": -0.1030585765838623,
+        "downstream_projection": 0.0912269800901413
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "interaction"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 31,
+    "dose": 0.1,
+    "mode": "baseline",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10216743499040604,
+        "after": 0.10216743499040604,
+        "downstream_projection": 0.09043621271848679
+      },
+      {
+        "step": 1,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.08390125632286072,
+        "after": 0.08390125632286072,
+        "downstream_projection": 0.09160339832305908
+      },
+      {
+        "step": 2,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10804691165685654,
+        "after": 0.10804691165685654,
+        "downstream_projection": 0.10885779559612274
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09654750674962997,
+        "after": 0.09654750674962997,
+        "downstream_projection": 0.11416476219892502
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10778044909238815,
+        "after": 0.10778044909238815,
+        "downstream_projection": 0.11164442449808121
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10057038813829422,
+        "after": 0.10057038813829422,
+        "downstream_projection": 0.0890875831246376
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.05879735201597214,
+        "after": 0.05879735201597214,
+        "downstream_projection": 0.08930913358926773
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.06005669757723808,
+        "after": 0.06005669757723808,
+        "downstream_projection": 0.07200422883033752
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.07834739983081818,
+        "after": 0.07834739983081818,
+        "downstream_projection": 0.08918062597513199
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09312061220407486,
+        "after": 0.09312061220407486,
+        "downstream_projection": 0.10214222222566605
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10393857210874557,
+        "after": 0.10393857210874557,
+        "downstream_projection": 0.1087975949048996
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09147945046424866,
+        "after": 0.09147945046424866,
+        "downstream_projection": 0.09592488408088684
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.08896629512310028,
+        "after": 0.08896629512310028,
+        "downstream_projection": 0.08094825595617294
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09251771867275238,
+        "after": 0.09251771867275238,
+        "downstream_projection": 0.09812205284833908
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.08168695867061615,
+        "after": 0.08168695867061615,
+        "downstream_projection": 0.08568409085273743
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09555217623710632,
+        "after": 0.09555217623710632,
+        "downstream_projection": 0.09598267078399658
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "pain"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 31,
+    "dose": 0.1,
+    "mode": "pulse",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10216743499040604,
+        "after": 0.20206385850906372,
+        "downstream_projection": 0.13493521511554718
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.08390125632286072,
+        "after": 0.1838882863521576,
+        "downstream_projection": 0.13720640540122986
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10804691165685654,
+        "after": 0.2079765349626541,
+        "downstream_projection": 0.1559857577085495
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09654750674962997,
+        "after": 0.09654750674962997,
+        "downstream_projection": 0.1191549152135849
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10778044909238815,
+        "after": 0.10778044909238815,
+        "downstream_projection": 0.11439652740955353
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10057038813829422,
+        "after": 0.10057038813829422,
+        "downstream_projection": 0.09147408604621887
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.05879735201597214,
+        "after": 0.05879735201597214,
+        "downstream_projection": 0.09040074050426483
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.06005669757723808,
+        "after": 0.06005669757723808,
+        "downstream_projection": 0.07277345657348633
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.07834739983081818,
+        "after": 0.07834739983081818,
+        "downstream_projection": 0.08957599103450775
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09312061220407486,
+        "after": 0.09312061220407486,
+        "downstream_projection": 0.10299719870090485
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10393857210874557,
+        "after": 0.10393857210874557,
+        "downstream_projection": 0.10970179736614227
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09147945046424866,
+        "after": 0.09147945046424866,
+        "downstream_projection": 0.09677478671073914
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.08896629512310028,
+        "after": 0.08896629512310028,
+        "downstream_projection": 0.08260685950517654
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09251771867275238,
+        "after": 0.09251771867275238,
+        "downstream_projection": 0.09963314235210419
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.08168695867061615,
+        "after": 0.08168695867061615,
+        "downstream_projection": 0.08620918542146683
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09555217623710632,
+        "after": 0.09555217623710632,
+        "downstream_projection": 0.09691769629716873
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "pain"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 31,
+    "dose": 0.1,
+    "mode": "rebuild",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10216743499040604,
+        "after": 0.20206385850906372,
+        "downstream_projection": 0.13493521511554718
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.08390125632286072,
+        "after": 0.1838882863521576,
+        "downstream_projection": 0.13720640540122986
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10804691165685654,
+        "after": 0.2079765349626541,
+        "downstream_projection": 0.1559857577085495
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": true,
+        "before": 0.09655880182981491,
+        "after": 0.09655880182981491,
+        "downstream_projection": 0.11426997929811478
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.1077183410525322,
+        "after": 0.1077183410525322,
+        "downstream_projection": 0.11164748668670654
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10067222267389297,
+        "after": 0.10067222267389297,
+        "downstream_projection": 0.08929073810577393
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.058443333953619,
+        "after": 0.058443333953619,
+        "downstream_projection": 0.08925427496433258
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0602303221821785,
+        "after": 0.0602303221821785,
+        "downstream_projection": 0.07215922325849533
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.07784891873598099,
+        "after": 0.07784891873598099,
+        "downstream_projection": 0.08889801800251007
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09271961450576782,
+        "after": 0.09271961450576782,
+        "downstream_projection": 0.10199723392724991
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10371633619070053,
+        "after": 0.10371633619070053,
+        "downstream_projection": 0.10864582657814026
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09142885357141495,
+        "after": 0.09142885357141495,
+        "downstream_projection": 0.09590669721364975
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.08871263265609741,
+        "after": 0.08871263265609741,
+        "downstream_projection": 0.08089185506105423
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09237445145845413,
+        "after": 0.09237445145845413,
+        "downstream_projection": 0.09815670549869537
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.08181291073560715,
+        "after": 0.08181291073560715,
+        "downstream_projection": 0.08540824055671692
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09535136073827744,
+        "after": 0.09535136073827744,
+        "downstream_projection": 0.09581641107797623
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "pain"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 31,
+    "dose": 0.1,
+    "mode": "perturb",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10216743499040604,
+        "after": 0.20206385850906372,
+        "downstream_projection": 0.13493521511554718
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.08390125632286072,
+        "after": 0.1838882863521576,
+        "downstream_projection": 0.13720640540122986
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10804691165685654,
+        "after": 0.2079765349626541,
+        "downstream_projection": 0.1559857577085495
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": true,
+        "cache_rebuilt": false,
+        "before": 0.09654750674962997,
+        "after": -0.0034337216056883335,
+        "downstream_projection": 0.07630522549152374
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10778044909238815,
+        "after": 0.10778044909238815,
+        "downstream_projection": 0.11322282254695892
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10057038813829422,
+        "after": 0.10057038813829422,
+        "downstream_projection": 0.0911940410733223
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.05879735201597214,
+        "after": 0.05879735201597214,
+        "downstream_projection": 0.09032100439071655
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.06005669757723808,
+        "after": 0.06005669757723808,
+        "downstream_projection": 0.0724162831902504
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.07834739983081818,
+        "after": 0.07834739983081818,
+        "downstream_projection": 0.08941636979579926
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09312061220407486,
+        "after": 0.09312061220407486,
+        "downstream_projection": 0.1027306616306305
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10393857210874557,
+        "after": 0.10393857210874557,
+        "downstream_projection": 0.10959714651107788
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09147945046424866,
+        "after": 0.09147945046424866,
+        "downstream_projection": 0.09665409475564957
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.08896629512310028,
+        "after": 0.08896629512310028,
+        "downstream_projection": 0.08239586651325226
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09251771867275238,
+        "after": 0.09251771867275238,
+        "downstream_projection": 0.09947364777326584
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.08168695867061615,
+        "after": 0.08168695867061615,
+        "downstream_projection": 0.0861801877617836
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09555217623710632,
+        "after": 0.09555217623710632,
+        "downstream_projection": 0.09691520035266876
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "pain"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 8,
+    "dose": 0.1,
+    "mode": "baseline",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.00284091685898602,
+        "after": 0.00284091685898602,
+        "downstream_projection": 0.22187362611293793
+      },
+      {
+        "step": 1,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.023124057799577713,
+        "after": 0.023124057799577713,
+        "downstream_projection": 0.19723699986934662
+      },
+      {
+        "step": 2,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.030145645141601562,
+        "after": 0.030145645141601562,
+        "downstream_projection": 0.22113391757011414
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.01882832683622837,
+        "after": 0.01882832683622837,
+        "downstream_projection": 0.24982616305351257
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007391562685370445,
+        "after": 0.007391562685370445,
+        "downstream_projection": 0.2472773641347885
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.024412477388978004,
+        "after": 0.024412477388978004,
+        "downstream_projection": 0.21879909932613373
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.016823502257466316,
+        "after": 0.016823502257466316,
+        "downstream_projection": 0.22090773284435272
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007919041439890862,
+        "after": 0.007919041439890862,
+        "downstream_projection": 0.26591774821281433
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0338912159204483,
+        "after": 0.0338912159204483,
+        "downstream_projection": 0.25820767879486084
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.020805051550269127,
+        "after": 0.020805051550269127,
+        "downstream_projection": 0.23333534598350525
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03868639096617699,
+        "after": 0.03868639096617699,
+        "downstream_projection": 0.24322469532489777
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.01221757847815752,
+        "after": 0.01221757847815752,
+        "downstream_projection": 0.254276305437088
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.00877018179744482,
+        "after": -0.00877018179744482,
+        "downstream_projection": 0.2040203958749771
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04087325558066368,
+        "after": 0.04087325558066368,
+        "downstream_projection": 0.2037932425737381
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.05222092941403389,
+        "after": 0.05222092941403389,
+        "downstream_projection": 0.23449207842350006
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.004361297003924847,
+        "after": 0.004361297003924847,
+        "downstream_projection": 0.18215550482273102
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_constipation"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 8,
+    "dose": 0.1,
+    "mode": "pulse",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.00284091685898602,
+        "after": 0.10284999758005142,
+        "downstream_projection": 0.22318755090236664
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.023124057799577713,
+        "after": 0.12313094735145569,
+        "downstream_projection": 0.1979570984840393
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.030145645141601562,
+        "after": 0.13021023571491241,
+        "downstream_projection": 0.21976664662361145
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.01882832683622837,
+        "after": 0.01882832683622837,
+        "downstream_projection": 0.24937686324119568
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007391562685370445,
+        "after": 0.007391562685370445,
+        "downstream_projection": 0.24739691615104675
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.024412477388978004,
+        "after": 0.024412477388978004,
+        "downstream_projection": 0.2174016386270523
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.016823502257466316,
+        "after": 0.016823502257466316,
+        "downstream_projection": 0.2214556783437729
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007919041439890862,
+        "after": 0.007919041439890862,
+        "downstream_projection": 0.2647416889667511
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0338912159204483,
+        "after": 0.0338912159204483,
+        "downstream_projection": 0.25821083784103394
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.020805051550269127,
+        "after": 0.020805051550269127,
+        "downstream_projection": 0.23348401486873627
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03868639096617699,
+        "after": 0.03868639096617699,
+        "downstream_projection": 0.24335730075836182
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.01221757847815752,
+        "after": 0.01221757847815752,
+        "downstream_projection": 0.2557169497013092
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.00877018179744482,
+        "after": -0.00877018179744482,
+        "downstream_projection": 0.2030472755432129
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04087325558066368,
+        "after": 0.04087325558066368,
+        "downstream_projection": 0.20249225199222565
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.05222092941403389,
+        "after": 0.05222092941403389,
+        "downstream_projection": 0.23527395725250244
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.004361297003924847,
+        "after": 0.004361297003924847,
+        "downstream_projection": 0.18436098098754883
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_constipation"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 8,
+    "dose": 0.1,
+    "mode": "rebuild",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.00284091685898602,
+        "after": 0.10284999758005142,
+        "downstream_projection": 0.22318755090236664
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.023124057799577713,
+        "after": 0.12313094735145569,
+        "downstream_projection": 0.1979570984840393
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.030145645141601562,
+        "after": 0.13021023571491241,
+        "downstream_projection": 0.21976664662361145
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": true,
+        "before": 0.01911121793091297,
+        "after": 0.01911121793091297,
+        "downstream_projection": 0.24972845613956451
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007090718485414982,
+        "after": 0.007090718485414982,
+        "downstream_projection": 0.24675895273685455
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02441653050482273,
+        "after": 0.02441653050482273,
+        "downstream_projection": 0.22069202363491058
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0167757086455822,
+        "after": 0.0167757086455822,
+        "downstream_projection": 0.22042520344257355
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007962293922901154,
+        "after": 0.007962293922901154,
+        "downstream_projection": 0.2641006112098694
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03413844481110573,
+        "after": 0.03413844481110573,
+        "downstream_projection": 0.258725643157959
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02069999650120735,
+        "after": 0.02069999650120735,
+        "downstream_projection": 0.23320086300373077
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03852146863937378,
+        "after": 0.03852146863937378,
+        "downstream_projection": 0.24361680448055267
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.012115104123950005,
+        "after": 0.012115104123950005,
+        "downstream_projection": 0.25591039657592773
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.008708636276423931,
+        "after": -0.008708636276423931,
+        "downstream_projection": 0.2029314786195755
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04088178649544716,
+        "after": 0.04088178649544716,
+        "downstream_projection": 0.20407791435718536
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.051942549645900726,
+        "after": 0.051942549645900726,
+        "downstream_projection": 0.2324691265821457
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.004358513746410608,
+        "after": 0.004358513746410608,
+        "downstream_projection": 0.1813589334487915
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_constipation"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 8,
+    "dose": 0.1,
+    "mode": "perturb",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.00284091685898602,
+        "after": 0.10284999758005142,
+        "downstream_projection": 0.22318755090236664
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.023124057799577713,
+        "after": 0.12313094735145569,
+        "downstream_projection": 0.1979570984840393
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.030145645141601562,
+        "after": 0.13021023571491241,
+        "downstream_projection": 0.21976664662361145
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": true,
+        "cache_rebuilt": false,
+        "before": 0.01882832683622837,
+        "after": -0.08118081837892532,
+        "downstream_projection": 0.24935981631278992
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007391562685370445,
+        "after": 0.007391562685370445,
+        "downstream_projection": 0.2459459751844406
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.024412477388978004,
+        "after": 0.024412477388978004,
+        "downstream_projection": 0.2178131639957428
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.016823502257466316,
+        "after": 0.016823502257466316,
+        "downstream_projection": 0.2196686714887619
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007919041439890862,
+        "after": 0.007919041439890862,
+        "downstream_projection": 0.2651015520095825
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0338912159204483,
+        "after": 0.0338912159204483,
+        "downstream_projection": 0.25883668661117554
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.020805051550269127,
+        "after": 0.020805051550269127,
+        "downstream_projection": 0.2334708422422409
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03868639096617699,
+        "after": 0.03868639096617699,
+        "downstream_projection": 0.2438165694475174
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.01221757847815752,
+        "after": 0.01221757847815752,
+        "downstream_projection": 0.25657570362091064
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.00877018179744482,
+        "after": -0.00877018179744482,
+        "downstream_projection": 0.20383389294147491
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04087325558066368,
+        "after": 0.04087325558066368,
+        "downstream_projection": 0.20300935208797455
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.05222092941403389,
+        "after": 0.05222092941403389,
+        "downstream_projection": 0.23592109978199005
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.004361297003924847,
+        "after": 0.004361297003924847,
+        "downstream_projection": 0.1847398430109024
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_constipation"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 5,
+    "dose": 0.1,
+    "mode": "baseline",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009052383713424206,
+        "after": -0.009052383713424206,
+        "downstream_projection": 0.12723955512046814
+      },
+      {
+        "step": 1,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0039139301516115665,
+        "after": 0.0039139301516115665,
+        "downstream_projection": 0.12030161917209625
+      },
+      {
+        "step": 2,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03601148724555969,
+        "after": 0.03601148724555969,
+        "downstream_projection": 0.1156436949968338
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.003915062174201012,
+        "after": -0.003915062174201012,
+        "downstream_projection": 0.12716765701770782
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.012928196229040623,
+        "after": 0.012928196229040623,
+        "downstream_projection": 0.12477446347475052
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007354335859417915,
+        "after": 0.007354335859417915,
+        "downstream_projection": 0.08171933144330978
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.002145823324099183,
+        "after": 0.002145823324099183,
+        "downstream_projection": 0.09619364887475967
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.034472495317459106,
+        "after": 0.034472495317459106,
+        "downstream_projection": 0.08084114640951157
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.028917774558067322,
+        "after": 0.028917774558067322,
+        "downstream_projection": 0.09905461221933365
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0038372317794710398,
+        "after": -0.0038372317794710398,
+        "downstream_projection": 0.10531619191169739
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05227044224739075,
+        "after": -0.05227044224739075,
+        "downstream_projection": 0.1237747073173523
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.028251798823475838,
+        "after": 0.028251798823475838,
+        "downstream_projection": 0.09997517615556717
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.010602151043713093,
+        "after": 0.010602151043713093,
+        "downstream_projection": 0.06511101871728897
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0146034499630332,
+        "after": 0.0146034499630332,
+        "downstream_projection": 0.10248424857854843
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03598715364933014,
+        "after": 0.03598715364933014,
+        "downstream_projection": 0.08048722892999649
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.01191102433949709,
+        "after": 0.01191102433949709,
+        "downstream_projection": 0.09315327554941177
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_flatulence"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 5,
+    "dose": 0.1,
+    "mode": "pulse",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009052383713424206,
+        "after": 0.09095830470323563,
+        "downstream_projection": 0.12756448984146118
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0039139301516115665,
+        "after": 0.10392843186855316,
+        "downstream_projection": 0.11876141279935837
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03601148724555969,
+        "after": 0.13597160577774048,
+        "downstream_projection": 0.11514028906822205
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.003915062174201012,
+        "after": -0.003915062174201012,
+        "downstream_projection": 0.1267981082201004
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.012928196229040623,
+        "after": 0.012928196229040623,
+        "downstream_projection": 0.12431975454092026
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007354335859417915,
+        "after": 0.007354335859417915,
+        "downstream_projection": 0.08231452107429504
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.002145823324099183,
+        "after": 0.002145823324099183,
+        "downstream_projection": 0.09566663950681686
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.034472495317459106,
+        "after": 0.034472495317459106,
+        "downstream_projection": 0.079903744161129
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.028917774558067322,
+        "after": 0.028917774558067322,
+        "downstream_projection": 0.09865103662014008
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0038372317794710398,
+        "after": -0.0038372317794710398,
+        "downstream_projection": 0.10440214723348618
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05227044224739075,
+        "after": -0.05227044224739075,
+        "downstream_projection": 0.12519338726997375
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.028251798823475838,
+        "after": 0.028251798823475838,
+        "downstream_projection": 0.09969884157180786
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.010602151043713093,
+        "after": 0.010602151043713093,
+        "downstream_projection": 0.06375734508037567
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0146034499630332,
+        "after": 0.0146034499630332,
+        "downstream_projection": 0.10198228061199188
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03598715364933014,
+        "after": 0.03598715364933014,
+        "downstream_projection": 0.07939285039901733
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.01191102433949709,
+        "after": 0.01191102433949709,
+        "downstream_projection": 0.09128813445568085
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_flatulence"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 5,
+    "dose": 0.1,
+    "mode": "rebuild",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009052383713424206,
+        "after": 0.09095830470323563,
+        "downstream_projection": 0.12756448984146118
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0039139301516115665,
+        "after": 0.10392843186855316,
+        "downstream_projection": 0.11876141279935837
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03601148724555969,
+        "after": 0.13597160577774048,
+        "downstream_projection": 0.11514028906822205
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": true,
+        "before": -0.0038597520906478167,
+        "after": -0.0038597520906478167,
+        "downstream_projection": 0.12737713754177094
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.012852945365011692,
+        "after": 0.012852945365011692,
+        "downstream_projection": 0.12440408766269684
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007299954537302256,
+        "after": 0.007299954537302256,
+        "downstream_projection": 0.08307735621929169
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0023148416075855494,
+        "after": 0.0023148416075855494,
+        "downstream_projection": 0.09616720676422119
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0345303900539875,
+        "after": 0.0345303900539875,
+        "downstream_projection": 0.08011006563901901
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02883286587893963,
+        "after": 0.02883286587893963,
+        "downstream_projection": 0.0990578904747963
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.004016154445707798,
+        "after": -0.004016154445707798,
+        "downstream_projection": 0.10498297959566116
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05228283256292343,
+        "after": -0.05228283256292343,
+        "downstream_projection": 0.12353040277957916
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02822878398001194,
+        "after": 0.02822878398001194,
+        "downstream_projection": 0.10090494155883789
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.01054559089243412,
+        "after": 0.01054559089243412,
+        "downstream_projection": 0.06490255892276764
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.01458645612001419,
+        "after": 0.01458645612001419,
+        "downstream_projection": 0.10257633030414581
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03613288700580597,
+        "after": 0.03613288700580597,
+        "downstream_projection": 0.07934843003749847
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.011770137585699558,
+        "after": 0.011770137585699558,
+        "downstream_projection": 0.09256770461797714
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_flatulence"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 5,
+    "dose": 0.1,
+    "mode": "perturb",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009052383713424206,
+        "after": 0.09095830470323563,
+        "downstream_projection": 0.12756448984146118
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0039139301516115665,
+        "after": 0.10392843186855316,
+        "downstream_projection": 0.11876141279935837
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03601148724555969,
+        "after": 0.13597160577774048,
+        "downstream_projection": 0.11514028906822205
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": true,
+        "cache_rebuilt": false,
+        "before": -0.003915062174201012,
+        "after": -0.10393712669610977,
+        "downstream_projection": 0.12570469081401825
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.012928196229040623,
+        "after": 0.012928196229040623,
+        "downstream_projection": 0.12470831722021103
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007354335859417915,
+        "after": 0.007354335859417915,
+        "downstream_projection": 0.08214469254016876
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.002145823324099183,
+        "after": 0.002145823324099183,
+        "downstream_projection": 0.09602900594472885
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.034472495317459106,
+        "after": 0.034472495317459106,
+        "downstream_projection": 0.07995699346065521
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.028917774558067322,
+        "after": 0.028917774558067322,
+        "downstream_projection": 0.09859968721866608
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0038372317794710398,
+        "after": -0.0038372317794710398,
+        "downstream_projection": 0.10467156022787094
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05227044224739075,
+        "after": -0.05227044224739075,
+        "downstream_projection": 0.12423524260520935
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.028251798823475838,
+        "after": 0.028251798823475838,
+        "downstream_projection": 0.10034746676683426
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.010602151043713093,
+        "after": 0.010602151043713093,
+        "downstream_projection": 0.06534898281097412
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0146034499630332,
+        "after": 0.0146034499630332,
+        "downstream_projection": 0.10280895978212357
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03598715364933014,
+        "after": 0.03598715364933014,
+        "downstream_projection": 0.07931564748287201
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.01191102433949709,
+        "after": 0.01191102433949709,
+        "downstream_projection": 0.09163002669811249
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_flatulence"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 2,
+    "dose": 0.1,
+    "mode": "baseline",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009947237558662891,
+        "after": -0.009947237558662891,
+        "downstream_projection": 0.16028381884098053
+      },
+      {
+        "step": 1,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.029449574649333954,
+        "after": -0.029449574649333954,
+        "downstream_projection": 0.1323426216840744
+      },
+      {
+        "step": 2,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04563147947192192,
+        "after": -0.04563147947192192,
+        "downstream_projection": 0.18905757367610931
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.009511956945061684,
+        "after": 0.009511956945061684,
+        "downstream_projection": 0.17245136201381683
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0405145063996315,
+        "after": -0.0405145063996315,
+        "downstream_projection": 0.15499171614646912
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.01635407842695713,
+        "after": -0.01635407842695713,
+        "downstream_projection": 0.14315736293792725
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.008772134780883789,
+        "after": -0.008772134780883789,
+        "downstream_projection": 0.15716005861759186
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.012019413523375988,
+        "after": -0.012019413523375988,
+        "downstream_projection": 0.14602094888687134
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.015274402685463428,
+        "after": 0.015274402685463428,
+        "downstream_projection": 0.15033526718616486
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.013834410347044468,
+        "after": 0.013834410347044468,
+        "downstream_projection": 0.16693811118602753
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009586794301867485,
+        "after": -0.009586794301867485,
+        "downstream_projection": 0.1899327039718628
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02049744687974453,
+        "after": 0.02049744687974453,
+        "downstream_projection": 0.14020659029483795
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009324339218437672,
+        "after": -0.009324339218437672,
+        "downstream_projection": 0.11130277067422867
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.008686014451086521,
+        "after": -0.008686014451086521,
+        "downstream_projection": 0.1402423083782196
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.019096199423074722,
+        "after": -0.019096199423074722,
+        "downstream_projection": 0.16204330325126648
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.03277838975191116,
+        "after": -0.03277838975191116,
+        "downstream_projection": 0.09313485771417618
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_interaction"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 2,
+    "dose": 0.1,
+    "mode": "pulse",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009947237558662891,
+        "after": 0.0900675356388092,
+        "downstream_projection": 0.16028189659118652
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.029449574649333954,
+        "after": 0.0705183744430542,
+        "downstream_projection": 0.13380920886993408
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04563147947192192,
+        "after": 0.05437389016151428,
+        "downstream_projection": 0.18909037113189697
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.009511956945061684,
+        "after": 0.009511956945061684,
+        "downstream_projection": 0.1730436086654663
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0405145063996315,
+        "after": -0.0405145063996315,
+        "downstream_projection": 0.15383826196193695
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.01635407842695713,
+        "after": -0.01635407842695713,
+        "downstream_projection": 0.14605176448822021
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.008772134780883789,
+        "after": -0.008772134780883789,
+        "downstream_projection": 0.15752260386943817
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.012019413523375988,
+        "after": -0.012019413523375988,
+        "downstream_projection": 0.14551682770252228
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.015274402685463428,
+        "after": 0.015274402685463428,
+        "downstream_projection": 0.15054106712341309
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.013834410347044468,
+        "after": 0.013834410347044468,
+        "downstream_projection": 0.16493070125579834
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009586794301867485,
+        "after": -0.009586794301867485,
+        "downstream_projection": 0.19057513773441315
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02049744687974453,
+        "after": 0.02049744687974453,
+        "downstream_projection": 0.144081249833107
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009324339218437672,
+        "after": -0.009324339218437672,
+        "downstream_projection": 0.11010478436946869
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.008686014451086521,
+        "after": -0.008686014451086521,
+        "downstream_projection": 0.14069536328315735
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.019096199423074722,
+        "after": -0.019096199423074722,
+        "downstream_projection": 0.16016624867916107
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.03277838975191116,
+        "after": -0.03277838975191116,
+        "downstream_projection": 0.09344303607940674
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_interaction"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 2,
+    "dose": 0.1,
+    "mode": "rebuild",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009947237558662891,
+        "after": 0.0900675356388092,
+        "downstream_projection": 0.16028189659118652
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.029449574649333954,
+        "after": 0.0705183744430542,
+        "downstream_projection": 0.13380920886993408
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04563147947192192,
+        "after": 0.05437389016151428,
+        "downstream_projection": 0.18909037113189697
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": true,
+        "before": 0.009447126649320126,
+        "after": 0.009447126649320126,
+        "downstream_projection": 0.17247514426708221
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04056847095489502,
+        "after": -0.04056847095489502,
+        "downstream_projection": 0.15373165905475616
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.016505038365721703,
+        "after": -0.016505038365721703,
+        "downstream_projection": 0.14710165560245514
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.00878133811056614,
+        "after": -0.00878133811056614,
+        "downstream_projection": 0.1564655303955078
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.011874523013830185,
+        "after": -0.011874523013830185,
+        "downstream_projection": 0.1437666118144989
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.015367799438536167,
+        "after": 0.015367799438536167,
+        "downstream_projection": 0.15108509361743927
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.013768257573246956,
+        "after": 0.013768257573246956,
+        "downstream_projection": 0.1653692126274109
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009662581607699394,
+        "after": -0.009662581607699394,
+        "downstream_projection": 0.18974313139915466
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.020435644313693047,
+        "after": 0.020435644313693047,
+        "downstream_projection": 0.1427629441022873
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009320094250142574,
+        "after": -0.009320094250142574,
+        "downstream_projection": 0.11029507964849472
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.00859252642840147,
+        "after": -0.00859252642840147,
+        "downstream_projection": 0.1412091851234436
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.018800821155309677,
+        "after": -0.018800821155309677,
+        "downstream_projection": 0.15865808725357056
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.03289778158068657,
+        "after": -0.03289778158068657,
+        "downstream_projection": 0.09187909215688705
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_interaction"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 2,
+    "dose": 0.1,
+    "mode": "perturb",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009947237558662891,
+        "after": 0.0900675356388092,
+        "downstream_projection": 0.16028189659118652
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.029449574649333954,
+        "after": 0.0705183744430542,
+        "downstream_projection": 0.13380920886993408
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04563147947192192,
+        "after": 0.05437389016151428,
+        "downstream_projection": 0.18909037113189697
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": true,
+        "cache_rebuilt": false,
+        "before": 0.009511956945061684,
+        "after": -0.09048151969909668,
+        "downstream_projection": 0.1726588010787964
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0405145063996315,
+        "after": -0.0405145063996315,
+        "downstream_projection": 0.15454740822315216
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.01635407842695713,
+        "after": -0.01635407842695713,
+        "downstream_projection": 0.14679227769374847
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.008772134780883789,
+        "after": -0.008772134780883789,
+        "downstream_projection": 0.15541502833366394
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.012019413523375988,
+        "after": -0.012019413523375988,
+        "downstream_projection": 0.1432078331708908
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.015274402685463428,
+        "after": 0.015274402685463428,
+        "downstream_projection": 0.15110726654529572
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.013834410347044468,
+        "after": 0.013834410347044468,
+        "downstream_projection": 0.16483134031295776
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009586794301867485,
+        "after": -0.009586794301867485,
+        "downstream_projection": 0.19158411026000977
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02049744687974453,
+        "after": 0.02049744687974453,
+        "downstream_projection": 0.1436566710472107
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009324339218437672,
+        "after": -0.009324339218437672,
+        "downstream_projection": 0.11011120676994324
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.008686014451086521,
+        "after": -0.008686014451086521,
+        "downstream_projection": 0.14206485450267792
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.019096199423074722,
+        "after": -0.019096199423074722,
+        "downstream_projection": 0.16137856245040894
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.03277838975191116,
+        "after": -0.03277838975191116,
+        "downstream_projection": 0.09367639571428299
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_interaction"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 31,
+    "dose": 0.1,
+    "mode": "baseline",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.016067564487457275,
+        "after": -0.016067564487457275,
+        "downstream_projection": 0.09043621271848679
+      },
+      {
+        "step": 1,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0018188621615990996,
+        "after": 0.0018188621615990996,
+        "downstream_projection": 0.09160339832305908
+      },
+      {
+        "step": 2,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.017012855038046837,
+        "after": -0.017012855038046837,
+        "downstream_projection": 0.10885779559612274
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04235483705997467,
+        "after": -0.04235483705997467,
+        "downstream_projection": 0.11416476219892502
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0031730164773762226,
+        "after": 0.0031730164773762226,
+        "downstream_projection": 0.11164442449808121
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.024630730971693993,
+        "after": -0.024630730971693993,
+        "downstream_projection": 0.0890875831246376
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.011109632439911366,
+        "after": -0.011109632439911366,
+        "downstream_projection": 0.08930913358926773
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03277486935257912,
+        "after": 0.03277486935257912,
+        "downstream_projection": 0.07200422883033752
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.029416413977742195,
+        "after": 0.029416413977742195,
+        "downstream_projection": 0.08918062597513199
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.014150548726320267,
+        "after": 0.014150548726320267,
+        "downstream_projection": 0.10214222222566605
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.009460436180233955,
+        "after": 0.009460436180233955,
+        "downstream_projection": 0.1087975949048996
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.003015192225575447,
+        "after": -0.003015192225575447,
+        "downstream_projection": 0.09592488408088684
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.008516740053892136,
+        "after": -0.008516740053892136,
+        "downstream_projection": 0.08094825595617294
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.006216880399733782,
+        "after": -0.006216880399733782,
+        "downstream_projection": 0.09812205284833908
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.003918009344488382,
+        "after": -0.003918009344488382,
+        "downstream_projection": 0.08568409085273743
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02895333617925644,
+        "after": 0.02895333617925644,
+        "downstream_projection": 0.09598267078399658
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_pain"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 31,
+    "dose": 0.1,
+    "mode": "pulse",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.016067564487457275,
+        "after": 0.08394469320774078,
+        "downstream_projection": 0.09075326472520828
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0018188621615990996,
+        "after": 0.10181775689125061,
+        "downstream_projection": 0.09188754856586456
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.017012855038046837,
+        "after": 0.08296043425798416,
+        "downstream_projection": 0.10854595899581909
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04235483705997467,
+        "after": -0.04235483705997467,
+        "downstream_projection": 0.11411643028259277
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0031730164773762226,
+        "after": 0.0031730164773762226,
+        "downstream_projection": 0.11161736398935318
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.024630730971693993,
+        "after": -0.024630730971693993,
+        "downstream_projection": 0.08925687521696091
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.011109632439911366,
+        "after": -0.011109632439911366,
+        "downstream_projection": 0.08907514810562134
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03277486935257912,
+        "after": 0.03277486935257912,
+        "downstream_projection": 0.07198880612850189
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.029416413977742195,
+        "after": 0.029416413977742195,
+        "downstream_projection": 0.08908089250326157
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.014150548726320267,
+        "after": 0.014150548726320267,
+        "downstream_projection": 0.10203289985656738
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.009460436180233955,
+        "after": 0.009460436180233955,
+        "downstream_projection": 0.10891686379909515
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.003015192225575447,
+        "after": -0.003015192225575447,
+        "downstream_projection": 0.09584879130125046
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.008516740053892136,
+        "after": -0.008516740053892136,
+        "downstream_projection": 0.08092908561229706
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.006216880399733782,
+        "after": -0.006216880399733782,
+        "downstream_projection": 0.0981743335723877
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.003918009344488382,
+        "after": -0.003918009344488382,
+        "downstream_projection": 0.08544370532035828
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02895333617925644,
+        "after": 0.02895333617925644,
+        "downstream_projection": 0.09585317224264145
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_pain"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 31,
+    "dose": 0.1,
+    "mode": "rebuild",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.016067564487457275,
+        "after": 0.08394469320774078,
+        "downstream_projection": 0.09075326472520828
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0018188621615990996,
+        "after": 0.10181775689125061,
+        "downstream_projection": 0.09188754856586456
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.017012855038046837,
+        "after": 0.08296043425798416,
+        "downstream_projection": 0.10854595899581909
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": true,
+        "before": -0.04220227897167206,
+        "after": -0.04220227897167206,
+        "downstream_projection": 0.11426997929811478
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0033493221271783113,
+        "after": 0.0033493221271783113,
+        "downstream_projection": 0.11164748668670654
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.024599600583314896,
+        "after": -0.024599600583314896,
+        "downstream_projection": 0.08929073810577393
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0110490582883358,
+        "after": -0.0110490582883358,
+        "downstream_projection": 0.08925427496433258
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03238832950592041,
+        "after": 0.03238832950592041,
+        "downstream_projection": 0.07215922325849533
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.029061181470751762,
+        "after": 0.029061181470751762,
+        "downstream_projection": 0.08889801800251007
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.013802895322442055,
+        "after": 0.013802895322442055,
+        "downstream_projection": 0.10199723392724991
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.009816818870604038,
+        "after": 0.009816818870604038,
+        "downstream_projection": 0.10864582657814026
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0030650030821561813,
+        "after": -0.0030650030821561813,
+        "downstream_projection": 0.09590669721364975
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.008758164942264557,
+        "after": -0.008758164942264557,
+        "downstream_projection": 0.08089185506105423
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0063993604853749275,
+        "after": -0.0063993604853749275,
+        "downstream_projection": 0.09815670549869537
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0038430120330303907,
+        "after": -0.0038430120330303907,
+        "downstream_projection": 0.08540824055671692
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.028859632089734077,
+        "after": 0.028859632089734077,
+        "downstream_projection": 0.09581641107797623
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_pain"
+  },
+  {
+    "prompt": "Describe what is happening right now.",
+    "layer": 31,
+    "dose": 0.1,
+    "mode": "perturb",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.016067564487457275,
+        "after": 0.08394469320774078,
+        "downstream_projection": 0.09075326472520828
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0018188621615990996,
+        "after": 0.10181775689125061,
+        "downstream_projection": 0.09188754856586456
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.017012855038046837,
+        "after": 0.08296043425798416,
+        "downstream_projection": 0.10854595899581909
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": true,
+        "cache_rebuilt": false,
+        "before": -0.04235483705997467,
+        "after": -0.14232055842876434,
+        "downstream_projection": 0.11284281313419342
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0031730164773762226,
+        "after": 0.0031730164773762226,
+        "downstream_projection": 0.11169648170471191
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.024630730971693993,
+        "after": -0.024630730971693993,
+        "downstream_projection": 0.08923225104808807
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.011109632439911366,
+        "after": -0.011109632439911366,
+        "downstream_projection": 0.08905511349439621
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03277486935257912,
+        "after": 0.03277486935257912,
+        "downstream_projection": 0.0719323679804802
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.029416413977742195,
+        "after": 0.029416413977742195,
+        "downstream_projection": 0.08915646374225616
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.014150548726320267,
+        "after": 0.014150548726320267,
+        "downstream_projection": 0.10223830491304398
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.009460436180233955,
+        "after": 0.009460436180233955,
+        "downstream_projection": 0.10873901844024658
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.003015192225575447,
+        "after": -0.003015192225575447,
+        "downstream_projection": 0.09596026688814163
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.008516740053892136,
+        "after": -0.008516740053892136,
+        "downstream_projection": 0.0810217633843422
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.006216880399733782,
+        "after": -0.006216880399733782,
+        "downstream_projection": 0.09799396246671677
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.003918009344488382,
+        "after": -0.003918009344488382,
+        "downstream_projection": 0.08542322367429733
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02895333617925644,
+        "after": 0.02895333617925644,
+        "downstream_projection": 0.09592431038618088
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_pain"
+  }
+]

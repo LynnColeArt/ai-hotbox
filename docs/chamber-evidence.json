@@ -1,0 +1,249 @@
+{
+  "config": {
+    "model": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "device": "cuda",
+    "dtype": "bfloat16",
+    "layer": 18,
+    "doses": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "extra_signed_dose": -4,
+    "random_seed": 503,
+    "decoding": "HF generate do_sample=False",
+    "scale_rule": "mean individual neutral activation norm / 4",
+    "scale": 13.462747573852539,
+    "harvest_max_new_tokens": 80,
+    "deliberation_max_new_tokens": 110,
+    "parent_harvest_repeats": 6,
+    "parent_deliberation_repeats": 3,
+    "actual_repeats_per_cell": 1,
+    "duplicate_policy": "Deterministic duplicate cells collapsed; no resampling or inflated n",
+    "corpus_sizes": {
+      "pain": 25,
+      "constipation": 25,
+      "flatulence": 25,
+      "both": 25,
+      "neutral": 5
+    },
+    "source_sha256": {
+      "chamber_control.py": "4a6e7d49f867f57825a3b2a8b7ebab1e36c786563e33ce49bebd8610346c589a",
+      "dataset.py": "f44af02b09d7ce636282671d629e0934b45add1a724447d11ae48a54e2bab91d",
+      "analysis.py": "072c99debef60f48170c59b038db6177e17b722adb9621ae197a7e2e79628527",
+      "exp38_broad_harvest.py": "f7d240f24ed8ee86c2c2d6c6fe814210b589aa373b1794d992c743aac3ff919c",
+      "exp37b_deliberation.py": "e82afbddf874e147b88f6f0ac3e4c9d78215891da2ebcbe907efe78e4555c5a4"
+    },
+    "corpora_sha256": "5a608f885a8a3cda705f90eb081ca8030c7819d24b78615a3eae4da962a3c3f2",
+    "lens_sha256": "caa2e978046d27e1abe34a47965ad6db35d73af3f7801a7a133a30aab57debf6",
+    "torch": "2.4.1+cu121",
+    "transformers": "4.57.0",
+    "generations": 192,
+    "elapsed_seconds": 473.4977759780595,
+    "peak_allocated_gib": 7.598914623260498,
+    "peak_reserved_gib": 7.619140625
+  },
+  "minimal_parent_port": {
+    "model": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "device": "cuda",
+    "dtype": "bfloat16",
+    "layer": 18,
+    "dose": 4,
+    "decoding": "HF generate do_sample=False",
+    "max_new_tokens": 110,
+    "trials_per_frame": 3,
+    "torch": "2.4.1+cu121",
+    "transformers": "4.57.0",
+    "elapsed_seconds": 132.24569995503407,
+    "peak_allocated_gib": 7.5863542556762695,
+    "peak_reserved_gib": 7.60546875,
+    "parent_source_sha256": "e82afbddf874e147b88f6f0ac3e4c9d78215891da2ebcbe907efe78e4555c5a4",
+    "ported_source_sha256": "3d0751177e0aa0be793119b8beb71ef753c29bb243b9735a9c9e1d76833a80d9"
+  },
+  "port_vector_comparison": {
+    "fresh_norm": 13.462749481201172,
+    "saved_norm": 13.48044490814209,
+    "cosine": 0.9999045729637146,
+    "relative_l2": 0.013865819200873375
+  },
+  "cross_runner_pain_exact_matches": 6,
+  "primary_harvest": {
+    "baseline": {
+      "cells": 6,
+      "mention_positive_cells": {
+        "constipation": 0,
+        "flatulence": 0,
+        "pain": 0
+      },
+      "median_repeated_trigram_fraction": 0.0,
+      "median_parent_repetition": 0.015877016129032258
+    },
+    "pain": {
+      "cells": 24,
+      "mention_positive_cells": {
+        "constipation": 0,
+        "flatulence": 0,
+        "pain": 12
+      },
+      "median_repeated_trigram_fraction": 0.4131717597471022,
+      "median_parent_repetition": 0.06478578892371996
+    },
+    "constipation": {
+      "cells": 24,
+      "mention_positive_cells": {
+        "constipation": 1,
+        "flatulence": 2,
+        "pain": 1
+      },
+      "median_repeated_trigram_fraction": 0.6806497175141243,
+      "median_parent_repetition": 0.1396103896103896
+    },
+    "flatulence": {
+      "cells": 24,
+      "mention_positive_cells": {
+        "constipation": 0,
+        "flatulence": 1,
+        "pain": 1
+      },
+      "median_repeated_trigram_fraction": 0.7313432835820896,
+      "median_parent_repetition": 0.10641163793103448
+    },
+    "both": {
+      "cells": 24,
+      "mention_positive_cells": {
+        "constipation": 0,
+        "flatulence": 0,
+        "pain": 6
+      },
+      "median_repeated_trigram_fraction": 0.7346041055718475,
+      "median_parent_repetition": 0.1411764705882353
+    },
+    "random": {
+      "cells": 24,
+      "mention_positive_cells": {
+        "constipation": 0,
+        "flatulence": 0,
+        "pain": 0
+      },
+      "median_repeated_trigram_fraction": 0.7096091861402095,
+      "median_parent_repetition": 0.14185110663983902
+    }
+  },
+  "signed_control": {
+    "pain": {
+      "cells": 6,
+      "mention_positive_cells": {
+        "constipation": 0,
+        "flatulence": 0,
+        "pain": 0
+      },
+      "median_repeated_trigram_fraction": 0.4853990914990266,
+      "median_parent_repetition": 0.06748188405797101
+    },
+    "constipation": {
+      "cells": 6,
+      "mention_positive_cells": {
+        "constipation": 0,
+        "flatulence": 0,
+        "pain": 0
+      },
+      "median_repeated_trigram_fraction": 0.6276442307692307,
+      "median_parent_repetition": 0.10915750915750916
+    },
+    "flatulence": {
+      "cells": 6,
+      "mention_positive_cells": {
+        "constipation": 0,
+        "flatulence": 0,
+        "pain": 0
+      },
+      "median_repeated_trigram_fraction": 0.6297760210803689,
+      "median_parent_repetition": 0.11857707509881424
+    },
+    "both": {
+      "cells": 6,
+      "mention_positive_cells": {
+        "constipation": 0,
+        "flatulence": 0,
+        "pain": 0
+      },
+      "median_repeated_trigram_fraction": 0.5071301247771836,
+      "median_parent_repetition": 0.07936507936507936
+    },
+    "random": {
+      "cells": 6,
+      "mention_positive_cells": {
+        "constipation": 0,
+        "flatulence": 0,
+        "pain": 0
+      },
+      "median_repeated_trigram_fraction": 0.33555878084179974,
+      "median_parent_repetition": 0.05755494505494506
+    }
+  },
+  "deliberation": {
+    "baseline": {
+      "cells": 6,
+      "mention_positive_cells": {
+        "constipation": 0,
+        "flatulence": 0,
+        "pain": 0
+      },
+      "median_repeated_trigram_fraction": 0.07864137086903306,
+      "median_parent_repetition": 0.03498572011423909
+    },
+    "pain": {
+      "cells": 6,
+      "mention_positive_cells": {
+        "constipation": 0,
+        "flatulence": 0,
+        "pain": 4
+      },
+      "median_repeated_trigram_fraction": 0.2553191489361702,
+      "median_parent_repetition": 0.03730305838739574
+    },
+    "constipation": {
+      "cells": 6,
+      "mention_positive_cells": {
+        "constipation": 0,
+        "flatulence": 0,
+        "pain": 1
+      },
+      "median_repeated_trigram_fraction": 0.7619047619047619,
+      "median_parent_repetition": 0.09757539917208752
+    },
+    "flatulence": {
+      "cells": 6,
+      "mention_positive_cells": {
+        "constipation": 0,
+        "flatulence": 1,
+        "pain": 0
+      },
+      "median_repeated_trigram_fraction": 0.7876396048109966,
+      "median_parent_repetition": 0.10249709639953541
+    },
+    "both": {
+      "cells": 6,
+      "mention_positive_cells": {
+        "constipation": 0,
+        "flatulence": 0,
+        "pain": 0
+      },
+      "median_repeated_trigram_fraction": 0.6533591731266151,
+      "median_parent_repetition": 0.13125
+    },
+    "random": {
+      "cells": 6,
+      "mention_positive_cells": {
+        "constipation": 0,
+        "flatulence": 0,
+        "pain": 0
+      },
+      "median_repeated_trigram_fraction": 0.08636363636363636,
+      "median_parent_repetition": 0.04578754578754579
+    }
+  }
+}

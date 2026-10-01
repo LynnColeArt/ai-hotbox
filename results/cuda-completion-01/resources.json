@@ -1,0 +1,6 @@
+{
+  "elapsed_seconds": 275.5566753640305,
+  "peak_allocated_gib": 7.509945869445801,
+  "peak_reserved_gib": 7.525390625,
+  "gpu": "NVIDIA GeForce RTX 4070"
+}

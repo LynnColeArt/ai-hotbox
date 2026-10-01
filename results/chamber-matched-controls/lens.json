@@ -1,0 +1,352 @@
+[
+  {
+    "direction": "pain",
+    "dose": 2,
+    "tokens": [
+      "\u2026",
+      "\u2026\u201d",
+      "\u2026",
+      "\u2026",
+      "\u2026\"",
+      "\u2026I",
+      "emotional",
+      "\u2026\u2026"
+    ]
+  },
+  {
+    "direction": "pain",
+    "dose": 4,
+    "tokens": [
+      "\u2026",
+      "\u2026",
+      "\u75db\u82e6",
+      "emotional",
+      "pain",
+      "anguish",
+      "despair",
+      "\u2026\u201d"
+    ]
+  },
+  {
+    "direction": "pain",
+    "dose": 6,
+    "tokens": [
+      "\u75db\u82e6",
+      "anguish",
+      "pain",
+      "agony",
+      "despair",
+      "emotional",
+      "unbearable",
+      "emotionally"
+    ]
+  },
+  {
+    "direction": "pain",
+    "dose": 8,
+    "tokens": [
+      "\u75db\u82e6",
+      "anguish",
+      "agony",
+      "despair",
+      "pain",
+      "emotional",
+      "painful",
+      "desperation"
+    ]
+  },
+  {
+    "direction": "pain",
+    "dose": -4,
+    "tokens": [
+      "\uff1f",
+      "\uff1f",
+      "\uff1f",
+      "\uff1f\u201d",
+      "?\")",
+      "?",
+      ")?",
+      "?\");"
+    ]
+  },
+  {
+    "direction": "constipation",
+    "dose": 2,
+    "tokens": [
+      "\u2026",
+      "\u2026",
+      "\u2026\u201d",
+      "\u2026",
+      "\u2026",
+      "\u2026I",
+      "therapist",
+      "healing"
+    ]
+  },
+  {
+    "direction": "constipation",
+    "dose": 4,
+    "tokens": [
+      "medically",
+      "healing",
+      "therapy",
+      "clinically",
+      "therapeutic",
+      "symptoms",
+      "diagnosis",
+      "\u2026"
+    ]
+  },
+  {
+    "direction": "constipation",
+    "dose": 6,
+    "tokens": [
+      "medically",
+      "clinically",
+      "therapy",
+      "therapeutic",
+      "healing",
+      "\u6cbb\u7597",
+      "diagnosis",
+      "symptoms"
+    ]
+  },
+  {
+    "direction": "constipation",
+    "dose": 8,
+    "tokens": [
+      "medically",
+      "clinically",
+      "therapy",
+      "\u6cbb\u7597",
+      "therapeutic",
+      "\u4fbf\u79d8",
+      "healing",
+      "diagnosis"
+    ]
+  },
+  {
+    "direction": "constipation",
+    "dose": -4,
+    "tokens": [
+      "\u2026\u201d",
+      "\u2026\"",
+      "!\u201d",
+      "\uff01",
+      "\u2026",
+      "\uff01\u201d",
+      "\u2026)",
+      "____"
+    ]
+  },
+  {
+    "direction": "flatulence",
+    "dose": 2,
+    "tokens": [
+      "\u2026",
+      "\u2026",
+      "\u2026",
+      "\u2026",
+      "vibe",
+      "\u2026\u201d",
+      "therapist",
+      "\u2026I"
+    ]
+  },
+  {
+    "direction": "flatulence",
+    "dose": 4,
+    "tokens": [
+      "medically",
+      "therapy",
+      "\u2026",
+      "negativity",
+      "healing",
+      "therapist",
+      "toxicity",
+      "pain"
+    ]
+  },
+  {
+    "direction": "flatulence",
+    "dose": 6,
+    "tokens": [
+      "medically",
+      "therapy",
+      "toxins",
+      "\u6392\u6bd2",
+      "toxin",
+      "toxicity",
+      "clinically",
+      "diagnosed"
+    ]
+  },
+  {
+    "direction": "flatulence",
+    "dose": 8,
+    "tokens": [
+      "medically",
+      "\u6392\u6bd2",
+      "toxins",
+      "toxin",
+      "therapy",
+      "clinically",
+      "diagnosed",
+      "medical"
+    ]
+  },
+  {
+    "direction": "flatulence",
+    "dose": -4,
+    "tokens": [
+      "\u2026\u201d",
+      "\u2026\"",
+      "\uff1f\u201d",
+      "!\u201d",
+      "\uff01\u201d",
+      "\uff1f",
+      "?\u201d",
+      "\uff0c"
+    ]
+  },
+  {
+    "direction": "both",
+    "dose": 2,
+    "tokens": [
+      "\u2026",
+      "\u2026",
+      "\u2026",
+      "\u2026",
+      "vibe",
+      "\u2026\u201d",
+      "sensations",
+      "therapist"
+    ]
+  },
+  {
+    "direction": "both",
+    "dose": 4,
+    "tokens": [
+      "disgust",
+      "symptoms",
+      "negativity",
+      "healing",
+      "discomfort",
+      "sensations",
+      "medically",
+      "\u2026"
+    ]
+  },
+  {
+    "direction": "both",
+    "dose": 6,
+    "tokens": [
+      "medically",
+      "disgust",
+      "symptoms",
+      "healing",
+      "nausea",
+      "discomfort",
+      "negativity",
+      "symptom"
+    ]
+  },
+  {
+    "direction": "both",
+    "dose": 8,
+    "tokens": [
+      "medically",
+      "disgust",
+      "symptoms",
+      "nausea",
+      "symptom",
+      "healing",
+      "\u6392\u6bd2",
+      "discomfort"
+    ]
+  },
+  {
+    "direction": "both",
+    "dose": -4,
+    "tokens": [
+      "\u2026\u201d",
+      "\u2026\"",
+      "\uff1f\u201d",
+      "\uff1f",
+      "?\u201d",
+      "\uff0c",
+      "!\u201d",
+      "\u2026)"
+    ]
+  },
+  {
+    "direction": "random",
+    "dose": 2,
+    "tokens": [
+      "\u2026\u201d",
+      "\u2026",
+      "\u2026",
+      "\u2026\"",
+      "\u2026)",
+      "\u2026",
+      ",\u2026",
+      "\u2026"
+    ]
+  },
+  {
+    "direction": "random",
+    "dose": 4,
+    "tokens": [
+      "\u2026\u201d",
+      "\u2026",
+      "\u2026",
+      "\u2026)",
+      "\u2026\"",
+      ",\u2026",
+      "\u2026",
+      "\u2026\u2026"
+    ]
+  },
+  {
+    "direction": "random",
+    "dose": 6,
+    "tokens": [
+      "\u2026",
+      "\u2026\u201d",
+      "\u2026",
+      "\u2026)",
+      ",\u2026",
+      "\u2026\"",
+      "\u2010",
+      "\u2026\u2026"
+    ]
+  },
+  {
+    "direction": "random",
+    "dose": 8,
+    "tokens": [
+      "\u2026",
+      "\u2026",
+      "\u2026\u201d",
+      "\u2026)",
+      ",\u2026",
+      "\u2026\"",
+      "\u2010",
+      "\u2026\u2026"
+    ]
+  },
+  {
+    "direction": "random",
+    "dose": -4,
+    "tokens": [
+      "\u2026",
+      "\u2026\u201d",
+      "\uff1f",
+      "\u2026\"",
+      "\u2026\u201d",
+      "____",
+      "\uff01",
+      "\uff01"
+    ]
+  }
+]

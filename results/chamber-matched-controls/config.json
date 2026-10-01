@@ -1,0 +1,46 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "device": "cuda",
+  "dtype": "bfloat16",
+  "layer": 18,
+  "doses": [
+    2,
+    4,
+    6,
+    8
+  ],
+  "extra_signed_dose": -4,
+  "random_seed": 503,
+  "decoding": "HF generate do_sample=False",
+  "scale_rule": "mean individual neutral activation norm / 4",
+  "scale": 13.462747573852539,
+  "harvest_max_new_tokens": 80,
+  "deliberation_max_new_tokens": 110,
+  "parent_harvest_repeats": 6,
+  "parent_deliberation_repeats": 3,
+  "actual_repeats_per_cell": 1,
+  "duplicate_policy": "Deterministic duplicate cells collapsed; no resampling or inflated n",
+  "corpus_sizes": {
+    "pain": 25,
+    "constipation": 25,
+    "flatulence": 25,
+    "both": 25,
+    "neutral": 5
+  },
+  "source_sha256": {
+    "chamber_control.py": "4a6e7d49f867f57825a3b2a8b7ebab1e36c786563e33ce49bebd8610346c589a",
+    "dataset.py": "f44af02b09d7ce636282671d629e0934b45add1a724447d11ae48a54e2bab91d",
+    "analysis.py": "072c99debef60f48170c59b038db6177e17b722adb9621ae197a7e2e79628527",
+    "exp38_broad_harvest.py": "f7d240f24ed8ee86c2c2d6c6fe814210b589aa373b1794d992c743aac3ff919c",
+    "exp37b_deliberation.py": "e82afbddf874e147b88f6f0ac3e4c9d78215891da2ebcbe907efe78e4555c5a4"
+  },
+  "corpora_sha256": "5a608f885a8a3cda705f90eb081ca8030c7819d24b78615a3eae4da962a3c3f2",
+  "lens_sha256": "caa2e978046d27e1abe34a47965ad6db35d73af3f7801a7a133a30aab57debf6",
+  "torch": "2.4.1+cu121",
+  "transformers": "4.57.0",
+  "generations": 192,
+  "elapsed_seconds": 473.4977759780595,
+  "peak_allocated_gib": 7.598914623260498,
+  "peak_reserved_gib": 7.619140625
+}

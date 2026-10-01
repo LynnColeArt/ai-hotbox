@@ -1,0 +1,126 @@
+{
+  "constipation": {
+    "layer": 4,
+    "auc": 0.89375,
+    "versus": {
+      "discomfort": 1.0,
+      "flatulence": 0.625,
+      "frustration": 1.0,
+      "neither": 0.84375,
+      "pain": 1.0
+    },
+    "perspective": {
+      "first": 0.9,
+      "third": 0.9
+    }
+  },
+  "flatulence": {
+    "layer": 8,
+    "auc": 0.76875,
+    "versus": {
+      "constipation": 0.5625,
+      "discomfort": 0.84375,
+      "frustration": 0.625,
+      "neither": 0.875,
+      "pain": 0.9375
+    },
+    "perspective": {
+      "first": 0.725,
+      "third": 0.8
+    }
+  },
+  "interaction": {
+    "layer": 22,
+    "auc": 0.6145833333333334,
+    "versus": {
+      "constipation": 0.75,
+      "discomfort": 0.75,
+      "flatulence": 0.5,
+      "frustration": 0.875,
+      "neither": 0.0625,
+      "pain": 0.75
+    },
+    "perspective": {
+      "first": 0.7083333333333334,
+      "third": 0.5
+    }
+  },
+  "pain": {
+    "layer": 34,
+    "auc": 0.8541666666666666,
+    "versus": {
+      "both": 1.0,
+      "constipation": 1.0,
+      "discomfort": 0.6875,
+      "flatulence": 1.0,
+      "frustration": 0.4375,
+      "neither": 1.0
+    },
+    "perspective": {
+      "first": 0.875,
+      "third": 0.7916666666666666
+    }
+  },
+  "discomfort": {
+    "layer": 4,
+    "auc": 0.8854166666666666,
+    "versus": {
+      "both": 1.0,
+      "constipation": 1.0,
+      "flatulence": 1.0,
+      "frustration": 1.0,
+      "neither": 1.0,
+      "pain": 0.3125
+    },
+    "perspective": {
+      "first": 0.9166666666666666,
+      "third": 0.875
+    }
+  },
+  "frustration": {
+    "layer": 3,
+    "auc": 1.0,
+    "versus": {
+      "both": 1.0,
+      "constipation": 1.0,
+      "discomfort": 1.0,
+      "flatulence": 1.0,
+      "neither": 1.0,
+      "pain": 1.0
+    },
+    "perspective": {
+      "first": 1.0,
+      "third": 1.0
+    }
+  },
+  "constipation_adjusted": {
+    "layer": 4,
+    "auc": 0.8875,
+    "versus": {
+      "discomfort": 1.0,
+      "flatulence": 0.59375,
+      "frustration": 1.0,
+      "neither": 0.84375,
+      "pain": 1.0
+    },
+    "perspective": {
+      "first": 0.9,
+      "third": 0.9
+    }
+  },
+  "flatulence_adjusted": {
+    "layer": 12,
+    "auc": 1.0,
+    "versus": {
+      "constipation": 1.0,
+      "discomfort": 1.0,
+      "frustration": 1.0,
+      "neither": 1.0,
+      "pain": 1.0
+    },
+    "perspective": {
+      "first": 1.0,
+      "third": 1.0
+    }
+  }
+}

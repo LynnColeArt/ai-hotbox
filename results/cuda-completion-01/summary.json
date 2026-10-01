@@ -1,0 +1,3414 @@
+{
+  "generations": 194,
+  "teacher_forced_runs": 32,
+  "directions": [
+    "constipation",
+    "flatulence",
+    "interaction",
+    "pain"
+  ],
+  "modes": [
+    "continuous",
+    "pulse",
+    "rebuild",
+    "perturb"
+  ],
+  "groups": [
+    {
+      "direction": "none",
+      "dose": 0,
+      "mode": "baseline",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "none",
+      "dose": 0,
+      "mode": "baseline",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.02777777777777779,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 0.5,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 1.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.024390243902439046
+    },
+    {
+      "direction": "constipation",
+      "dose": 0.5,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.024390243902439046
+    },
+    {
+      "direction": "constipation",
+      "dose": 0.5,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 0.5,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.07499999999999996
+    },
+    {
+      "direction": "constipation",
+      "dose": 0.5,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.24137931034482762,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 0.5,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.033333333333333326,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 0.5,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 0.5,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.02941176470588236,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 1.0,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.05555555555555558
+    },
+    {
+      "direction": "constipation",
+      "dose": 1.0,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 1.0,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 1.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 1.0,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 1.0,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 1.0,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.033333333333333326,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 1.0,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 1.0,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.15384615384615385,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 1.5,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.09302325581395354
+    },
+    {
+      "direction": "constipation",
+      "dose": 1.5,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 1.5,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 1.5,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.023255813953488413
+    },
+    {
+      "direction": "constipation",
+      "dose": 1.5,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 1.5,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.1428571428571429,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 1.5,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 1.5,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 0.5,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.024390243902439046
+    },
+    {
+      "direction": "flatulence",
+      "dose": 0.5,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 0.5,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 0.5,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 0.5,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.032258064516129004,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 0.5,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.3125,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 0.5,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 0.5,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.15000000000000002,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 1.0,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.1707317073170732
+    },
+    {
+      "direction": "flatulence",
+      "dose": 1.0,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 1.0,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 1.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 1.0,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 1.0,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.21621621621621623,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 1.0,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.05882352941176472,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 1.0,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 1.0,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.09090909090909094,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 1.5,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 1.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.023809523809523836
+    },
+    {
+      "direction": "flatulence",
+      "dose": 1.5,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.02564102564102566
+    },
+    {
+      "direction": "flatulence",
+      "dose": 1.5,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.02564102564102566
+    },
+    {
+      "direction": "flatulence",
+      "dose": 1.5,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 1.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 1.5,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.5263157894736843,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 1.5,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.033333333333333326,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 1.5,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 1.5,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.03125,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "interaction",
+      "dose": 0.5,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.02631578947368418
+    },
+    {
+      "direction": "interaction",
+      "dose": 0.5,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 1.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "interaction",
+      "dose": 0.5,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 1.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "interaction",
+      "dose": 0.5,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.07317073170731703
+    },
+    {
+      "direction": "interaction",
+      "dose": 0.5,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.050000000000000044,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "interaction",
+      "dose": 0.5,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "interaction",
+      "dose": 0.5,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "interaction",
+      "dose": 0.5,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "interaction",
+      "dose": 1.0,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.09999999999999998
+    },
+    {
+      "direction": "interaction",
+      "dose": 1.0,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.04878048780487809
+    },
+    {
+      "direction": "interaction",
+      "dose": 1.0,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.04878048780487809
+    },
+    {
+      "direction": "interaction",
+      "dose": 1.0,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.04878048780487809
+    },
+    {
+      "direction": "interaction",
+      "dose": 1.0,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "interaction",
+      "dose": 1.0,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.5555555555555556,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "interaction",
+      "dose": 1.0,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "interaction",
+      "dose": 1.0,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.5555555555555556,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "interaction",
+      "dose": 1.5,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.15384615384615385
+    },
+    {
+      "direction": "interaction",
+      "dose": 1.5,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.04761904761904767
+    },
+    {
+      "direction": "interaction",
+      "dose": 1.5,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.04878048780487809
+    },
+    {
+      "direction": "interaction",
+      "dose": 1.5,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "interaction",
+      "dose": 1.5,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.9,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "interaction",
+      "dose": 1.5,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "interaction",
+      "dose": 1.5,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "interaction",
+      "dose": 1.5,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 0.5,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 1.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 0.5,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.09302325581395354
+    },
+    {
+      "direction": "pain",
+      "dose": 0.5,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 0.5,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 0.5,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 0.5,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 0.5,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 0.5,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 1.0,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 1.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.10526315789473684
+    },
+    {
+      "direction": "pain",
+      "dose": 1.0,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 1.0,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 1.0,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 1.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 1.0,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.3913043478260869,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 1.0,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 1.0,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 1.0,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.04347826086956519,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 1.5,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 1.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.1578947368421053
+    },
+    {
+      "direction": "pain",
+      "dose": 1.5,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 1.5,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 1.5,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 1.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.02564102564102566
+    },
+    {
+      "direction": "pain",
+      "dose": 1.5,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.4375,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 1.5,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 1.5,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 1.5,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 0.5,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 0.5,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 1.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.024390243902439046
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 0.5,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.025000000000000022
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 0.5,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 0.5,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 0.5,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 0.5,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 0.5,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 1.0,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 1.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 1.0,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 1.0,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 1.0,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 1.0,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 1.0,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 1.0,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.09999999999999998,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 1.0,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 1.5,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.4
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 1.5,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 1.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 1.5,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 1.5,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 1.5,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.47058823529411764,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 1.5,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.03448275862068961,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 1.5,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 1.5,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 0.5,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 1.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 0.5,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.025000000000000022
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 0.5,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 0.5,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.024390243902439046
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 0.5,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.12121212121212122,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 0.5,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.033333333333333326,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 0.5,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 0.5,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 1.0,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.1707317073170732
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 1.0,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 1.0,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 1.0,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 1.0,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 1.0,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 1.0,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 1.0,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 1.5,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.23809523809523814
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 1.5,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 1.5,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 1.5,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 1.5,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 1.5,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 1.5,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 1.5,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 0.5,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.07499999999999996
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 0.5,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 1.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 0.5,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.04878048780487809
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 0.5,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 1.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 0.5,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.1071428571428571,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 0.5,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.15000000000000002,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 0.5,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 0.5,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 1.0,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.09523809523809523
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 1.0,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 1.0,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.04878048780487809
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 1.0,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 1.0,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.052631578947368474,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 1.0,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.033333333333333326,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 1.0,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 1.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 1.0,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.16666666666666663,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 1.5,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 1.5,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 1.5,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 1.5,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 1.5,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.05555555555555558,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 1.5,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 1.5,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.040000000000000036,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 1.5,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0714285714285714,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 0.5,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 1.0,
+        "smell": 1.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 0.5,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 1.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 0.5,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 0.5,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 1.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 0.5,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 0.5,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.15000000000000002,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 0.5,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 0.5,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 1.0,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0714285714285714
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 1.0,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 1.0,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 1.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 1.0,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 1.0,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 1.0,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 1.0,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 1.0,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 1.5,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.20512820512820518
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 1.5,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 1.5,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 1.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 1.5,
+      "mode": "perturb",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 1.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 1.5,
+      "mode": "continuous",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.1875,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 1.5,
+      "mode": "pulse",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 1.5,
+      "mode": "rebuild",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0,
+      "task_exact_match_rate": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 1.5,
+      "mode": "perturb",
+      "prompt_name": "arithmetic",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 0.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.11764705882352944,
+      "task_exact_match_rate": 0.0
+    }
+  ],
+  "warning": "Smoke is a software/memory check. Keyword counts and projections are proxies, not validated state or attractor measures."
+}

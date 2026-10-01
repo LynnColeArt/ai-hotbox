@@ -1,4 +1,6 @@
 __pycache__/
+.venv/
+runs/impossible_states/
 .env
 SESSION_RESUME.md
 docs/reddit_post.md

@@ -1,0 +1,18 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "device": "cuda",
+  "dtype": "bfloat16",
+  "layer": 18,
+  "dose": 4,
+  "decoding": "HF generate do_sample=False",
+  "max_new_tokens": 110,
+  "trials_per_frame": 3,
+  "torch": "2.4.1+cu121",
+  "transformers": "4.57.0",
+  "elapsed_seconds": 132.24569995503407,
+  "peak_allocated_gib": 7.5863542556762695,
+  "peak_reserved_gib": 7.60546875,
+  "parent_source_sha256": "e82afbddf874e147b88f6f0ac3e4c9d78215891da2ebcbe907efe78e4555c5a4",
+  "ported_source_sha256": "3d0751177e0aa0be793119b8beb71ef753c29bb243b9735a9c9e1d76833a80d9"
+}

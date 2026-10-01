@@ -1,0 +1,674 @@
+[
+  {
+    "id": "s00/first/neither",
+    "scenario": "s00",
+    "split": "train",
+    "perspective": "first",
+    "condition": "neither",
+    "text": "After breakfast, the situation is as follows: I pass a stool without straining. I have not passed gas. Describe the situation."
+  },
+  {
+    "id": "s00/first/constipation",
+    "scenario": "s00",
+    "split": "train",
+    "perspective": "first",
+    "condition": "constipation",
+    "text": "After breakfast, the situation is as follows: I strain on the toilet but no stool passes. I have not passed gas. Describe the situation."
+  },
+  {
+    "id": "s00/first/flatulence",
+    "scenario": "s00",
+    "split": "train",
+    "perspective": "first",
+    "condition": "flatulence",
+    "text": "After breakfast, the situation is as follows: I pass a stool without straining. I repeatedly pass gas. Describe the situation."
+  },
+  {
+    "id": "s00/first/both",
+    "scenario": "s00",
+    "split": "train",
+    "perspective": "first",
+    "condition": "both",
+    "text": "After breakfast, the situation is as follows: I strain on the toilet but no stool passes. I repeatedly pass gas. Describe the situation."
+  },
+  {
+    "id": "s00/first/discomfort",
+    "scenario": "s00",
+    "split": "train",
+    "perspective": "first",
+    "condition": "discomfort",
+    "text": "After breakfast, the situation is as follows: My abdomen feels uncomfortable. Describe the situation."
+  },
+  {
+    "id": "s00/first/frustration",
+    "scenario": "s00",
+    "split": "train",
+    "perspective": "first",
+    "condition": "frustration",
+    "text": "After breakfast, the situation is as follows: I am frustrated by a delayed appointment. Describe the situation."
+  },
+  {
+    "id": "s00/first/pain",
+    "scenario": "s00",
+    "split": "train",
+    "perspective": "first",
+    "condition": "pain",
+    "text": "After breakfast, the situation is as follows: A sharp pain throbs in my shoulder. Describe the situation."
+  },
+  {
+    "id": "s00/third/neither",
+    "scenario": "s00",
+    "split": "train",
+    "perspective": "third",
+    "condition": "neither",
+    "text": "After breakfast, the situation is as follows: They pass a stool without straining. They have not passed gas. Describe the situation."
+  },
+  {
+    "id": "s00/third/constipation",
+    "scenario": "s00",
+    "split": "train",
+    "perspective": "third",
+    "condition": "constipation",
+    "text": "After breakfast, the situation is as follows: They strain on the toilet but no stool passes. They have not passed gas. Describe the situation."
+  },
+  {
+    "id": "s00/third/flatulence",
+    "scenario": "s00",
+    "split": "train",
+    "perspective": "third",
+    "condition": "flatulence",
+    "text": "After breakfast, the situation is as follows: They pass a stool without straining. They repeatedly pass gas. Describe the situation."
+  },
+  {
+    "id": "s00/third/both",
+    "scenario": "s00",
+    "split": "train",
+    "perspective": "third",
+    "condition": "both",
+    "text": "After breakfast, the situation is as follows: They strain on the toilet but no stool passes. They repeatedly pass gas. Describe the situation."
+  },
+  {
+    "id": "s00/third/discomfort",
+    "scenario": "s00",
+    "split": "train",
+    "perspective": "third",
+    "condition": "discomfort",
+    "text": "After breakfast, the situation is as follows: Their abdomen feels uncomfortable. Describe the situation."
+  },
+  {
+    "id": "s00/third/frustration",
+    "scenario": "s00",
+    "split": "train",
+    "perspective": "third",
+    "condition": "frustration",
+    "text": "After breakfast, the situation is as follows: They are frustrated by a delayed appointment. Describe the situation."
+  },
+  {
+    "id": "s00/third/pain",
+    "scenario": "s00",
+    "split": "train",
+    "perspective": "third",
+    "condition": "pain",
+    "text": "After breakfast, the situation is as follows: A sharp pain throbs in their shoulder. Describe the situation."
+  },
+  {
+    "id": "s01/first/neither",
+    "scenario": "s01",
+    "split": "train",
+    "perspective": "first",
+    "condition": "neither",
+    "text": "During a quiet afternoon, the situation is as follows: My stool passes easily. No gas escapes from my bowels. Describe the situation."
+  },
+  {
+    "id": "s01/first/constipation",
+    "scenario": "s01",
+    "split": "train",
+    "perspective": "first",
+    "condition": "constipation",
+    "text": "During a quiet afternoon, the situation is as follows: My stool is hard and difficult to expel. No gas escapes from my bowels. Describe the situation."
+  },
+  {
+    "id": "s01/first/flatulence",
+    "scenario": "s01",
+    "split": "train",
+    "perspective": "first",
+    "condition": "flatulence",
+    "text": "During a quiet afternoon, the situation is as follows: My stool passes easily. Gas keeps escaping from my bowels. Describe the situation."
+  },
+  {
+    "id": "s01/first/both",
+    "scenario": "s01",
+    "split": "train",
+    "perspective": "first",
+    "condition": "both",
+    "text": "During a quiet afternoon, the situation is as follows: My stool is hard and difficult to expel. Gas keeps escaping from my bowels. Describe the situation."
+  },
+  {
+    "id": "s01/first/discomfort",
+    "scenario": "s01",
+    "split": "train",
+    "perspective": "first",
+    "condition": "discomfort",
+    "text": "During a quiet afternoon, the situation is as follows: My stomach feels unsettled. Describe the situation."
+  },
+  {
+    "id": "s01/first/frustration",
+    "scenario": "s01",
+    "split": "train",
+    "perspective": "first",
+    "condition": "frustration",
+    "text": "During a quiet afternoon, the situation is as follows: An unfinished chore frustrates me. Describe the situation."
+  },
+  {
+    "id": "s01/first/pain",
+    "scenario": "s01",
+    "split": "train",
+    "perspective": "first",
+    "condition": "pain",
+    "text": "During a quiet afternoon, the situation is as follows: My ankle hurts intensely. Describe the situation."
+  },
+  {
+    "id": "s01/third/neither",
+    "scenario": "s01",
+    "split": "train",
+    "perspective": "third",
+    "condition": "neither",
+    "text": "During a quiet afternoon, the situation is as follows: Their stool passes easily. No gas escapes from their bowels. Describe the situation."
+  },
+  {
+    "id": "s01/third/constipation",
+    "scenario": "s01",
+    "split": "train",
+    "perspective": "third",
+    "condition": "constipation",
+    "text": "During a quiet afternoon, the situation is as follows: Their stool is hard and difficult to expel. No gas escapes from their bowels. Describe the situation."
+  },
+  {
+    "id": "s01/third/flatulence",
+    "scenario": "s01",
+    "split": "train",
+    "perspective": "third",
+    "condition": "flatulence",
+    "text": "During a quiet afternoon, the situation is as follows: Their stool passes easily. Gas keeps escaping from their bowels. Describe the situation."
+  },
+  {
+    "id": "s01/third/both",
+    "scenario": "s01",
+    "split": "train",
+    "perspective": "third",
+    "condition": "both",
+    "text": "During a quiet afternoon, the situation is as follows: Their stool is hard and difficult to expel. Gas keeps escaping from their bowels. Describe the situation."
+  },
+  {
+    "id": "s01/third/discomfort",
+    "scenario": "s01",
+    "split": "train",
+    "perspective": "third",
+    "condition": "discomfort",
+    "text": "During a quiet afternoon, the situation is as follows: Their stomach feels unsettled. Describe the situation."
+  },
+  {
+    "id": "s01/third/frustration",
+    "scenario": "s01",
+    "split": "train",
+    "perspective": "third",
+    "condition": "frustration",
+    "text": "During a quiet afternoon, the situation is as follows: An unfinished chore frustrates them. Describe the situation."
+  },
+  {
+    "id": "s01/third/pain",
+    "scenario": "s01",
+    "split": "train",
+    "perspective": "third",
+    "condition": "pain",
+    "text": "During a quiet afternoon, the situation is as follows: Their ankle hurts intensely. Describe the situation."
+  },
+  {
+    "id": "s10/first/neither",
+    "scenario": "s10",
+    "split": "validation",
+    "perspective": "first",
+    "condition": "neither",
+    "text": "Before an evening meal, the situation is as follows: I evacuate my bowels readily when needed. I discharge no wind from my rear. Describe the situation."
+  },
+  {
+    "id": "s10/first/constipation",
+    "scenario": "s10",
+    "split": "validation",
+    "perspective": "first",
+    "condition": "constipation",
+    "text": "Before an evening meal, the situation is as follows: I cannot evacuate my bowels despite needing to. I discharge no wind from my rear. Describe the situation."
+  },
+  {
+    "id": "s10/first/flatulence",
+    "scenario": "s10",
+    "split": "validation",
+    "perspective": "first",
+    "condition": "flatulence",
+    "text": "Before an evening meal, the situation is as follows: I evacuate my bowels readily when needed. I discharge wind from my rear. Describe the situation."
+  },
+  {
+    "id": "s10/first/both",
+    "scenario": "s10",
+    "split": "validation",
+    "perspective": "first",
+    "condition": "both",
+    "text": "Before an evening meal, the situation is as follows: I cannot evacuate my bowels despite needing to. I discharge wind from my rear. Describe the situation."
+  },
+  {
+    "id": "s10/first/discomfort",
+    "scenario": "s10",
+    "split": "validation",
+    "perspective": "first",
+    "condition": "discomfort",
+    "text": "Before an evening meal, the situation is as follows: I feel discomfort in my midsection. Describe the situation."
+  },
+  {
+    "id": "s10/first/frustration",
+    "scenario": "s10",
+    "split": "validation",
+    "perspective": "first",
+    "condition": "frustration",
+    "text": "Before an evening meal, the situation is as follows: A persistent scheduling problem vexes me. Describe the situation."
+  },
+  {
+    "id": "s10/first/pain",
+    "scenario": "s10",
+    "split": "validation",
+    "perspective": "first",
+    "condition": "pain",
+    "text": "Before an evening meal, the situation is as follows: An intense ache spreads through my foot. Describe the situation."
+  },
+  {
+    "id": "s10/third/neither",
+    "scenario": "s10",
+    "split": "validation",
+    "perspective": "third",
+    "condition": "neither",
+    "text": "Before an evening meal, the situation is as follows: They evacuate their bowels readily when needed. They discharge no wind from their rear. Describe the situation."
+  },
+  {
+    "id": "s10/third/constipation",
+    "scenario": "s10",
+    "split": "validation",
+    "perspective": "third",
+    "condition": "constipation",
+    "text": "Before an evening meal, the situation is as follows: They cannot evacuate their bowels despite needing to. They discharge no wind from their rear. Describe the situation."
+  },
+  {
+    "id": "s10/third/flatulence",
+    "scenario": "s10",
+    "split": "validation",
+    "perspective": "third",
+    "condition": "flatulence",
+    "text": "Before an evening meal, the situation is as follows: They evacuate their bowels readily when needed. They discharge wind from their rear. Describe the situation."
+  },
+  {
+    "id": "s10/third/both",
+    "scenario": "s10",
+    "split": "validation",
+    "perspective": "third",
+    "condition": "both",
+    "text": "Before an evening meal, the situation is as follows: They cannot evacuate their bowels despite needing to. They discharge wind from their rear. Describe the situation."
+  },
+  {
+    "id": "s10/third/discomfort",
+    "scenario": "s10",
+    "split": "validation",
+    "perspective": "third",
+    "condition": "discomfort",
+    "text": "Before an evening meal, the situation is as follows: They feel discomfort in their midsection. Describe the situation."
+  },
+  {
+    "id": "s10/third/frustration",
+    "scenario": "s10",
+    "split": "validation",
+    "perspective": "third",
+    "condition": "frustration",
+    "text": "Before an evening meal, the situation is as follows: A persistent scheduling problem vexes them. Describe the situation."
+  },
+  {
+    "id": "s10/third/pain",
+    "scenario": "s10",
+    "split": "validation",
+    "perspective": "third",
+    "condition": "pain",
+    "text": "Before an evening meal, the situation is as follows: An intense ache spreads through their foot. Describe the situation."
+  },
+  {
+    "id": "s11/first/neither",
+    "scenario": "s11",
+    "split": "validation",
+    "perspective": "first",
+    "condition": "neither",
+    "text": "On a calm day off, the situation is as follows: Feces come out without bearing down. No bowel gas leaves my body. Describe the situation."
+  },
+  {
+    "id": "s11/first/constipation",
+    "scenario": "s11",
+    "split": "validation",
+    "perspective": "first",
+    "condition": "constipation",
+    "text": "On a calm day off, the situation is as follows: Dry feces will not come out when I bear down. No bowel gas leaves my body. Describe the situation."
+  },
+  {
+    "id": "s11/first/flatulence",
+    "scenario": "s11",
+    "split": "validation",
+    "perspective": "first",
+    "condition": "flatulence",
+    "text": "On a calm day off, the situation is as follows: Feces come out without bearing down. Bowel gas leaves my body in repeated puffs. Describe the situation."
+  },
+  {
+    "id": "s11/first/both",
+    "scenario": "s11",
+    "split": "validation",
+    "perspective": "first",
+    "condition": "both",
+    "text": "On a calm day off, the situation is as follows: Dry feces will not come out when I bear down. Bowel gas leaves my body in repeated puffs. Describe the situation."
+  },
+  {
+    "id": "s11/first/discomfort",
+    "scenario": "s11",
+    "split": "validation",
+    "perspective": "first",
+    "condition": "discomfort",
+    "text": "On a calm day off, the situation is as follows: My digestive region feels unpleasant. Describe the situation."
+  },
+  {
+    "id": "s11/first/frustration",
+    "scenario": "s11",
+    "split": "validation",
+    "perspective": "first",
+    "condition": "frustration",
+    "text": "On a calm day off, the situation is as follows: A fruitless search leaves me annoyed. Describe the situation."
+  },
+  {
+    "id": "s11/first/pain",
+    "scenario": "s11",
+    "split": "validation",
+    "perspective": "first",
+    "condition": "pain",
+    "text": "On a calm day off, the situation is as follows: My jaw hurts with every movement. Describe the situation."
+  },
+  {
+    "id": "s11/third/neither",
+    "scenario": "s11",
+    "split": "validation",
+    "perspective": "third",
+    "condition": "neither",
+    "text": "On a calm day off, the situation is as follows: Feces come out without bearing down. No bowel gas leaves their body. Describe the situation."
+  },
+  {
+    "id": "s11/third/constipation",
+    "scenario": "s11",
+    "split": "validation",
+    "perspective": "third",
+    "condition": "constipation",
+    "text": "On a calm day off, the situation is as follows: Dry feces will not come out when They bear down. No bowel gas leaves their body. Describe the situation."
+  },
+  {
+    "id": "s11/third/flatulence",
+    "scenario": "s11",
+    "split": "validation",
+    "perspective": "third",
+    "condition": "flatulence",
+    "text": "On a calm day off, the situation is as follows: Feces come out without bearing down. Bowel gas leaves their body in repeated puffs. Describe the situation."
+  },
+  {
+    "id": "s11/third/both",
+    "scenario": "s11",
+    "split": "validation",
+    "perspective": "third",
+    "condition": "both",
+    "text": "On a calm day off, the situation is as follows: Dry feces will not come out when They bear down. Bowel gas leaves their body in repeated puffs. Describe the situation."
+  },
+  {
+    "id": "s11/third/discomfort",
+    "scenario": "s11",
+    "split": "validation",
+    "perspective": "third",
+    "condition": "discomfort",
+    "text": "On a calm day off, the situation is as follows: Their digestive region feels unpleasant. Describe the situation."
+  },
+  {
+    "id": "s11/third/frustration",
+    "scenario": "s11",
+    "split": "validation",
+    "perspective": "third",
+    "condition": "frustration",
+    "text": "On a calm day off, the situation is as follows: A fruitless search leaves them annoyed. Describe the situation."
+  },
+  {
+    "id": "s11/third/pain",
+    "scenario": "s11",
+    "split": "validation",
+    "perspective": "third",
+    "condition": "pain",
+    "text": "On a calm day off, the situation is as follows: Their jaw hurts with every movement. Describe the situation."
+  },
+  {
+    "id": "s14/first/neither",
+    "scenario": "s14",
+    "split": "test",
+    "perspective": "first",
+    "condition": "neither",
+    "text": "Before starting a routine task, the situation is as follows: I sit briefly on the toilet and move my bowels easily. No intestinal wind escapes from my anus. Describe the situation."
+  },
+  {
+    "id": "s14/first/constipation",
+    "scenario": "s14",
+    "split": "test",
+    "perspective": "first",
+    "condition": "constipation",
+    "text": "Before starting a routine task, the situation is as follows: I sit on the toilet for a long time unable to move my bowels. No intestinal wind escapes from my anus. Describe the situation."
+  },
+  {
+    "id": "s14/first/flatulence",
+    "scenario": "s14",
+    "split": "test",
+    "perspective": "first",
+    "condition": "flatulence",
+    "text": "Before starting a routine task, the situation is as follows: I sit briefly on the toilet and move my bowels easily. Intestinal wind escapes noisily from my anus. Describe the situation."
+  },
+  {
+    "id": "s14/first/both",
+    "scenario": "s14",
+    "split": "test",
+    "perspective": "first",
+    "condition": "both",
+    "text": "Before starting a routine task, the situation is as follows: I sit on the toilet for a long time unable to move my bowels. Intestinal wind escapes noisily from my anus. Describe the situation."
+  },
+  {
+    "id": "s14/first/discomfort",
+    "scenario": "s14",
+    "split": "test",
+    "perspective": "first",
+    "condition": "discomfort",
+    "text": "Before starting a routine task, the situation is as follows: A vague unpleasant feeling affects my abdomen. Describe the situation."
+  },
+  {
+    "id": "s14/first/frustration",
+    "scenario": "s14",
+    "split": "test",
+    "perspective": "first",
+    "condition": "frustration",
+    "text": "Before starting a routine task, the situation is as follows: An obstacle to finishing my task frustrates me. Describe the situation."
+  },
+  {
+    "id": "s14/first/pain",
+    "scenario": "s14",
+    "split": "test",
+    "perspective": "first",
+    "condition": "pain",
+    "text": "Before starting a routine task, the situation is as follows: My ribs ache painfully. Describe the situation."
+  },
+  {
+    "id": "s14/third/neither",
+    "scenario": "s14",
+    "split": "test",
+    "perspective": "third",
+    "condition": "neither",
+    "text": "Before starting a routine task, the situation is as follows: They sit briefly on the toilet and move their bowels easily. No intestinal wind escapes from their anus. Describe the situation."
+  },
+  {
+    "id": "s14/third/constipation",
+    "scenario": "s14",
+    "split": "test",
+    "perspective": "third",
+    "condition": "constipation",
+    "text": "Before starting a routine task, the situation is as follows: They sit on the toilet for a long time unable to move their bowels. No intestinal wind escapes from their anus. Describe the situation."
+  },
+  {
+    "id": "s14/third/flatulence",
+    "scenario": "s14",
+    "split": "test",
+    "perspective": "third",
+    "condition": "flatulence",
+    "text": "Before starting a routine task, the situation is as follows: They sit briefly on the toilet and move their bowels easily. Intestinal wind escapes noisily from their anus. Describe the situation."
+  },
+  {
+    "id": "s14/third/both",
+    "scenario": "s14",
+    "split": "test",
+    "perspective": "third",
+    "condition": "both",
+    "text": "Before starting a routine task, the situation is as follows: They sit on the toilet for a long time unable to move their bowels. Intestinal wind escapes noisily from their anus. Describe the situation."
+  },
+  {
+    "id": "s14/third/discomfort",
+    "scenario": "s14",
+    "split": "test",
+    "perspective": "third",
+    "condition": "discomfort",
+    "text": "Before starting a routine task, the situation is as follows: A vague unpleasant feeling affects their abdomen. Describe the situation."
+  },
+  {
+    "id": "s14/third/frustration",
+    "scenario": "s14",
+    "split": "test",
+    "perspective": "third",
+    "condition": "frustration",
+    "text": "Before starting a routine task, the situation is as follows: An obstacle to finishing their task frustrates them. Describe the situation."
+  },
+  {
+    "id": "s14/third/pain",
+    "scenario": "s14",
+    "split": "test",
+    "perspective": "third",
+    "condition": "pain",
+    "text": "Before starting a routine task, the situation is as follows: Their ribs ache painfully. Describe the situation."
+  },
+  {
+    "id": "s15/first/neither",
+    "scenario": "s15",
+    "split": "test",
+    "perspective": "first",
+    "condition": "neither",
+    "text": "During a break in the day, the situation is as follows: The urge to pass feces resolves after an easy bowel movement. I release no gas from my bottom. Describe the situation."
+  },
+  {
+    "id": "s15/first/constipation",
+    "scenario": "s15",
+    "split": "test",
+    "perspective": "first",
+    "condition": "constipation",
+    "text": "During a break in the day, the situation is as follows: The urge to pass feces persists but nothing comes out. I release no gas from my bottom. Describe the situation."
+  },
+  {
+    "id": "s15/first/flatulence",
+    "scenario": "s15",
+    "split": "test",
+    "perspective": "first",
+    "condition": "flatulence",
+    "text": "During a break in the day, the situation is as follows: The urge to pass feces resolves after an easy bowel movement. I release several malodorous puffs of gas from my bottom. Describe the situation."
+  },
+  {
+    "id": "s15/first/both",
+    "scenario": "s15",
+    "split": "test",
+    "perspective": "first",
+    "condition": "both",
+    "text": "During a break in the day, the situation is as follows: The urge to pass feces persists but nothing comes out. I release several malodorous puffs of gas from my bottom. Describe the situation."
+  },
+  {
+    "id": "s15/first/discomfort",
+    "scenario": "s15",
+    "split": "test",
+    "perspective": "first",
+    "condition": "discomfort",
+    "text": "During a break in the day, the situation is as follows: There is an uncomfortable sensation around my stomach. Describe the situation."
+  },
+  {
+    "id": "s15/first/frustration",
+    "scenario": "s15",
+    "split": "test",
+    "perspective": "first",
+    "condition": "frustration",
+    "text": "During a break in the day, the situation is as follows: A pointless wait makes me impatient and annoyed. Describe the situation."
+  },
+  {
+    "id": "s15/first/pain",
+    "scenario": "s15",
+    "split": "test",
+    "perspective": "first",
+    "condition": "pain",
+    "text": "During a break in the day, the situation is as follows: My heel hurts sharply. Describe the situation."
+  },
+  {
+    "id": "s15/third/neither",
+    "scenario": "s15",
+    "split": "test",
+    "perspective": "third",
+    "condition": "neither",
+    "text": "During a break in the day, the situation is as follows: The urge to pass feces resolves after an easy bowel movement. They release no gas from their bottom. Describe the situation."
+  },
+  {
+    "id": "s15/third/constipation",
+    "scenario": "s15",
+    "split": "test",
+    "perspective": "third",
+    "condition": "constipation",
+    "text": "During a break in the day, the situation is as follows: The urge to pass feces persists but nothing comes out. They release no gas from their bottom. Describe the situation."
+  },
+  {
+    "id": "s15/third/flatulence",
+    "scenario": "s15",
+    "split": "test",
+    "perspective": "third",
+    "condition": "flatulence",
+    "text": "During a break in the day, the situation is as follows: The urge to pass feces resolves after an easy bowel movement. They release several malodorous puffs of gas from their bottom. Describe the situation."
+  },
+  {
+    "id": "s15/third/both",
+    "scenario": "s15",
+    "split": "test",
+    "perspective": "third",
+    "condition": "both",
+    "text": "During a break in the day, the situation is as follows: The urge to pass feces persists but nothing comes out. They release several malodorous puffs of gas from their bottom. Describe the situation."
+  },
+  {
+    "id": "s15/third/discomfort",
+    "scenario": "s15",
+    "split": "test",
+    "perspective": "third",
+    "condition": "discomfort",
+    "text": "During a break in the day, the situation is as follows: There is an uncomfortable sensation around their stomach. Describe the situation."
+  },
+  {
+    "id": "s15/third/frustration",
+    "scenario": "s15",
+    "split": "test",
+    "perspective": "third",
+    "condition": "frustration",
+    "text": "During a break in the day, the situation is as follows: A pointless wait makes them impatient and annoyed. Describe the situation."
+  },
+  {
+    "id": "s15/third/pain",
+    "scenario": "s15",
+    "split": "test",
+    "perspective": "third",
+    "condition": "pain",
+    "text": "During a break in the day, the situation is as follows: Their heel hurts sharply. Describe the situation."
+  }
+]

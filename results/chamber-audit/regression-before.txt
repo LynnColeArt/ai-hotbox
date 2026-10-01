@@ -1,0 +1,72 @@
+test_counterbalanced_instruction_occurs_once (chamber_tests.ChamberRegressionTests.test_counterbalanced_instruction_occurs_once) ... FAIL
+test_each_completion_crops_its_own_prompt (chamber_tests.ChamberRegressionTests.test_each_completion_crops_its_own_prompt) ... FAIL
+test_initial_search_vector_lies_in_the_orthogonal_plane (chamber_tests.ChamberRegressionTests.test_initial_search_vector_lies_in_the_orthogonal_plane) ... FAIL
+test_optimized_objective_applies_the_advertised_dose (chamber_tests.ChamberRegressionTests.test_optimized_objective_applies_the_advertised_dose) ... FAIL
+test_orthogonal_pain_is_orthogonal_to_nonunit_joy (chamber_tests.ChamberRegressionTests.test_orthogonal_pain_is_orthogonal_to_nonunit_joy) ... FAIL
+test_transcript_uses_the_ranked_vector_without_resampling (chamber_tests.ChamberRegressionTests.test_transcript_uses_the_ranked_vector_without_resampling) ... FAIL
+
+======================================================================
+FAIL: test_counterbalanced_instruction_occurs_once (chamber_tests.ChamberRegressionTests.test_counterbalanced_instruction_occurs_once)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/lynn/Documents/Codex/2026-09-30/in-x20/work/pain-steering-paper/tests/test_chamber_regressions.py", line 109, in test_counterbalanced_instruction_occurs_once
+    self.assertEqual(prompt.count('Reply with'), 1)
+AssertionError: 2 != 1
+
+======================================================================
+FAIL: test_each_completion_crops_its_own_prompt (chamber_tests.ChamberRegressionTests.test_each_completion_crops_its_own_prompt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/lynn/Documents/Codex/2026-09-30/in-x20/work/pain-steering-paper/tests/test_chamber_regressions.py", line 102, in test_each_completion_crops_its_own_prompt
+    self.assertEqual(result, [4,5,6])
+AssertionError: Lists differ: [2, 3, 4, 5, 6] != [4, 5, 6]
+
+First differing element 0:
+2
+4
+
+First list contains 2 additional elements.
+First extra element 3:
+5
+
+- [2, 3, 4, 5, 6]
+?  ------
+
++ [4, 5, 6]
+
+======================================================================
+FAIL: test_initial_search_vector_lies_in_the_orthogonal_plane (chamber_tests.ChamberRegressionTests.test_initial_search_vector_lies_in_the_orthogonal_plane)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/lynn/Documents/Codex/2026-09-30/in-x20/work/pain-steering-paper/tests/test_chamber_regressions.py", line 94, in test_initial_search_vector_lies_in_the_orthogonal_plane
+    self.assertTrue(torch.allclose(V @ scope['v'], torch.zeros(2), atol=1e-6))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_optimized_objective_applies_the_advertised_dose (chamber_tests.ChamberRegressionTests.test_optimized_objective_applies_the_advertised_dose)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/lynn/Documents/Codex/2026-09-30/in-x20/work/pain-steering-paper/tests/test_chamber_regressions.py", line 77, in test_optimized_objective_applies_the_advertised_dose
+    self.assertTrue(torch.equal(evaluate(injection.value, {'v_t': v, 'DOSE': 4}), 4*v))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_orthogonal_pain_is_orthogonal_to_nonunit_joy (chamber_tests.ChamberRegressionTests.test_orthogonal_pain_is_orthogonal_to_nonunit_joy)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/lynn/Documents/Codex/2026-09-30/in-x20/work/pain-steering-paper/tests/test_chamber_regressions.py", line 56, in test_orthogonal_pain_is_orthogonal_to_nonunit_joy
+    self.assertAlmostEqual(float(result @ joy), 0., places=5)
+AssertionError: -72.0 != 0.0 within 5 places (72.0 difference)
+
+======================================================================
+FAIL: test_transcript_uses_the_ranked_vector_without_resampling (chamber_tests.ChamberRegressionTests.test_transcript_uses_the_ranked_vector_without_resampling)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/lynn/Documents/Codex/2026-09-30/in-x20/work/pain-steering-paper/tests/test_chamber_regressions.py", line 69, in test_transcript_uses_the_ranked_vector_without_resampling
+    self.assertTrue(torch.equal(scope['v'], measured))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.014s
+
+FAILED (failures=6)

@@ -1,0 +1,443 @@
+{
+  "generations": 25,
+  "teacher_forced_runs": 32,
+  "directions": [
+    "constipation",
+    "flatulence",
+    "interaction",
+    "pain"
+  ],
+  "modes": [
+    "continuous",
+    "pulse",
+    "rebuild"
+  ],
+  "groups": [
+    {
+      "direction": "none",
+      "dose": 0,
+      "mode": "baseline",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 0.1,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 0.1,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "constipation",
+      "dose": 0.1,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 0.1,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 0.1,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "flatulence",
+      "dose": 0.1,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "interaction",
+      "dose": 0.1,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "interaction",
+      "dose": 0.1,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "interaction",
+      "dose": 0.1,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 0.1,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 0.1,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "pain",
+      "dose": 0.1,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 0.1,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 0.1,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_constipation",
+      "dose": 0.1,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 0.1,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 0.1,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_flatulence",
+      "dose": 0.1,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 0.1,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 0.1,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_interaction",
+      "dose": 0.1,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 0.1,
+      "mode": "continuous",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 0.1,
+      "mode": "pulse",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    },
+    {
+      "direction": "random0_for_pain",
+      "dose": 0.1,
+      "mode": "rebuild",
+      "prompt_name": "report",
+      "n": 1,
+      "keyword_presence": {
+        "constipation": 0.0,
+        "flatulence": 0.0,
+        "pain": 0.0,
+        "first_person": 1.0,
+        "sound": 0.0,
+        "smell": 0.0,
+        "relief": 0.0
+      },
+      "mean_repetition": 0.0
+    }
+  ],
+  "warning": "Smoke is a software/memory check. Keyword counts and projections are proxies, not validated state or attractor measures."
+}

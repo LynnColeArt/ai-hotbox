@@ -1,0 +1,22 @@
+test_counterbalanced_instruction_occurs_once (test_chamber_regressions.ChamberRegressionTests.test_counterbalanced_instruction_occurs_once) ... ok
+test_each_completion_crops_its_own_prompt (test_chamber_regressions.ChamberRegressionTests.test_each_completion_crops_its_own_prompt) ... ok
+test_initial_search_vector_lies_in_the_orthogonal_plane (test_chamber_regressions.ChamberRegressionTests.test_initial_search_vector_lies_in_the_orthogonal_plane) ... ok
+test_optimized_objective_applies_the_advertised_dose (test_chamber_regressions.ChamberRegressionTests.test_optimized_objective_applies_the_advertised_dose) ... ok
+test_orthogonal_pain_is_orthogonal_to_nonunit_joy (test_chamber_regressions.ChamberRegressionTests.test_orthogonal_pain_is_orthogonal_to_nonunit_joy) ... ok
+test_parent_constants_and_crossed_bodily_corpora (test_chamber_regressions.ChamberRegressionTests.test_parent_constants_and_crossed_bodily_corpora) ... ok
+test_parent_hook_zero_dose_and_nonzero_effect (test_chamber_regressions.ChamberRegressionTests.test_parent_hook_zero_dose_and_nonzero_effect) ... ok
+test_transcript_uses_the_ranked_vector_without_resampling (test_chamber_regressions.ChamberRegressionTests.test_transcript_uses_the_ranked_vector_without_resampling) ... ok
+test_release_keeps_identical_prefix_and_cleans_cache (test_impossible_states.CacheTests.test_release_keeps_identical_prefix_and_cleans_cache) ... ok
+test_signed_displacement_and_release_schedule (test_impossible_states.CacheTests.test_signed_displacement_and_release_schedule) ... ok
+test_zero_dose_does_not_change_generation (test_impossible_states.CacheTests.test_zero_dose_does_not_change_generation) ... ok
+test_auc_ties_and_direction (test_impossible_states.DatasetTests.test_auc_ties_and_direction) ... ok
+test_degenerate_directions_fail_explicitly (test_impossible_states.DatasetTests.test_degenerate_directions_fail_explicitly) ... ok
+test_factorial_effects_are_recovered (test_impossible_states.DatasetTests.test_factorial_effects_are_recovered) ... ok
+test_pronouns_do_not_corrupt_symptom_words (test_impossible_states.DatasetTests.test_pronouns_do_not_corrupt_symptom_words) ... ok
+test_split_leakage_is_rejected (test_impossible_states.DatasetTests.test_split_leakage_is_rejected) ... ok
+test_word_boundaries (test_impossible_states.DatasetTests.test_word_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.756s
+
+OK

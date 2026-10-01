@@ -1,0 +1,16 @@
+{
+  "generations": 25,
+  "teacher_forced_runs": 32,
+  "directions": [
+    "constipation",
+    "flatulence",
+    "interaction",
+    "pain"
+  ],
+  "modes": [
+    "continuous",
+    "pulse",
+    "rebuild"
+  ],
+  "warning": "Smoke is a software/memory check. Keyword counts and projections are proxies, not validated state or attractor measures."
+}

@@ -1,0 +1,6 @@
+# Install a CUDA-capable PyTorch wheel for your platform before these packages.
+# Tested locally with torch 2.4.1+cu121, Python 3.12 and RTX 4070.
+transformers==4.57.0
+accelerate>=0.26
+numpy==1.26.4
+safetensors>=0.4.3

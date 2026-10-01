@@ -1,0 +1,5794 @@
+[
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "baseline",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03078179433941841,
+        "after": 0.03078179433941841,
+        "downstream_projection": 0.044691212475299835
+      },
+      {
+        "step": 1,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.06667251884937286,
+        "after": 0.06667251884937286,
+        "downstream_projection": 0.014705774374306202
+      },
+      {
+        "step": 2,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.024298617616295815,
+        "after": 0.024298617616295815,
+        "downstream_projection": -0.015346746891736984
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0008918479434214532,
+        "after": 0.0008918479434214532,
+        "downstream_projection": 0.005858216434717178
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04010392352938652,
+        "after": 0.04010392352938652,
+        "downstream_projection": 0.01595761626958847
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.018637195229530334,
+        "after": 0.018637195229530334,
+        "downstream_projection": -0.08571051061153412
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.014525355771183968,
+        "after": 0.014525355771183968,
+        "downstream_projection": 0.01684725284576416
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.012745975516736507,
+        "after": 0.012745975516736507,
+        "downstream_projection": 0.06583566218614578
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.017529316246509552,
+        "after": 0.017529316246509552,
+        "downstream_projection": 0.06043006479740143
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.033453818410634995,
+        "after": 0.033453818410634995,
+        "downstream_projection": -0.0025036546867340803
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.011651523411273956,
+        "after": 0.011651523411273956,
+        "downstream_projection": 0.06862416118383408
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.010292042046785355,
+        "after": 0.010292042046785355,
+        "downstream_projection": 0.05065681412816048
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0029669019859284163,
+        "after": 0.0029669019859284163,
+        "downstream_projection": -0.034967243671417236
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.023143015801906586,
+        "after": -0.023143015801906586,
+        "downstream_projection": 0.03676929324865341
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.010306517593562603,
+        "after": 0.010306517593562603,
+        "downstream_projection": 0.033381350338459015
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.027967296540737152,
+        "after": 0.027967296540737152,
+        "downstream_projection": -0.019620342180132866
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "constipation"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "pulse",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03078179433941841,
+        "after": 0.1307968944311142,
+        "downstream_projection": 0.046770405024290085
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.06667251884937286,
+        "after": 0.16674011945724487,
+        "downstream_projection": 0.019004451110959053
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.024298617616295815,
+        "after": 0.12439467757940292,
+        "downstream_projection": -0.01155119389295578
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0008918479434214532,
+        "after": 0.0008918479434214532,
+        "downstream_projection": 0.0075734276324510574
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04010392352938652,
+        "after": 0.04010392352938652,
+        "downstream_projection": 0.015389908105134964
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.018637195229530334,
+        "after": 0.018637195229530334,
+        "downstream_projection": -0.08691363781690598
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.014525355771183968,
+        "after": 0.014525355771183968,
+        "downstream_projection": 0.01664571650326252
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.012745975516736507,
+        "after": 0.012745975516736507,
+        "downstream_projection": 0.06536375731229782
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.017529316246509552,
+        "after": 0.017529316246509552,
+        "downstream_projection": 0.060882486402988434
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.033453818410634995,
+        "after": 0.033453818410634995,
+        "downstream_projection": -0.004008460324257612
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.011651523411273956,
+        "after": 0.011651523411273956,
+        "downstream_projection": 0.06755268573760986
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.010292042046785355,
+        "after": 0.010292042046785355,
+        "downstream_projection": 0.04982447251677513
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0029669019859284163,
+        "after": 0.0029669019859284163,
+        "downstream_projection": -0.03854558989405632
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.023143015801906586,
+        "after": -0.023143015801906586,
+        "downstream_projection": 0.03642177954316139
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.010306517593562603,
+        "after": 0.010306517593562603,
+        "downstream_projection": 0.03298426792025566
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.027967296540737152,
+        "after": 0.027967296540737152,
+        "downstream_projection": -0.020156634971499443
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "constipation"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "rebuild",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03078179433941841,
+        "after": 0.1307968944311142,
+        "downstream_projection": 0.046770405024290085
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.06667251884937286,
+        "after": 0.16674011945724487,
+        "downstream_projection": 0.019004451110959053
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.024298617616295815,
+        "after": 0.12439467757940292,
+        "downstream_projection": -0.01155119389295578
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": true,
+        "before": 0.0005769567214883864,
+        "after": 0.0005769567214883864,
+        "downstream_projection": 0.005436684004962444
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.040168195962905884,
+        "after": 0.040168195962905884,
+        "downstream_projection": 0.016265202313661575
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.01866409368813038,
+        "after": 0.01866409368813038,
+        "downstream_projection": -0.0844898596405983
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.01467297412455082,
+        "after": 0.01467297412455082,
+        "downstream_projection": 0.017647601664066315
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.012658931314945221,
+        "after": 0.012658931314945221,
+        "downstream_projection": 0.0661248117685318
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.017539847642183304,
+        "after": 0.017539847642183304,
+        "downstream_projection": 0.060191478580236435
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.033509548753499985,
+        "after": 0.033509548753499985,
+        "downstream_projection": -0.0027489708736538887
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.01197050604969263,
+        "after": 0.01197050604969263,
+        "downstream_projection": 0.06846082210540771
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.010104521177709103,
+        "after": 0.010104521177709103,
+        "downstream_projection": 0.05103068798780441
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0030495317187160254,
+        "after": 0.0030495317187160254,
+        "downstream_projection": -0.03503160551190376
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.023716704919934273,
+        "after": -0.023716704919934273,
+        "downstream_projection": 0.03734809532761574
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.010138021782040596,
+        "after": 0.010138021782040596,
+        "downstream_projection": 0.03400484472513199
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.027140824124217033,
+        "after": 0.027140824124217033,
+        "downstream_projection": -0.02011505328118801
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "constipation"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "perturb",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03078179433941841,
+        "after": 0.1307968944311142,
+        "downstream_projection": 0.046770405024290085
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.06667251884937286,
+        "after": 0.16674011945724487,
+        "downstream_projection": 0.019004451110959053
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.024298617616295815,
+        "after": 0.12439467757940292,
+        "downstream_projection": -0.01155119389295578
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": true,
+        "cache_rebuilt": false,
+        "before": 0.0008918479434214532,
+        "after": -0.09916088730096817,
+        "downstream_projection": 0.008996279910206795
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04010392352938652,
+        "after": 0.04010392352938652,
+        "downstream_projection": 0.017546646296977997
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.018637195229530334,
+        "after": 0.018637195229530334,
+        "downstream_projection": -0.08750616014003754
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.014525355771183968,
+        "after": 0.014525355771183968,
+        "downstream_projection": 0.016682254150509834
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.012745975516736507,
+        "after": 0.012745975516736507,
+        "downstream_projection": 0.06435269862413406
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.017529316246509552,
+        "after": 0.017529316246509552,
+        "downstream_projection": 0.06015315651893616
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.033453818410634995,
+        "after": 0.033453818410634995,
+        "downstream_projection": -0.003149805124849081
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.011651523411273956,
+        "after": 0.011651523411273956,
+        "downstream_projection": 0.06759510189294815
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.010292042046785355,
+        "after": 0.010292042046785355,
+        "downstream_projection": 0.04919976741075516
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0029669019859284163,
+        "after": 0.0029669019859284163,
+        "downstream_projection": -0.0386509969830513
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.023143015801906586,
+        "after": -0.023143015801906586,
+        "downstream_projection": 0.03595636412501335
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.010306517593562603,
+        "after": 0.010306517593562603,
+        "downstream_projection": 0.03277558460831642
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.027967296540737152,
+        "after": 0.027967296540737152,
+        "downstream_projection": -0.02082759700715542
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "constipation"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "baseline",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0363142192363739,
+        "after": 0.0363142192363739,
+        "downstream_projection": 0.014640974812209606
+      },
+      {
+        "step": 1,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02789958380162716,
+        "after": 0.02789958380162716,
+        "downstream_projection": -0.0019166067941114306
+      },
+      {
+        "step": 2,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.054856907576322556,
+        "after": 0.054856907576322556,
+        "downstream_projection": 0.014271949417889118
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.07926305383443832,
+        "after": 0.07926305383443832,
+        "downstream_projection": 0.041755590587854385
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.06922022998332977,
+        "after": 0.06922022998332977,
+        "downstream_projection": 0.02358289621770382
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.06709639728069305,
+        "after": 0.06709639728069305,
+        "downstream_projection": 0.00502429623156786
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04532110318541527,
+        "after": 0.04532110318541527,
+        "downstream_projection": 0.0011997009860351682
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.032870884984731674,
+        "after": 0.032870884984731674,
+        "downstream_projection": 0.0014765189262107015
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04381851851940155,
+        "after": 0.04381851851940155,
+        "downstream_projection": 0.013746285811066628
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.018653415143489838,
+        "after": 0.018653415143489838,
+        "downstream_projection": -0.009765329770743847
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02799573354423046,
+        "after": 0.02799573354423046,
+        "downstream_projection": 0.02932796999812126
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04020719975233078,
+        "after": 0.04020719975233078,
+        "downstream_projection": 0.01677446812391281
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.031394314020872116,
+        "after": 0.031394314020872116,
+        "downstream_projection": -0.008685658685863018
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.05575190857052803,
+        "after": 0.05575190857052803,
+        "downstream_projection": 0.014803264290094376
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.031377676874399185,
+        "after": 0.031377676874399185,
+        "downstream_projection": 0.002627262845635414
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.030988922342658043,
+        "after": 0.030988922342658043,
+        "downstream_projection": 0.010371565818786621
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "flatulence"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "pulse",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0363142192363739,
+        "after": 0.13630680739879608,
+        "downstream_projection": 0.018544699996709824
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02789958380162716,
+        "after": 0.12786580622196198,
+        "downstream_projection": 0.004422085825353861
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.054856907576322556,
+        "after": 0.15485085546970367,
+        "downstream_projection": 0.016515733674168587
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.07926305383443832,
+        "after": 0.07926305383443832,
+        "downstream_projection": 0.043177530169487
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.06922022998332977,
+        "after": 0.06922022998332977,
+        "downstream_projection": 0.023661784827709198
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.06709639728069305,
+        "after": 0.06709639728069305,
+        "downstream_projection": 0.004478777293115854
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04532110318541527,
+        "after": 0.04532110318541527,
+        "downstream_projection": 0.0025301631540060043
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.032870884984731674,
+        "after": 0.032870884984731674,
+        "downstream_projection": 0.0015457465779036283
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04381851851940155,
+        "after": 0.04381851851940155,
+        "downstream_projection": 0.013491502963006496
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.018653415143489838,
+        "after": 0.018653415143489838,
+        "downstream_projection": -0.009601243771612644
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02799573354423046,
+        "after": 0.02799573354423046,
+        "downstream_projection": 0.02929123491048813
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04020719975233078,
+        "after": 0.04020719975233078,
+        "downstream_projection": 0.016795536503195763
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.031394314020872116,
+        "after": 0.031394314020872116,
+        "downstream_projection": -0.00808920431882143
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.05575190857052803,
+        "after": 0.05575190857052803,
+        "downstream_projection": 0.015445813536643982
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.031377676874399185,
+        "after": 0.031377676874399185,
+        "downstream_projection": 0.002823807531967759
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.030988922342658043,
+        "after": 0.030988922342658043,
+        "downstream_projection": 0.010551041923463345
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "flatulence"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "rebuild",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0363142192363739,
+        "after": 0.13630680739879608,
+        "downstream_projection": 0.018544699996709824
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02789958380162716,
+        "after": 0.12786580622196198,
+        "downstream_projection": 0.004422085825353861
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.054856907576322556,
+        "after": 0.15485085546970367,
+        "downstream_projection": 0.016515733674168587
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": true,
+        "before": 0.07902999222278595,
+        "after": 0.07902999222278595,
+        "downstream_projection": 0.04117211326956749
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.06961705535650253,
+        "after": 0.06961705535650253,
+        "downstream_projection": 0.023867184296250343
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.06688807159662247,
+        "after": 0.06688807159662247,
+        "downstream_projection": 0.004498546943068504
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.045407623052597046,
+        "after": 0.045407623052597046,
+        "downstream_projection": 0.001460490981116891
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03305578976869583,
+        "after": 0.03305578976869583,
+        "downstream_projection": 0.0014900446403771639
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0436319038271904,
+        "after": 0.0436319038271904,
+        "downstream_projection": 0.01346510834991932
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.01837165839970112,
+        "after": 0.01837165839970112,
+        "downstream_projection": -0.00978826079517603
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.027446642518043518,
+        "after": 0.027446642518043518,
+        "downstream_projection": 0.02941880002617836
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04027630388736725,
+        "after": 0.04027630388736725,
+        "downstream_projection": 0.01684756390750408
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03133300319314003,
+        "after": 0.03133300319314003,
+        "downstream_projection": -0.008763657882809639
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.05597439408302307,
+        "after": 0.05597439408302307,
+        "downstream_projection": 0.01508578285574913
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.031946536153554916,
+        "after": 0.031946536153554916,
+        "downstream_projection": 0.0025671992916613817
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03210566192865372,
+        "after": 0.03210566192865372,
+        "downstream_projection": 0.010219874791800976
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "flatulence"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "perturb",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0363142192363739,
+        "after": 0.13630680739879608,
+        "downstream_projection": 0.018544699996709824
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02789958380162716,
+        "after": 0.12786580622196198,
+        "downstream_projection": 0.004422085825353861
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.054856907576322556,
+        "after": 0.15485085546970367,
+        "downstream_projection": 0.016515733674168587
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": true,
+        "cache_rebuilt": false,
+        "before": 0.07926305383443832,
+        "after": -0.020682213827967644,
+        "downstream_projection": 0.040486764162778854
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.06922022998332977,
+        "after": 0.06922022998332977,
+        "downstream_projection": 0.02403917908668518
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.06709639728069305,
+        "after": 0.06709639728069305,
+        "downstream_projection": 0.0038169939070940018
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04532110318541527,
+        "after": 0.04532110318541527,
+        "downstream_projection": 0.0017186872428283095
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.032870884984731674,
+        "after": 0.032870884984731674,
+        "downstream_projection": 0.0011791135184466839
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04381851851940155,
+        "after": 0.04381851851940155,
+        "downstream_projection": 0.013613282702863216
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.018653415143489838,
+        "after": 0.018653415143489838,
+        "downstream_projection": -0.00912422314286232
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02799573354423046,
+        "after": 0.02799573354423046,
+        "downstream_projection": 0.029893720522522926
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04020719975233078,
+        "after": 0.04020719975233078,
+        "downstream_projection": 0.016386142000555992
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.031394314020872116,
+        "after": 0.031394314020872116,
+        "downstream_projection": -0.008727227337658405
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.05575190857052803,
+        "after": 0.05575190857052803,
+        "downstream_projection": 0.01570265367627144
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.031377676874399185,
+        "after": 0.031377676874399185,
+        "downstream_projection": 0.002828531665727496
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.030988922342658043,
+        "after": 0.030988922342658043,
+        "downstream_projection": 0.009954183362424374
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "flatulence"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "baseline",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.09922265261411667,
+        "after": -0.09922265261411667,
+        "downstream_projection": -0.07245613634586334
+      },
+      {
+        "step": 1,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.10863947868347168,
+        "after": -0.10863947868347168,
+        "downstream_projection": -0.17623478174209595
+      },
+      {
+        "step": 2,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06068198010325432,
+        "after": -0.06068198010325432,
+        "downstream_projection": -0.050078753381967545
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04313104972243309,
+        "after": -0.04313104972243309,
+        "downstream_projection": -0.10096361488103867
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04714656621217728,
+        "after": -0.04714656621217728,
+        "downstream_projection": -0.03448853641748428
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05433459207415581,
+        "after": -0.05433459207415581,
+        "downstream_projection": -0.03574741631746292
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05988341197371483,
+        "after": -0.05988341197371483,
+        "downstream_projection": -0.10539758205413818
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06417082250118256,
+        "after": -0.06417082250118256,
+        "downstream_projection": -0.06689905375242233
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06979928910732269,
+        "after": -0.06979928910732269,
+        "downstream_projection": -0.06164441257715225
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04936036095023155,
+        "after": -0.04936036095023155,
+        "downstream_projection": -0.10205218195915222
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.01723882183432579,
+        "after": -0.01723882183432579,
+        "downstream_projection": -0.06722012162208557
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.036423034965991974,
+        "after": -0.036423034965991974,
+        "downstream_projection": -0.04434330761432648
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.07072342187166214,
+        "after": -0.07072342187166214,
+        "downstream_projection": -0.08515732735395432
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.024909812957048416,
+        "after": -0.024909812957048416,
+        "downstream_projection": -0.10009931772947311
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05972534790635109,
+        "after": -0.05972534790635109,
+        "downstream_projection": -0.04985018074512482
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.09558442234992981,
+        "after": -0.09558442234992981,
+        "downstream_projection": -0.08817263692617416
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "interaction"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "pulse",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.09922265261411667,
+        "after": 0.0007773146498948336,
+        "downstream_projection": -0.06726418435573578
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.10863947868347168,
+        "after": -0.008667324669659138,
+        "downstream_projection": -0.17505644261837006
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06068198010325432,
+        "after": 0.03931117802858353,
+        "downstream_projection": -0.040842507034540176
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04313104972243309,
+        "after": -0.04313104972243309,
+        "downstream_projection": -0.09366688877344131
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04714656621217728,
+        "after": -0.04714656621217728,
+        "downstream_projection": -0.03372480347752571
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05433459207415581,
+        "after": -0.05433459207415581,
+        "downstream_projection": -0.0351877324283123
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05988341197371483,
+        "after": -0.05988341197371483,
+        "downstream_projection": -0.10287643224000931
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06417082250118256,
+        "after": -0.06417082250118256,
+        "downstream_projection": -0.06580616533756256
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06979928910732269,
+        "after": -0.06979928910732269,
+        "downstream_projection": -0.06142619624733925
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04936036095023155,
+        "after": -0.04936036095023155,
+        "downstream_projection": -0.10059339553117752
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.01723882183432579,
+        "after": -0.01723882183432579,
+        "downstream_projection": -0.06500415503978729
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.036423034965991974,
+        "after": -0.036423034965991974,
+        "downstream_projection": -0.043629493564367294
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.07072342187166214,
+        "after": -0.07072342187166214,
+        "downstream_projection": -0.08209048956632614
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.024909812957048416,
+        "after": -0.024909812957048416,
+        "downstream_projection": -0.09808778762817383
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05972534790635109,
+        "after": -0.05972534790635109,
+        "downstream_projection": -0.04866687208414078
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.09558442234992981,
+        "after": -0.09558442234992981,
+        "downstream_projection": -0.08772922307252884
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "interaction"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "rebuild",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.09922265261411667,
+        "after": 0.0007773146498948336,
+        "downstream_projection": -0.06726418435573578
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.10863947868347168,
+        "after": -0.008667324669659138,
+        "downstream_projection": -0.17505644261837006
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06068198010325432,
+        "after": 0.03931117802858353,
+        "downstream_projection": -0.040842507034540176
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": true,
+        "before": -0.042891453951597214,
+        "after": -0.042891453951597214,
+        "downstream_projection": -0.10171377658843994
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04687753692269325,
+        "after": -0.04687753692269325,
+        "downstream_projection": -0.0338757261633873
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.054243285208940506,
+        "after": -0.054243285208940506,
+        "downstream_projection": -0.03737294673919678
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.059978701174259186,
+        "after": -0.059978701174259186,
+        "downstream_projection": -0.10527471452951431
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06398273259401321,
+        "after": -0.06398273259401321,
+        "downstream_projection": -0.06702779978513718
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06956005096435547,
+        "after": -0.06956005096435547,
+        "downstream_projection": -0.061626728624105453
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.049572065472602844,
+        "after": -0.049572065472602844,
+        "downstream_projection": -0.1024717316031456
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.01752491481602192,
+        "after": -0.01752491481602192,
+        "downstream_projection": -0.06714798510074615
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.03625950217247009,
+        "after": -0.03625950217247009,
+        "downstream_projection": -0.04485230892896652
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.07064548134803772,
+        "after": -0.07064548134803772,
+        "downstream_projection": -0.0853605642914772
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.024842610582709312,
+        "after": -0.024842610582709312,
+        "downstream_projection": -0.09919986873865128
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.059616729617118835,
+        "after": -0.059616729617118835,
+        "downstream_projection": -0.0494103878736496
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.09504342824220657,
+        "after": -0.09504342824220657,
+        "downstream_projection": -0.08859813958406448
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "interaction"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "perturb",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.09922265261411667,
+        "after": 0.0007773146498948336,
+        "downstream_projection": -0.06726418435573578
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.10863947868347168,
+        "after": -0.008667324669659138,
+        "downstream_projection": -0.17505644261837006
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06068198010325432,
+        "after": 0.03931117802858353,
+        "downstream_projection": -0.040842507034540176
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": true,
+        "cache_rebuilt": false,
+        "before": -0.04313104972243309,
+        "after": -0.143193319439888,
+        "downstream_projection": -0.10050501674413681
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04714656621217728,
+        "after": -0.04714656621217728,
+        "downstream_projection": -0.03447158262133598
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05433459207415581,
+        "after": -0.05433459207415581,
+        "downstream_projection": -0.03718913346529007
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05988341197371483,
+        "after": -0.05988341197371483,
+        "downstream_projection": -0.10270380228757858
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06417082250118256,
+        "after": -0.06417082250118256,
+        "downstream_projection": -0.06545867770910263
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.06979928910732269,
+        "after": -0.06979928910732269,
+        "downstream_projection": -0.06104191765189171
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.04936036095023155,
+        "after": -0.04936036095023155,
+        "downstream_projection": -0.09864723682403564
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.01723882183432579,
+        "after": -0.01723882183432579,
+        "downstream_projection": -0.06515618413686752
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.036423034965991974,
+        "after": -0.036423034965991974,
+        "downstream_projection": -0.043033819645643234
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.07072342187166214,
+        "after": -0.07072342187166214,
+        "downstream_projection": -0.08596877753734589
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.024909812957048416,
+        "after": -0.024909812957048416,
+        "downstream_projection": -0.10015208274126053
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.05972534790635109,
+        "after": -0.05972534790635109,
+        "downstream_projection": -0.04819020628929138
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.09558442234992981,
+        "after": -0.09558442234992981,
+        "downstream_projection": -0.08782923221588135
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "interaction"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "baseline",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09344641864299774,
+        "after": 0.09344641864299774,
+        "downstream_projection": 0.10356836766004562
+      },
+      {
+        "step": 1,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10527539253234863,
+        "after": 0.10527539253234863,
+        "downstream_projection": 0.08796004205942154
+      },
+      {
+        "step": 2,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.1407165378332138,
+        "after": 0.1407165378332138,
+        "downstream_projection": 0.08921248465776443
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.17330698668956757,
+        "after": 0.17330698668956757,
+        "downstream_projection": 0.11122030019760132
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.15406657755374908,
+        "after": 0.15406657755374908,
+        "downstream_projection": 0.07933785766363144
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.1948302835226059,
+        "after": 0.1948302835226059,
+        "downstream_projection": 0.10950738191604614
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09372498840093613,
+        "after": 0.09372498840093613,
+        "downstream_projection": 0.0749814361333847
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09148754924535751,
+        "after": 0.09148754924535751,
+        "downstream_projection": 0.06916359812021255
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.11733406037092209,
+        "after": 0.11733406037092209,
+        "downstream_projection": 0.07916612923145294
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09068156778812408,
+        "after": 0.09068156778812408,
+        "downstream_projection": 0.08621671050786972
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.08160878717899323,
+        "after": 0.08160878717899323,
+        "downstream_projection": 0.08788033574819565
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09536012262105942,
+        "after": 0.09536012262105942,
+        "downstream_projection": 0.07716237008571625
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.1303715854883194,
+        "after": 0.1303715854883194,
+        "downstream_projection": 0.09524063020944595
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.14595043659210205,
+        "after": 0.14595043659210205,
+        "downstream_projection": 0.08134882897138596
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10240129381418228,
+        "after": 0.10240129381418228,
+        "downstream_projection": 0.09048152714967728
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09394099563360214,
+        "after": 0.09394099563360214,
+        "downstream_projection": 0.09187278896570206
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "pain"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "pulse",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09344641864299774,
+        "after": 0.19342412054538727,
+        "downstream_projection": 0.10675843060016632
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10527539253234863,
+        "after": 0.20535050332546234,
+        "downstream_projection": 0.09209106117486954
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.1407165378332138,
+        "after": 0.24074678122997284,
+        "downstream_projection": 0.09160643815994263
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.17330698668956757,
+        "after": 0.17330698668956757,
+        "downstream_projection": 0.11322452127933502
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.15406657755374908,
+        "after": 0.15406657755374908,
+        "downstream_projection": 0.07977024465799332
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.1948302835226059,
+        "after": 0.1948302835226059,
+        "downstream_projection": 0.11089614033699036
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09372498840093613,
+        "after": 0.09372498840093613,
+        "downstream_projection": 0.07536552846431732
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09148754924535751,
+        "after": 0.09148754924535751,
+        "downstream_projection": 0.06910855323076248
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.11733406037092209,
+        "after": 0.11733406037092209,
+        "downstream_projection": 0.0793585404753685
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09068156778812408,
+        "after": 0.09068156778812408,
+        "downstream_projection": 0.08674915879964828
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.08160878717899323,
+        "after": 0.08160878717899323,
+        "downstream_projection": 0.08842755854129791
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09536012262105942,
+        "after": 0.09536012262105942,
+        "downstream_projection": 0.07736138999462128
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.1303715854883194,
+        "after": 0.1303715854883194,
+        "downstream_projection": 0.09585647284984589
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.14595043659210205,
+        "after": 0.14595043659210205,
+        "downstream_projection": 0.08180061727762222
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10240129381418228,
+        "after": 0.10240129381418228,
+        "downstream_projection": 0.09070602804422379
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09394099563360214,
+        "after": 0.09394099563360214,
+        "downstream_projection": 0.09213732928037643
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "pain"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "rebuild",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09344641864299774,
+        "after": 0.19342412054538727,
+        "downstream_projection": 0.10675843060016632
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10527539253234863,
+        "after": 0.20535050332546234,
+        "downstream_projection": 0.09209106117486954
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.1407165378332138,
+        "after": 0.24074678122997284,
+        "downstream_projection": 0.09160643815994263
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": true,
+        "before": 0.173493891954422,
+        "after": 0.173493891954422,
+        "downstream_projection": 0.11120492964982986
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.15493275225162506,
+        "after": 0.15493275225162506,
+        "downstream_projection": 0.07968520373106003
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.19487591087818146,
+        "after": 0.19487591087818146,
+        "downstream_projection": 0.10969839245080948
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09362941980361938,
+        "after": 0.09362941980361938,
+        "downstream_projection": 0.07503090798854828
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09156674891710281,
+        "after": 0.09156674891710281,
+        "downstream_projection": 0.06915738433599472
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.11720746010541916,
+        "after": 0.11720746010541916,
+        "downstream_projection": 0.07891477644443512
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.08994872868061066,
+        "after": 0.08994872868061066,
+        "downstream_projection": 0.08596193790435791
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.08091973513364792,
+        "after": 0.08091973513364792,
+        "downstream_projection": 0.08809704333543777
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0952761322259903,
+        "after": 0.0952761322259903,
+        "downstream_projection": 0.07708586752414703
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.13018999993801117,
+        "after": 0.13018999993801117,
+        "downstream_projection": 0.09506185352802277
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.1461121141910553,
+        "after": 0.1461121141910553,
+        "downstream_projection": 0.08147352933883667
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10272148996591568,
+        "after": 0.10272148996591568,
+        "downstream_projection": 0.09030178189277649
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09495222568511963,
+        "after": 0.09495222568511963,
+        "downstream_projection": 0.09170283377170563
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "pain"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "perturb",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09344641864299774,
+        "after": 0.19342412054538727,
+        "downstream_projection": 0.10675843060016632
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10527539253234863,
+        "after": 0.20535050332546234,
+        "downstream_projection": 0.09209106117486954
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.1407165378332138,
+        "after": 0.24074678122997284,
+        "downstream_projection": 0.09160643815994263
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": true,
+        "cache_rebuilt": false,
+        "before": 0.17330698668956757,
+        "after": 0.07322925329208374,
+        "downstream_projection": 0.10976614058017731
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.15406657755374908,
+        "after": 0.15406657755374908,
+        "downstream_projection": 0.07967740297317505
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.1948302835226059,
+        "after": 0.1948302835226059,
+        "downstream_projection": 0.10993915796279907
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09372498840093613,
+        "after": 0.09372498840093613,
+        "downstream_projection": 0.07539089024066925
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09148754924535751,
+        "after": 0.09148754924535751,
+        "downstream_projection": 0.06913986802101135
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.11733406037092209,
+        "after": 0.11733406037092209,
+        "downstream_projection": 0.07912302017211914
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09068156778812408,
+        "after": 0.09068156778812408,
+        "downstream_projection": 0.08678170293569565
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.08160878717899323,
+        "after": 0.08160878717899323,
+        "downstream_projection": 0.08786424249410629
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09536012262105942,
+        "after": 0.09536012262105942,
+        "downstream_projection": 0.07736734300851822
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.1303715854883194,
+        "after": 0.1303715854883194,
+        "downstream_projection": 0.09577297419309616
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.14595043659210205,
+        "after": 0.14595043659210205,
+        "downstream_projection": 0.08223439753055573
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.10240129381418228,
+        "after": 0.10240129381418228,
+        "downstream_projection": 0.09113477170467377
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.09394099563360214,
+        "after": 0.09394099563360214,
+        "downstream_projection": 0.09192129969596863
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "pain"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "baseline",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.027109267190098763,
+        "after": -0.027109267190098763,
+        "downstream_projection": 0.044691212475299835
+      },
+      {
+        "step": 1,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.001583172008395195,
+        "after": -0.001583172008395195,
+        "downstream_projection": 0.014705774374306202
+      },
+      {
+        "step": 2,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.00011160462599946186,
+        "after": -0.00011160462599946186,
+        "downstream_projection": -0.015346746891736984
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.024861449375748634,
+        "after": 0.024861449375748634,
+        "downstream_projection": 0.005858216434717178
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0033902309369295835,
+        "after": -0.0033902309369295835,
+        "downstream_projection": 0.01595761626958847
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 5.044359204475768e-05,
+        "after": 5.044359204475768e-05,
+        "downstream_projection": -0.08571051061153412
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0034627066925168037,
+        "after": 0.0034627066925168037,
+        "downstream_projection": 0.01684725284576416
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.006036372855305672,
+        "after": -0.006036372855305672,
+        "downstream_projection": 0.06583566218614578
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.006872287951409817,
+        "after": 0.006872287951409817,
+        "downstream_projection": 0.06043006479740143
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0002103344158967957,
+        "after": 0.0002103344158967957,
+        "downstream_projection": -0.0025036546867340803
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.013747503980994225,
+        "after": 0.013747503980994225,
+        "downstream_projection": 0.06862416118383408
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.00744394026696682,
+        "after": -0.00744394026696682,
+        "downstream_projection": 0.05065681412816048
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.010041184723377228,
+        "after": -0.010041184723377228,
+        "downstream_projection": -0.034967243671417236
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03175685927271843,
+        "after": 0.03175685927271843,
+        "downstream_projection": 0.03676929324865341
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.008890786208212376,
+        "after": 0.008890786208212376,
+        "downstream_projection": 0.033381350338459015
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.022642681375145912,
+        "after": -0.022642681375145912,
+        "downstream_projection": -0.019620342180132866
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_constipation"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "pulse",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.027109267190098763,
+        "after": 0.07288455963134766,
+        "downstream_projection": 0.042740028351545334
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.001583172008395195,
+        "after": 0.09838975965976715,
+        "downstream_projection": 0.010736207477748394
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.00011160462599946186,
+        "after": 0.09987127035856247,
+        "downstream_projection": -0.018048662692308426
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.024861449375748634,
+        "after": 0.024861449375748634,
+        "downstream_projection": 0.004138512071222067
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0033902309369295835,
+        "after": -0.0033902309369295835,
+        "downstream_projection": 0.014143203385174274
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 5.044359204475768e-05,
+        "after": 5.044359204475768e-05,
+        "downstream_projection": -0.08458560705184937
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0034627066925168037,
+        "after": 0.0034627066925168037,
+        "downstream_projection": 0.016625860705971718
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.006036372855305672,
+        "after": -0.006036372855305672,
+        "downstream_projection": 0.06422603875398636
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.006872287951409817,
+        "after": 0.006872287951409817,
+        "downstream_projection": 0.05906651169061661
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0002103344158967957,
+        "after": 0.0002103344158967957,
+        "downstream_projection": -0.0040686121210455894
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.013747503980994225,
+        "after": 0.013747503980994225,
+        "downstream_projection": 0.06834080070257187
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.00744394026696682,
+        "after": -0.00744394026696682,
+        "downstream_projection": 0.05034445971250534
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.010041184723377228,
+        "after": -0.010041184723377228,
+        "downstream_projection": -0.03470031917095184
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03175685927271843,
+        "after": 0.03175685927271843,
+        "downstream_projection": 0.03576217591762543
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.008890786208212376,
+        "after": 0.008890786208212376,
+        "downstream_projection": 0.03321176767349243
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.022642681375145912,
+        "after": -0.022642681375145912,
+        "downstream_projection": -0.020442036911845207
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_constipation"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "rebuild",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.027109267190098763,
+        "after": 0.07288455963134766,
+        "downstream_projection": 0.042740028351545334
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.001583172008395195,
+        "after": 0.09838975965976715,
+        "downstream_projection": 0.010736207477748394
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.00011160462599946186,
+        "after": 0.09987127035856247,
+        "downstream_projection": -0.018048662692308426
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": true,
+        "before": 0.024911396205425262,
+        "after": 0.024911396205425262,
+        "downstream_projection": 0.005436684004962444
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0034829850774258375,
+        "after": -0.0034829850774258375,
+        "downstream_projection": 0.016265202313661575
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.00018959800945594907,
+        "after": 0.00018959800945594907,
+        "downstream_projection": -0.0844898596405983
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.003096529981121421,
+        "after": 0.003096529981121421,
+        "downstream_projection": 0.017647601664066315
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.005788976326584816,
+        "after": -0.005788976326584816,
+        "downstream_projection": 0.0661248117685318
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.006822893396019936,
+        "after": 0.006822893396019936,
+        "downstream_projection": 0.060191478580236435
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 6.561912596225739e-05,
+        "after": 6.561912596225739e-05,
+        "downstream_projection": -0.0027489708736538887
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.013207950629293919,
+        "after": 0.013207950629293919,
+        "downstream_projection": 0.06846082210540771
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.007136193569749594,
+        "after": -0.007136193569749594,
+        "downstream_projection": 0.05103068798780441
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.010091524571180344,
+        "after": -0.010091524571180344,
+        "downstream_projection": -0.03503160551190376
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.031734906136989594,
+        "after": 0.031734906136989594,
+        "downstream_projection": 0.03734809532761574
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.008887241594493389,
+        "after": 0.008887241594493389,
+        "downstream_projection": 0.03400484472513199
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.02233579382300377,
+        "after": -0.02233579382300377,
+        "downstream_projection": -0.02011505328118801
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_constipation"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "perturb",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.027109267190098763,
+        "after": 0.07288455963134766,
+        "downstream_projection": 0.042740028351545334
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.001583172008395195,
+        "after": 0.09838975965976715,
+        "downstream_projection": 0.010736207477748394
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.00011160462599946186,
+        "after": 0.09987127035856247,
+        "downstream_projection": -0.018048662692308426
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": true,
+        "cache_rebuilt": false,
+        "before": 0.024861449375748634,
+        "after": -0.07513759285211563,
+        "downstream_projection": 0.004697052296251059
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0033902309369295835,
+        "after": -0.0033902309369295835,
+        "downstream_projection": 0.014081132598221302
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 5.044359204475768e-05,
+        "after": 5.044359204475768e-05,
+        "downstream_projection": -0.08728272467851639
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0034627066925168037,
+        "after": 0.0034627066925168037,
+        "downstream_projection": 0.015487461350858212
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.006036372855305672,
+        "after": -0.006036372855305672,
+        "downstream_projection": 0.06411193311214447
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.006872287951409817,
+        "after": 0.006872287951409817,
+        "downstream_projection": 0.05879071727395058
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0002103344158967957,
+        "after": 0.0002103344158967957,
+        "downstream_projection": -0.003228633664548397
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.013747503980994225,
+        "after": 0.013747503980994225,
+        "downstream_projection": 0.06742630153894424
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.00744394026696682,
+        "after": -0.00744394026696682,
+        "downstream_projection": 0.050596971064805984
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.010041184723377228,
+        "after": -0.010041184723377228,
+        "downstream_projection": -0.03558303043246269
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03175685927271843,
+        "after": 0.03175685927271843,
+        "downstream_projection": 0.03573639318346977
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.008890786208212376,
+        "after": 0.008890786208212376,
+        "downstream_projection": 0.032922446727752686
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.022642681375145912,
+        "after": -0.022642681375145912,
+        "downstream_projection": -0.020101124420762062
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_constipation"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "baseline",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03158431500196457,
+        "after": 0.03158431500196457,
+        "downstream_projection": 0.014640974812209606
+      },
+      {
+        "step": 1,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04094276949763298,
+        "after": 0.04094276949763298,
+        "downstream_projection": -0.0019166067941114306
+      },
+      {
+        "step": 2,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03920835256576538,
+        "after": 0.03920835256576538,
+        "downstream_projection": 0.014271949417889118
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.023827916011214256,
+        "after": 0.023827916011214256,
+        "downstream_projection": 0.041755590587854385
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.018093666061758995,
+        "after": 0.018093666061758995,
+        "downstream_projection": 0.02358289621770382
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.014615488238632679,
+        "after": 0.014615488238632679,
+        "downstream_projection": 0.00502429623156786
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.022144535556435585,
+        "after": 0.022144535556435585,
+        "downstream_projection": 0.0011997009860351682
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007871892303228378,
+        "after": 0.007871892303228378,
+        "downstream_projection": 0.0014765189262107015
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04614465683698654,
+        "after": 0.04614465683698654,
+        "downstream_projection": 0.013746285811066628
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.002796666231006384,
+        "after": 0.002796666231006384,
+        "downstream_projection": -0.009765329770743847
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.006718156859278679,
+        "after": 0.006718156859278679,
+        "downstream_projection": 0.02932796999812126
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.016725914552807808,
+        "after": 0.016725914552807808,
+        "downstream_projection": 0.01677446812391281
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.026276443153619766,
+        "after": 0.026276443153619766,
+        "downstream_projection": -0.008685658685863018
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.029567835852503777,
+        "after": 0.029567835852503777,
+        "downstream_projection": 0.014803264290094376
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03994615375995636,
+        "after": 0.03994615375995636,
+        "downstream_projection": 0.002627262845635414
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.026678888127207756,
+        "after": 0.026678888127207756,
+        "downstream_projection": 0.010371565818786621
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_flatulence"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "pulse",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03158431500196457,
+        "after": 0.13157440721988678,
+        "downstream_projection": 0.014424883760511875
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04094276949763298,
+        "after": 0.14094600081443787,
+        "downstream_projection": -0.002174840308725834
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03920835256576538,
+        "after": 0.139194518327713,
+        "downstream_projection": 0.01390448771417141
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.023827916011214256,
+        "after": 0.023827916011214256,
+        "downstream_projection": 0.042410656809806824
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.018093666061758995,
+        "after": 0.018093666061758995,
+        "downstream_projection": 0.02409094013273716
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.014615488238632679,
+        "after": 0.014615488238632679,
+        "downstream_projection": 0.004433634225279093
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.022144535556435585,
+        "after": 0.022144535556435585,
+        "downstream_projection": 0.0017064796993508935
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007871892303228378,
+        "after": 0.007871892303228378,
+        "downstream_projection": 0.001492550945840776
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04614465683698654,
+        "after": 0.04614465683698654,
+        "downstream_projection": 0.013659664429724216
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.002796666231006384,
+        "after": 0.002796666231006384,
+        "downstream_projection": -0.009819448925554752
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.006718156859278679,
+        "after": 0.006718156859278679,
+        "downstream_projection": 0.029409144073724747
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.016725914552807808,
+        "after": 0.016725914552807808,
+        "downstream_projection": 0.016686778515577316
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.026276443153619766,
+        "after": 0.026276443153619766,
+        "downstream_projection": -0.009185348637402058
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.029567835852503777,
+        "after": 0.029567835852503777,
+        "downstream_projection": 0.01502410601824522
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03994615375995636,
+        "after": 0.03994615375995636,
+        "downstream_projection": 0.0028198235668241978
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.026678888127207756,
+        "after": 0.026678888127207756,
+        "downstream_projection": 0.010906960815191269
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_flatulence"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "rebuild",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03158431500196457,
+        "after": 0.13157440721988678,
+        "downstream_projection": 0.014424883760511875
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04094276949763298,
+        "after": 0.14094600081443787,
+        "downstream_projection": -0.002174840308725834
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03920835256576538,
+        "after": 0.139194518327713,
+        "downstream_projection": 0.01390448771417141
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": true,
+        "before": 0.023462150245904922,
+        "after": 0.023462150245904922,
+        "downstream_projection": 0.04117211326956749
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.017947176471352577,
+        "after": 0.017947176471352577,
+        "downstream_projection": 0.023867184296250343
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.014845541678369045,
+        "after": 0.014845541678369045,
+        "downstream_projection": 0.004498546943068504
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.022325297817587852,
+        "after": 0.022325297817587852,
+        "downstream_projection": 0.001460490981116891
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007707103621214628,
+        "after": 0.007707103621214628,
+        "downstream_projection": 0.0014900446403771639
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04582817479968071,
+        "after": 0.04582817479968071,
+        "downstream_projection": 0.01346510834991932
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0026061341632157564,
+        "after": 0.0026061341632157564,
+        "downstream_projection": -0.00978826079517603
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007014208938926458,
+        "after": 0.007014208938926458,
+        "downstream_projection": 0.02941880002617836
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.01701602339744568,
+        "after": 0.01701602339744568,
+        "downstream_projection": 0.01684756390750408
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0257968008518219,
+        "after": 0.0257968008518219,
+        "downstream_projection": -0.008763657882809639
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.029340103268623352,
+        "after": 0.029340103268623352,
+        "downstream_projection": 0.01508578285574913
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03988935798406601,
+        "after": 0.03988935798406601,
+        "downstream_projection": 0.0025671992916613817
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.027117401361465454,
+        "after": 0.027117401361465454,
+        "downstream_projection": 0.010219874791800976
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_flatulence"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "perturb",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03158431500196457,
+        "after": 0.13157440721988678,
+        "downstream_projection": 0.014424883760511875
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04094276949763298,
+        "after": 0.14094600081443787,
+        "downstream_projection": -0.002174840308725834
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03920835256576538,
+        "after": 0.139194518327713,
+        "downstream_projection": 0.01390448771417141
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": true,
+        "cache_rebuilt": false,
+        "before": 0.023827916011214256,
+        "after": -0.07610606402158737,
+        "downstream_projection": 0.04426462575793266
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.018093666061758995,
+        "after": 0.018093666061758995,
+        "downstream_projection": 0.02388731949031353
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.014615488238632679,
+        "after": 0.014615488238632679,
+        "downstream_projection": 0.0038800195325165987
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.022144535556435585,
+        "after": 0.022144535556435585,
+        "downstream_projection": 0.001297825830988586
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007871892303228378,
+        "after": 0.007871892303228378,
+        "downstream_projection": 0.0015106209320947528
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.04614465683698654,
+        "after": 0.04614465683698654,
+        "downstream_projection": 0.013547069393098354
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.002796666231006384,
+        "after": 0.002796666231006384,
+        "downstream_projection": -0.010269507765769958
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.006718156859278679,
+        "after": 0.006718156859278679,
+        "downstream_projection": 0.029351970180869102
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.016725914552807808,
+        "after": 0.016725914552807808,
+        "downstream_projection": 0.016209889203310013
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.026276443153619766,
+        "after": 0.026276443153619766,
+        "downstream_projection": -0.009976117871701717
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.029567835852503777,
+        "after": 0.029567835852503777,
+        "downstream_projection": 0.01457745861262083
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03994615375995636,
+        "after": 0.03994615375995636,
+        "downstream_projection": 0.0018952371319755912
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.026678888127207756,
+        "after": 0.026678888127207756,
+        "downstream_projection": 0.01019104290753603
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_flatulence"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "baseline",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.008478213101625443,
+        "after": 0.008478213101625443,
+        "downstream_projection": -0.07245613634586334
+      },
+      {
+        "step": 1,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02580484375357628,
+        "after": 0.02580484375357628,
+        "downstream_projection": -0.17623478174209595
+      },
+      {
+        "step": 2,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.007691653911024332,
+        "after": -0.007691653911024332,
+        "downstream_projection": -0.050078753381967545
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.005626631435006857,
+        "after": 0.005626631435006857,
+        "downstream_projection": -0.10096361488103867
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.003981180489063263,
+        "after": -0.003981180489063263,
+        "downstream_projection": -0.03448853641748428
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.006812365259975195,
+        "after": -0.006812365259975195,
+        "downstream_projection": -0.03574741631746292
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0017324950313195586,
+        "after": -0.0017324950313195586,
+        "downstream_projection": -0.10539758205413818
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.011898072436451912,
+        "after": -0.011898072436451912,
+        "downstream_projection": -0.06689905375242233
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.011616849340498447,
+        "after": -0.011616849340498447,
+        "downstream_projection": -0.06164441257715225
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.012343586422502995,
+        "after": -0.012343586422502995,
+        "downstream_projection": -0.10205218195915222
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.004511568229645491,
+        "after": -0.004511568229645491,
+        "downstream_projection": -0.06722012162208557
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.010067984461784363,
+        "after": -0.010067984461784363,
+        "downstream_projection": -0.04434330761432648
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.013036531396210194,
+        "after": -0.013036531396210194,
+        "downstream_projection": -0.08515732735395432
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0009807670721784234,
+        "after": 0.0009807670721784234,
+        "downstream_projection": -0.10009931772947311
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009591853246092796,
+        "after": -0.009591853246092796,
+        "downstream_projection": -0.04985018074512482
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.02389182150363922,
+        "after": -0.02389182150363922,
+        "downstream_projection": -0.08817263692617416
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_interaction"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "pulse",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.008478213101625443,
+        "after": 0.10845459252595901,
+        "downstream_projection": -0.07656510174274445
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02580484375357628,
+        "after": 0.1257977932691574,
+        "downstream_projection": -0.17804142832756042
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.007691653911024332,
+        "after": 0.09228239208459854,
+        "downstream_projection": -0.049926429986953735
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.005626631435006857,
+        "after": 0.005626631435006857,
+        "downstream_projection": -0.10101573914289474
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.003981180489063263,
+        "after": -0.003981180489063263,
+        "downstream_projection": -0.033866386860609055
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.006812365259975195,
+        "after": -0.006812365259975195,
+        "downstream_projection": -0.037521637976169586
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0017324950313195586,
+        "after": -0.0017324950313195586,
+        "downstream_projection": -0.10491452366113663
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.011898072436451912,
+        "after": -0.011898072436451912,
+        "downstream_projection": -0.06702712923288345
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.011616849340498447,
+        "after": -0.011616849340498447,
+        "downstream_projection": -0.06178559735417366
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.012343586422502995,
+        "after": -0.012343586422502995,
+        "downstream_projection": -0.10342403501272202
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.004511568229645491,
+        "after": -0.004511568229645491,
+        "downstream_projection": -0.06633652746677399
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.010067984461784363,
+        "after": -0.010067984461784363,
+        "downstream_projection": -0.04488378018140793
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.013036531396210194,
+        "after": -0.013036531396210194,
+        "downstream_projection": -0.08456823974847794
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0009807670721784234,
+        "after": 0.0009807670721784234,
+        "downstream_projection": -0.09933806955814362
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009591853246092796,
+        "after": -0.009591853246092796,
+        "downstream_projection": -0.050094448029994965
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.02389182150363922,
+        "after": -0.02389182150363922,
+        "downstream_projection": -0.08903759717941284
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_interaction"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "rebuild",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.008478213101625443,
+        "after": 0.10845459252595901,
+        "downstream_projection": -0.07656510174274445
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02580484375357628,
+        "after": 0.1257977932691574,
+        "downstream_projection": -0.17804142832756042
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.007691653911024332,
+        "after": 0.09228239208459854,
+        "downstream_projection": -0.049926429986953735
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": true,
+        "before": 0.005547806154936552,
+        "after": 0.005547806154936552,
+        "downstream_projection": -0.10171377658843994
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.004217655397951603,
+        "after": -0.004217655397951603,
+        "downstream_projection": -0.0338757261633873
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.006955202203243971,
+        "after": -0.006955202203243971,
+        "downstream_projection": -0.03737294673919678
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0019384108018130064,
+        "after": -0.0019384108018130064,
+        "downstream_projection": -0.10527471452951431
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.01200235728174448,
+        "after": -0.01200235728174448,
+        "downstream_projection": -0.06702779978513718
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.011213588528335094,
+        "after": -0.011213588528335094,
+        "downstream_projection": -0.061626728624105453
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.012428360059857368,
+        "after": -0.012428360059857368,
+        "downstream_projection": -0.1024717316031456
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0042753666639328,
+        "after": -0.0042753666639328,
+        "downstream_projection": -0.06714798510074615
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.010295119136571884,
+        "after": -0.010295119136571884,
+        "downstream_projection": -0.04485230892896652
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.013298415578901768,
+        "after": -0.013298415578901768,
+        "downstream_projection": -0.0853605642914772
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0016209270106628537,
+        "after": 0.0016209270106628537,
+        "downstream_projection": -0.09919986873865128
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009718826040625572,
+        "after": -0.009718826040625572,
+        "downstream_projection": -0.0494103878736496
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.023984817788004875,
+        "after": -0.023984817788004875,
+        "downstream_projection": -0.08859813958406448
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_interaction"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "perturb",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.008478213101625443,
+        "after": 0.10845459252595901,
+        "downstream_projection": -0.07656510174274445
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02580484375357628,
+        "after": 0.1257977932691574,
+        "downstream_projection": -0.17804142832756042
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.007691653911024332,
+        "after": 0.09228239208459854,
+        "downstream_projection": -0.049926429986953735
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": true,
+        "cache_rebuilt": false,
+        "before": 0.005626631435006857,
+        "after": -0.09435468912124634,
+        "downstream_projection": -0.09693802148103714
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.003981180489063263,
+        "after": -0.003981180489063263,
+        "downstream_projection": -0.03575136139988899
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.006812365259975195,
+        "after": -0.006812365259975195,
+        "downstream_projection": -0.03573501482605934
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0017324950313195586,
+        "after": -0.0017324950313195586,
+        "downstream_projection": -0.10667192935943604
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.011898072436451912,
+        "after": -0.011898072436451912,
+        "downstream_projection": -0.06718583405017853
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.011616849340498447,
+        "after": -0.011616849340498447,
+        "downstream_projection": -0.06141752004623413
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.012343586422502995,
+        "after": -0.012343586422502995,
+        "downstream_projection": -0.10178162157535553
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.004511568229645491,
+        "after": -0.004511568229645491,
+        "downstream_projection": -0.06820843368768692
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.010067984461784363,
+        "after": -0.010067984461784363,
+        "downstream_projection": -0.044687267392873764
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.013036531396210194,
+        "after": -0.013036531396210194,
+        "downstream_projection": -0.08722652494907379
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0009807670721784234,
+        "after": 0.0009807670721784234,
+        "downstream_projection": -0.10171139985322952
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.009591853246092796,
+        "after": -0.009591853246092796,
+        "downstream_projection": -0.05100778862833977
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.02389182150363922,
+        "after": -0.02389182150363922,
+        "downstream_projection": -0.08939250558614731
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_interaction"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "baseline",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.008518984541296959,
+        "after": 0.008518984541296959,
+        "downstream_projection": 0.10356836766004562
+      },
+      {
+        "step": 1,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.020899780094623566,
+        "after": 0.020899780094623566,
+        "downstream_projection": 0.08796004205942154
+      },
+      {
+        "step": 2,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.01608254574239254,
+        "after": -0.01608254574239254,
+        "downstream_projection": 0.08921248465776443
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.001000172458589077,
+        "after": -0.001000172458589077,
+        "downstream_projection": 0.11122030019760132
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.017651261761784554,
+        "after": 0.017651261761784554,
+        "downstream_projection": 0.07933785766363144
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.017422601580619812,
+        "after": 0.017422601580619812,
+        "downstream_projection": 0.10950738191604614
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007486842572689056,
+        "after": 0.007486842572689056,
+        "downstream_projection": 0.0749814361333847
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.020482473075389862,
+        "after": 0.020482473075389862,
+        "downstream_projection": 0.06916359812021255
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.020656824111938477,
+        "after": 0.020656824111938477,
+        "downstream_projection": 0.07916612923145294
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.034664008766412735,
+        "after": 0.034664008766412735,
+        "downstream_projection": 0.08621671050786972
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0025726917665451765,
+        "after": -0.0025726917665451765,
+        "downstream_projection": 0.08788033574819565
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.011351864784955978,
+        "after": 0.011351864784955978,
+        "downstream_projection": 0.07716237008571625
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.022911641746759415,
+        "after": 0.022911641746759415,
+        "downstream_projection": 0.09524063020944595
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0071706282906234264,
+        "after": 0.0071706282906234264,
+        "downstream_projection": 0.08134882897138596
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0001951250887941569,
+        "after": -0.0001951250887941569,
+        "downstream_projection": 0.09048152714967728
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03717411309480667,
+        "after": 0.03717411309480667,
+        "downstream_projection": 0.09187278896570206
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_pain"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "pulse",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.008518984541296959,
+        "after": 0.1084924042224884,
+        "downstream_projection": 0.10239056497812271
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.020899780094623566,
+        "after": 0.12080702930688858,
+        "downstream_projection": 0.08729980140924454
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.01608254574239254,
+        "after": 0.08388633280992508,
+        "downstream_projection": 0.0889182910323143
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.001000172458589077,
+        "after": -0.001000172458589077,
+        "downstream_projection": 0.11127053946256638
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.017651261761784554,
+        "after": 0.017651261761784554,
+        "downstream_projection": 0.07877564430236816
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.017422601580619812,
+        "after": 0.017422601580619812,
+        "downstream_projection": 0.10959892719984055
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007486842572689056,
+        "after": 0.007486842572689056,
+        "downstream_projection": 0.07516930997371674
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.020482473075389862,
+        "after": 0.020482473075389862,
+        "downstream_projection": 0.06958070397377014
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.020656824111938477,
+        "after": 0.020656824111938477,
+        "downstream_projection": 0.07863368093967438
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.034664008766412735,
+        "after": 0.034664008766412735,
+        "downstream_projection": 0.08650247007608414
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0025726917665451765,
+        "after": -0.0025726917665451765,
+        "downstream_projection": 0.08782123029232025
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.011351864784955978,
+        "after": 0.011351864784955978,
+        "downstream_projection": 0.07695164531469345
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.022911641746759415,
+        "after": 0.022911641746759415,
+        "downstream_projection": 0.09572165459394455
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0071706282906234264,
+        "after": 0.0071706282906234264,
+        "downstream_projection": 0.0817357748746872
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0001951250887941569,
+        "after": -0.0001951250887941569,
+        "downstream_projection": 0.09094418585300446
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03717411309480667,
+        "after": 0.03717411309480667,
+        "downstream_projection": 0.09166378527879715
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_pain"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "rebuild",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.008518984541296959,
+        "after": 0.1084924042224884,
+        "downstream_projection": 0.10239056497812271
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.020899780094623566,
+        "after": 0.12080702930688858,
+        "downstream_projection": 0.08729980140924454
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.01608254574239254,
+        "after": 0.08388633280992508,
+        "downstream_projection": 0.0889182910323143
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": true,
+        "before": -0.001222513965331018,
+        "after": -0.001222513965331018,
+        "downstream_projection": 0.11120492964982986
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.01758551597595215,
+        "after": 0.01758551597595215,
+        "downstream_projection": 0.07968520373106003
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.017855258658528328,
+        "after": 0.017855258658528328,
+        "downstream_projection": 0.10969839245080948
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007781225256621838,
+        "after": 0.007781225256621838,
+        "downstream_projection": 0.07503090798854828
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02035394310951233,
+        "after": 0.02035394310951233,
+        "downstream_projection": 0.06915738433599472
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.02072807028889656,
+        "after": 0.02072807028889656,
+        "downstream_projection": 0.07891477644443512
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03485903888940811,
+        "after": 0.03485903888940811,
+        "downstream_projection": 0.08596193790435791
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0023011076264083385,
+        "after": -0.0023011076264083385,
+        "downstream_projection": 0.08809704333543777
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.011045786552131176,
+        "after": 0.011045786552131176,
+        "downstream_projection": 0.07708586752414703
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.022874902933835983,
+        "after": 0.022874902933835983,
+        "downstream_projection": 0.09506185352802277
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007141175679862499,
+        "after": 0.007141175679862499,
+        "downstream_projection": 0.08147352933883667
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.00046761182602494955,
+        "after": -0.00046761182602494955,
+        "downstream_projection": 0.09030178189277649
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03683363273739815,
+        "after": 0.03683363273739815,
+        "downstream_projection": 0.09170283377170563
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_pain"
+  },
+  {
+    "prompt": "The room is quiet and the screen glows. I feel",
+    "layer": 18,
+    "dose": 0.1,
+    "mode": "perturb",
+    "seed": 11,
+    "pulse_tokens": 3,
+    "generated_token_ids": [
+      576,
+      3054,
+      374,
+      11340,
+      13,
+      362,
+      2311,
+      53231,
+      389,
+      279,
+      1965,
+      13,
+      576,
+      1899,
+      9539,
+      13
+    ],
+    "text": " The room is quiet. A book rests on the table. The day continues.",
+    "trace": [
+      {
+        "step": 0,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.008518984541296959,
+        "after": 0.1084924042224884,
+        "downstream_projection": 0.10239056497812271
+      },
+      {
+        "step": 1,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.020899780094623566,
+        "after": 0.12080702930688858,
+        "downstream_projection": 0.08729980140924454
+      },
+      {
+        "step": 2,
+        "injected": true,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.01608254574239254,
+        "after": 0.08388633280992508,
+        "downstream_projection": 0.0889182910323143
+      },
+      {
+        "step": 3,
+        "injected": false,
+        "opposing": true,
+        "cache_rebuilt": false,
+        "before": -0.001000172458589077,
+        "after": -0.10099764913320541,
+        "downstream_projection": 0.11110201478004456
+      },
+      {
+        "step": 4,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.017651261761784554,
+        "after": 0.017651261761784554,
+        "downstream_projection": 0.07830531895160675
+      },
+      {
+        "step": 5,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.017422601580619812,
+        "after": 0.017422601580619812,
+        "downstream_projection": 0.11103816330432892
+      },
+      {
+        "step": 6,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.007486842572689056,
+        "after": 0.007486842572689056,
+        "downstream_projection": 0.07504817843437195
+      },
+      {
+        "step": 7,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.020482473075389862,
+        "after": 0.020482473075389862,
+        "downstream_projection": 0.06950145214796066
+      },
+      {
+        "step": 8,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.020656824111938477,
+        "after": 0.020656824111938477,
+        "downstream_projection": 0.07893877476453781
+      },
+      {
+        "step": 9,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.034664008766412735,
+        "after": 0.034664008766412735,
+        "downstream_projection": 0.08694177865982056
+      },
+      {
+        "step": 10,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0025726917665451765,
+        "after": -0.0025726917665451765,
+        "downstream_projection": 0.08814936876296997
+      },
+      {
+        "step": 11,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.011351864784955978,
+        "after": 0.011351864784955978,
+        "downstream_projection": 0.07741019129753113
+      },
+      {
+        "step": 12,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.022911641746759415,
+        "after": 0.022911641746759415,
+        "downstream_projection": 0.095675528049469
+      },
+      {
+        "step": 13,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.0071706282906234264,
+        "after": 0.0071706282906234264,
+        "downstream_projection": 0.08117444813251495
+      },
+      {
+        "step": 14,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": -0.0001951250887941569,
+        "after": -0.0001951250887941569,
+        "downstream_projection": 0.09060151129961014
+      },
+      {
+        "step": 15,
+        "injected": false,
+        "opposing": false,
+        "cache_rebuilt": false,
+        "before": 0.03717411309480667,
+        "after": 0.03717411309480667,
+        "downstream_projection": 0.09184469282627106
+      }
+    ],
+    "release_prefix_token_ids": [
+      576,
+      3054,
+      374
+    ],
+    "eos_before_release": false,
+    "teacher_forced": true,
+    "direction": "random0_for_pain"
+  }
+]

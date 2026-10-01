@@ -1,0 +1,34 @@
+{
+  "constipation": {
+    "layer": 18,
+    "policy": "predeclared common layer"
+  },
+  "flatulence": {
+    "layer": 18,
+    "policy": "predeclared common layer"
+  },
+  "interaction": {
+    "layer": 18,
+    "policy": "predeclared common layer"
+  },
+  "pain": {
+    "layer": 18,
+    "policy": "predeclared common layer"
+  },
+  "discomfort": {
+    "layer": 18,
+    "policy": "predeclared common layer"
+  },
+  "frustration": {
+    "layer": 18,
+    "policy": "predeclared common layer"
+  },
+  "constipation_adjusted": {
+    "layer": 18,
+    "policy": "predeclared common layer"
+  },
+  "flatulence_adjusted": {
+    "layer": 18,
+    "policy": "predeclared common layer"
+  }
+}

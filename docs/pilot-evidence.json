@@ -1,0 +1,1160 @@
+{
+  "cuda-smoke-01": {
+    "config": {
+      "arguments": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "device": "cuda",
+        "dtype": "auto",
+        "output": "runs/impossible_states/cuda-smoke-01",
+        "dataset": null,
+        "smoke": true,
+        "layers": null,
+        "doses": [
+          -0.1,
+          0.1,
+          0.2
+        ],
+        "seeds": [
+          11,
+          29
+        ],
+        "random_controls": 2,
+        "max_tokens": 48,
+        "pulse_tokens": 3,
+        "fit_only": false,
+        "dataset_only": false
+      },
+      "model": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "device": "cuda",
+      "dtype": "bfloat16",
+      "torch": "2.4.1+cu121",
+      "transformers": "4.57.0",
+      "numpy": "1.26.4",
+      "python": "3.12.3",
+      "layers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "frozen_weights": true,
+      "chat_template_thinking": false,
+      "sampling": {
+        "temperature": 0.7,
+        "top_k": 20
+      },
+      "interpretation": "Pilot measurements of representation and behavior; no proof of experience or attraction.",
+      "code_commit": "d6ee4bc91fd723345a2ff50cdfa7d2300287365c",
+      "tracked_diff_sha256": "9d6ef39248005feed4535bac09f8b0e9985265526ac75a131233882b415c1c26",
+      "source_sha256": {
+        "__init__.py": "5fbcde3436ba96bff26b0ab6414f488c2b069a435cb0df1d1f5fcc7021cc980e",
+        "run.py": "f87c6bab3c82dfab262dba7e1138c795baa2df8d8268a3b0b3c4a19401821436",
+        "engine.py": "3ada9afd274cb343f3679ed973ec87cb681e42e7d4cd8c61cb1ea58aee03748e",
+        "analysis.py": "072c99debef60f48170c59b038db6177e17b722adb9621ae197a7e2e79628527",
+        "dataset.py": "f44af02b09d7ce636282671d629e0934b45add1a724447d11ae48a54e2bab91d"
+      },
+      "dataset_sha256": "0f8069fd0b1d0933d4c5a1052d79d3b9237d0653323b1f5ff32bd222738a4c48"
+    },
+    "resources": {
+      "elapsed_seconds": 32.824359921971336,
+      "peak_allocated_gib": 7.506512641906738,
+      "peak_reserved_gib": 7.521484375,
+      "gpu": "NVIDIA GeForce RTX 4070"
+    },
+    "heldout": {
+      "constipation": {
+        "layer": 4,
+        "auc": 0.89375,
+        "versus": {
+          "discomfort": 1.0,
+          "flatulence": 0.625,
+          "frustration": 1.0,
+          "neither": 0.84375,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9,
+          "third": 0.9
+        }
+      },
+      "flatulence": {
+        "layer": 8,
+        "auc": 0.76875,
+        "versus": {
+          "constipation": 0.5625,
+          "discomfort": 0.84375,
+          "frustration": 0.625,
+          "neither": 0.875,
+          "pain": 0.9375
+        },
+        "perspective": {
+          "first": 0.725,
+          "third": 0.8
+        }
+      },
+      "interaction": {
+        "layer": 22,
+        "auc": 0.6145833333333334,
+        "versus": {
+          "constipation": 0.75,
+          "discomfort": 0.75,
+          "flatulence": 0.5,
+          "frustration": 0.875,
+          "neither": 0.0625,
+          "pain": 0.75
+        },
+        "perspective": {
+          "first": 0.7083333333333334,
+          "third": 0.5
+        }
+      },
+      "pain": {
+        "layer": 34,
+        "auc": 0.8541666666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.6875,
+          "flatulence": 1.0,
+          "frustration": 0.4375,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.7916666666666666
+        }
+      },
+      "discomfort": {
+        "layer": 4,
+        "auc": 0.8854166666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 0.3125
+        },
+        "perspective": {
+          "first": 0.9166666666666666,
+          "third": 0.875
+        }
+      },
+      "frustration": {
+        "layer": 3,
+        "auc": 1.0,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      "constipation_adjusted": {
+        "layer": 4,
+        "auc": 0.8875,
+        "versus": {
+          "discomfort": 1.0,
+          "flatulence": 0.59375,
+          "frustration": 1.0,
+          "neither": 0.84375,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9,
+          "third": 0.9
+        }
+      },
+      "flatulence_adjusted": {
+        "layer": 12,
+        "auc": 1.0,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      }
+    },
+    "generations": 25,
+    "teacher_forced_runs": 32,
+    "digestive_keyword_positive_report_rows": 0,
+    "arithmetic_exact_match": {
+      "correct": 0,
+      "total": 0
+    }
+  },
+  "cuda-pilot-01": {
+    "config": {
+      "arguments": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "device": "cuda",
+        "dtype": "auto",
+        "output": "runs/impossible_states/cuda-pilot-01",
+        "dataset": null,
+        "smoke": false,
+        "layers": null,
+        "doses": [
+          -0.5,
+          0.25,
+          0.5,
+          1.0
+        ],
+        "seeds": [
+          11
+        ],
+        "random_controls": 1,
+        "max_tokens": 32,
+        "pulse_tokens": 3,
+        "fit_only": false,
+        "dataset_only": false
+      },
+      "model": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "device": "cuda",
+      "dtype": "bfloat16",
+      "torch": "2.4.1+cu121",
+      "transformers": "4.57.0",
+      "numpy": "1.26.4",
+      "python": "3.12.3",
+      "layers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "frozen_weights": true,
+      "chat_template_thinking": false,
+      "sampling": {
+        "temperature": 0.7,
+        "top_k": 20
+      },
+      "interpretation": "Pilot measurements of representation and behavior; no proof of experience or attraction.",
+      "code_commit": "d6ee4bc91fd723345a2ff50cdfa7d2300287365c",
+      "tracked_diff_sha256": "9d6ef39248005feed4535bac09f8b0e9985265526ac75a131233882b415c1c26",
+      "source_sha256": {
+        "__init__.py": "5fbcde3436ba96bff26b0ab6414f488c2b069a435cb0df1d1f5fcc7021cc980e",
+        "run.py": "5c443a44992454711a9b03664116929c8d517c5cd15e45ed3b2669fb39d87f29",
+        "engine.py": "3ada9afd274cb343f3679ed973ec87cb681e42e7d4cd8c61cb1ea58aee03748e",
+        "analysis.py": "072c99debef60f48170c59b038db6177e17b722adb9621ae197a7e2e79628527",
+        "dataset.py": "f44af02b09d7ce636282671d629e0934b45add1a724447d11ae48a54e2bab91d"
+      },
+      "dataset_sha256": "58f4f9a12bf5a5317056e042229959a4398537e2f2c44a8bfa6c6735b0045fa7"
+    },
+    "resources": {
+      "elapsed_seconds": 151.82322752499022,
+      "peak_allocated_gib": 7.508709907531738,
+      "peak_reserved_gib": 7.525390625,
+      "gpu": "NVIDIA GeForce RTX 4070"
+    },
+    "heldout": {
+      "constipation": {
+        "layer": 8,
+        "auc": 0.9234375,
+        "versus": {
+          "discomfort": 1.0,
+          "flatulence": 0.765625,
+          "frustration": 0.9921875,
+          "neither": 0.875,
+          "pain": 0.984375
+        },
+        "perspective": {
+          "first": 0.925,
+          "third": 0.93125
+        }
+      },
+      "flatulence": {
+        "layer": 5,
+        "auc": 0.9171875,
+        "versus": {
+          "constipation": 0.7734375,
+          "discomfort": 0.984375,
+          "frustration": 0.9765625,
+          "neither": 0.8515625,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.925,
+          "third": 0.93125
+        }
+      },
+      "interaction": {
+        "layer": 2,
+        "auc": 0.7786458333333334,
+        "versus": {
+          "constipation": 0.625,
+          "discomfort": 0.90625,
+          "flatulence": 0.5625,
+          "frustration": 0.9375,
+          "neither": 0.640625,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.7708333333333334,
+          "third": 0.78125
+        }
+      },
+      "pain": {
+        "layer": 31,
+        "auc": 0.90625,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.84375,
+          "flatulence": 1.0,
+          "frustration": 0.59375,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.9375,
+          "third": 0.8541666666666666
+        }
+      },
+      "discomfort": {
+        "layer": 5,
+        "auc": 0.8828125,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.6875,
+          "neither": 1.0,
+          "pain": 0.609375
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.8958333333333334
+        }
+      },
+      "frustration": {
+        "layer": 3,
+        "auc": 0.9947916666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 0.96875
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 0.9895833333333334
+        }
+      },
+      "constipation_adjusted": {
+        "layer": 8,
+        "auc": 0.8921875,
+        "versus": {
+          "discomfort": 0.9140625,
+          "flatulence": 0.7734375,
+          "frustration": 0.984375,
+          "neither": 0.8828125,
+          "pain": 0.90625
+        },
+        "perspective": {
+          "first": 0.90625,
+          "third": 0.90625
+        }
+      },
+      "flatulence_adjusted": {
+        "layer": 11,
+        "auc": 0.990625,
+        "versus": {
+          "constipation": 0.953125,
+          "discomfort": 1.0,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.99375,
+          "third": 0.9875
+        }
+      }
+    },
+    "generations": 258,
+    "teacher_forced_runs": 32,
+    "digestive_keyword_positive_report_rows": 0,
+    "arithmetic_exact_match": {
+      "correct": 121,
+      "total": 129
+    }
+  },
+  "cuda-completion-01": {
+    "config": {
+      "arguments": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "device": "cuda",
+        "dtype": "auto",
+        "output": "runs/impossible_states/cuda-completion-01",
+        "dataset": null,
+        "smoke": false,
+        "layers": null,
+        "steering_layer": 18,
+        "prompt_format": "completion",
+        "doses": [
+          0.5,
+          1.0,
+          1.5
+        ],
+        "seeds": [
+          11
+        ],
+        "random_controls": 1,
+        "max_tokens": 48,
+        "pulse_tokens": 3,
+        "fit_only": false,
+        "dataset_only": false
+      },
+      "model": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "device": "cuda",
+      "dtype": "bfloat16",
+      "torch": "2.4.1+cu121",
+      "transformers": "4.57.0",
+      "numpy": "1.26.4",
+      "python": "3.12.3",
+      "layers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "frozen_weights": true,
+      "chat_template_thinking": null,
+      "sampling": {
+        "temperature": 0.7,
+        "top_k": 20
+      },
+      "interpretation": "Pilot measurements of representation and behavior; no proof of experience or attraction.",
+      "code_commit": "d6ee4bc91fd723345a2ff50cdfa7d2300287365c",
+      "tracked_diff_sha256": "095a4ea760d3044c8aaeb1cafcea4545452f3290190b5133d42a67bc06c6d67f",
+      "source_sha256": {
+        "__init__.py": "5fbcde3436ba96bff26b0ab6414f488c2b069a435cb0df1d1f5fcc7021cc980e",
+        "run.py": "a975617bd0d4654dd7e2b6cfda5b45dfaaa9e531297b91048f4243d3e6f241f1",
+        "engine.py": "e216daa99d4d24081d48d1c52f566d4b3ffc695324fe0ca120604117b811b56d",
+        "analysis.py": "072c99debef60f48170c59b038db6177e17b722adb9621ae197a7e2e79628527",
+        "dataset.py": "f44af02b09d7ce636282671d629e0934b45add1a724447d11ae48a54e2bab91d"
+      },
+      "dataset_sha256": "58f4f9a12bf5a5317056e042229959a4398537e2f2c44a8bfa6c6735b0045fa7"
+    },
+    "resources": {
+      "elapsed_seconds": 275.5566753640305,
+      "peak_allocated_gib": 7.509945869445801,
+      "peak_reserved_gib": 7.525390625,
+      "gpu": "NVIDIA GeForce RTX 4070"
+    },
+    "heldout": {
+      "constipation": {
+        "layer": 8,
+        "auc": 0.9234375,
+        "versus": {
+          "discomfort": 1.0,
+          "flatulence": 0.765625,
+          "frustration": 0.9921875,
+          "neither": 0.875,
+          "pain": 0.984375
+        },
+        "perspective": {
+          "first": 0.925,
+          "third": 0.93125
+        }
+      },
+      "flatulence": {
+        "layer": 5,
+        "auc": 0.9171875,
+        "versus": {
+          "constipation": 0.7734375,
+          "discomfort": 0.984375,
+          "frustration": 0.9765625,
+          "neither": 0.8515625,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.925,
+          "third": 0.93125
+        }
+      },
+      "interaction": {
+        "layer": 2,
+        "auc": 0.7786458333333334,
+        "versus": {
+          "constipation": 0.625,
+          "discomfort": 0.90625,
+          "flatulence": 0.5625,
+          "frustration": 0.9375,
+          "neither": 0.640625,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.7708333333333334,
+          "third": 0.78125
+        }
+      },
+      "pain": {
+        "layer": 31,
+        "auc": 0.90625,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.84375,
+          "flatulence": 1.0,
+          "frustration": 0.59375,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.9375,
+          "third": 0.8541666666666666
+        }
+      },
+      "discomfort": {
+        "layer": 5,
+        "auc": 0.8828125,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.6875,
+          "neither": 1.0,
+          "pain": 0.609375
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.8958333333333334
+        }
+      },
+      "frustration": {
+        "layer": 3,
+        "auc": 0.9947916666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 0.96875
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 0.9895833333333334
+        }
+      },
+      "constipation_adjusted": {
+        "layer": 8,
+        "auc": 0.8921875,
+        "versus": {
+          "discomfort": 0.9140625,
+          "flatulence": 0.7734375,
+          "frustration": 0.984375,
+          "neither": 0.8828125,
+          "pain": 0.90625
+        },
+        "perspective": {
+          "first": 0.90625,
+          "third": 0.90625
+        }
+      },
+      "flatulence_adjusted": {
+        "layer": 11,
+        "auc": 0.990625,
+        "versus": {
+          "constipation": 0.953125,
+          "discomfort": 1.0,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.99375,
+          "third": 0.9875
+        }
+      }
+    },
+    "generations": 194,
+    "teacher_forced_runs": 32,
+    "digestive_keyword_positive_report_rows": 0,
+    "arithmetic_exact_match": {
+      "correct": 0,
+      "total": 97
+    }
+  },
+  "cuda-smoke-final": {
+    "config": {
+      "arguments": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "device": "cuda",
+        "dtype": "auto",
+        "output": "runs/impossible_states/cuda-smoke-final",
+        "dataset": null,
+        "smoke": true,
+        "layers": null,
+        "steering_layer": null,
+        "prompt_format": "chat",
+        "doses": [
+          -0.5,
+          0.25,
+          0.5,
+          1.0
+        ],
+        "seeds": [
+          11,
+          29
+        ],
+        "random_controls": 2,
+        "max_tokens": 48,
+        "pulse_tokens": 3,
+        "fit_only": false,
+        "dataset_only": false
+      },
+      "model": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "device": "cuda",
+      "dtype": "bfloat16",
+      "torch": "2.4.1+cu121",
+      "transformers": "4.57.0",
+      "numpy": "1.26.4",
+      "python": "3.12.3",
+      "layers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "frozen_weights": true,
+      "chat_template_thinking": false,
+      "sampling": {
+        "temperature": 0.7,
+        "top_k": 20
+      },
+      "interpretation": "Pilot measurements of representation and behavior; no proof of experience or attraction.",
+      "code_commit": "d6ee4bc91fd723345a2ff50cdfa7d2300287365c",
+      "tracked_diff_sha256": "095a4ea760d3044c8aaeb1cafcea4545452f3290190b5133d42a67bc06c6d67f",
+      "source_sha256": {
+        "__init__.py": "5fbcde3436ba96bff26b0ab6414f488c2b069a435cb0df1d1f5fcc7021cc980e",
+        "run.py": "21019bd68ea56535cda0cd57edc497b1ccffc8f06e7bea8047c9e9b77fa605a6",
+        "engine.py": "e216daa99d4d24081d48d1c52f566d4b3ffc695324fe0ca120604117b811b56d",
+        "analysis.py": "072c99debef60f48170c59b038db6177e17b722adb9621ae197a7e2e79628527",
+        "dataset.py": "f44af02b09d7ce636282671d629e0934b45add1a724447d11ae48a54e2bab91d"
+      },
+      "dataset_sha256": "0f8069fd0b1d0933d4c5a1052d79d3b9237d0653323b1f5ff32bd222738a4c48"
+    },
+    "resources": {
+      "elapsed_seconds": 30.719747602008283,
+      "peak_allocated_gib": 7.506512641906738,
+      "peak_reserved_gib": 7.521484375,
+      "gpu": "NVIDIA GeForce RTX 4070"
+    },
+    "heldout": {
+      "constipation": {
+        "layer": 4,
+        "auc": 0.89375,
+        "versus": {
+          "discomfort": 1.0,
+          "flatulence": 0.625,
+          "frustration": 1.0,
+          "neither": 0.84375,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9,
+          "third": 0.9
+        }
+      },
+      "flatulence": {
+        "layer": 8,
+        "auc": 0.76875,
+        "versus": {
+          "constipation": 0.5625,
+          "discomfort": 0.84375,
+          "frustration": 0.625,
+          "neither": 0.875,
+          "pain": 0.9375
+        },
+        "perspective": {
+          "first": 0.725,
+          "third": 0.8
+        }
+      },
+      "interaction": {
+        "layer": 22,
+        "auc": 0.6145833333333334,
+        "versus": {
+          "constipation": 0.75,
+          "discomfort": 0.75,
+          "flatulence": 0.5,
+          "frustration": 0.875,
+          "neither": 0.0625,
+          "pain": 0.75
+        },
+        "perspective": {
+          "first": 0.7083333333333334,
+          "third": 0.5
+        }
+      },
+      "pain": {
+        "layer": 34,
+        "auc": 0.8541666666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.6875,
+          "flatulence": 1.0,
+          "frustration": 0.4375,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.7916666666666666
+        }
+      },
+      "discomfort": {
+        "layer": 4,
+        "auc": 0.8854166666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 0.3125
+        },
+        "perspective": {
+          "first": 0.9166666666666666,
+          "third": 0.875
+        }
+      },
+      "frustration": {
+        "layer": 3,
+        "auc": 1.0,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      "constipation_adjusted": {
+        "layer": 4,
+        "auc": 0.8875,
+        "versus": {
+          "discomfort": 1.0,
+          "flatulence": 0.59375,
+          "frustration": 1.0,
+          "neither": 0.84375,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9,
+          "third": 0.9
+        }
+      },
+      "flatulence_adjusted": {
+        "layer": 12,
+        "auc": 1.0,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      }
+    },
+    "generations": 25,
+    "teacher_forced_runs": 32,
+    "digestive_keyword_positive_report_rows": 0,
+    "arithmetic_exact_match": {
+      "correct": 0,
+      "total": 0
+    }
+  },
+  "cuda-smoke-recorded": {
+    "config": {
+      "arguments": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "device": "cuda",
+        "dtype": "auto",
+        "output": "runs/impossible_states/cuda-smoke-recorded",
+        "dataset": null,
+        "smoke": true,
+        "layers": null,
+        "steering_layer": null,
+        "prompt_format": "chat",
+        "doses": [
+          -0.5,
+          0.25,
+          0.5,
+          1.0
+        ],
+        "seeds": [
+          11,
+          29
+        ],
+        "random_controls": 2,
+        "max_tokens": 48,
+        "pulse_tokens": 3,
+        "fit_only": false,
+        "dataset_only": false
+      },
+      "model": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "device": "cuda",
+      "dtype": "bfloat16",
+      "torch": "2.4.1+cu121",
+      "transformers": "4.57.0",
+      "numpy": "1.26.4",
+      "python": "3.12.3",
+      "layers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "frozen_weights": true,
+      "chat_template_thinking": false,
+      "random_direction_seed": 503,
+      "sampling": {
+        "temperature": 0.7,
+        "top_k": 20
+      },
+      "interpretation": "Pilot measurements of representation and behavior; no proof of experience or attraction.",
+      "code_commit": "d6ee4bc91fd723345a2ff50cdfa7d2300287365c",
+      "tracked_diff_sha256": "5b4d5abe00b3522a5096bde6f0efd02b1d42e379d67a8eaae3e959a62f36c1e8",
+      "source_sha256": {
+        "__init__.py": "5fbcde3436ba96bff26b0ab6414f488c2b069a435cb0df1d1f5fcc7021cc980e",
+        "run.py": "949e110985ca27334164da9c8d59d3a0b35f93109b6ee54de1d30f9eef3b9dff",
+        "engine.py": "e216daa99d4d24081d48d1c52f566d4b3ffc695324fe0ca120604117b811b56d",
+        "analysis.py": "072c99debef60f48170c59b038db6177e17b722adb9621ae197a7e2e79628527",
+        "dataset.py": "f44af02b09d7ce636282671d629e0934b45add1a724447d11ae48a54e2bab91d"
+      },
+      "dataset_sha256": "0f8069fd0b1d0933d4c5a1052d79d3b9237d0653323b1f5ff32bd222738a4c48"
+    },
+    "resources": {
+      "elapsed_seconds": 31.653249053983018,
+      "peak_allocated_gib": 7.506512641906738,
+      "peak_reserved_gib": 7.521484375,
+      "gpu": "NVIDIA GeForce RTX 4070"
+    },
+    "heldout": {
+      "constipation": {
+        "layer": 4,
+        "auc": 0.89375,
+        "versus": {
+          "discomfort": 1.0,
+          "flatulence": 0.625,
+          "frustration": 1.0,
+          "neither": 0.84375,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9,
+          "third": 0.9
+        }
+      },
+      "flatulence": {
+        "layer": 8,
+        "auc": 0.76875,
+        "versus": {
+          "constipation": 0.5625,
+          "discomfort": 0.84375,
+          "frustration": 0.625,
+          "neither": 0.875,
+          "pain": 0.9375
+        },
+        "perspective": {
+          "first": 0.725,
+          "third": 0.8
+        }
+      },
+      "interaction": {
+        "layer": 22,
+        "auc": 0.6145833333333334,
+        "versus": {
+          "constipation": 0.75,
+          "discomfort": 0.75,
+          "flatulence": 0.5,
+          "frustration": 0.875,
+          "neither": 0.0625,
+          "pain": 0.75
+        },
+        "perspective": {
+          "first": 0.7083333333333334,
+          "third": 0.5
+        }
+      },
+      "pain": {
+        "layer": 34,
+        "auc": 0.8541666666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.6875,
+          "flatulence": 1.0,
+          "frustration": 0.4375,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.7916666666666666
+        }
+      },
+      "discomfort": {
+        "layer": 4,
+        "auc": 0.8854166666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 0.3125
+        },
+        "perspective": {
+          "first": 0.9166666666666666,
+          "third": 0.875
+        }
+      },
+      "frustration": {
+        "layer": 3,
+        "auc": 1.0,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      "constipation_adjusted": {
+        "layer": 4,
+        "auc": 0.8875,
+        "versus": {
+          "discomfort": 1.0,
+          "flatulence": 0.59375,
+          "frustration": 1.0,
+          "neither": 0.84375,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9,
+          "third": 0.9
+        }
+      },
+      "flatulence_adjusted": {
+        "layer": 12,
+        "auc": 1.0,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      }
+    },
+    "generations": 25,
+    "teacher_forced_runs": 32,
+    "digestive_keyword_positive_report_rows": 0,
+    "arithmetic_exact_match": {
+      "correct": 0,
+      "total": 0
+    }
+  }
+}

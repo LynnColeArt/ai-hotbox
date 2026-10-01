@@ -1,0 +1,4207 @@
+{
+  "validation": {
+    "constipation": [
+      {
+        "auc": 0.8765625,
+        "versus": {
+          "discomfort": 1.0,
+          "flatulence": 0.7265625,
+          "frustration": 0.96875,
+          "neither": 0.6875,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.89375
+        }
+      },
+      {
+        "auc": 0.8625,
+        "versus": {
+          "discomfort": 0.9921875,
+          "flatulence": 0.75,
+          "frustration": 0.859375,
+          "neither": 0.7109375,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.85625,
+          "third": 0.875
+        }
+      },
+      {
+        "auc": 0.8671875,
+        "versus": {
+          "discomfort": 1.0,
+          "flatulence": 0.703125,
+          "frustration": 0.9921875,
+          "neither": 0.640625,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.88125,
+          "third": 0.84375
+        }
+      },
+      {
+        "auc": 0.825,
+        "versus": {
+          "discomfort": 1.0,
+          "flatulence": 0.578125,
+          "frustration": 0.90625,
+          "neither": 0.640625,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.825,
+          "third": 0.8
+        }
+      },
+      {
+        "auc": 0.8984375,
+        "versus": {
+          "discomfort": 0.9921875,
+          "flatulence": 0.7421875,
+          "frustration": 1.0,
+          "neither": 0.7578125,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9,
+          "third": 0.9
+        }
+      },
+      {
+        "auc": 0.903125,
+        "versus": {
+          "discomfort": 0.9921875,
+          "flatulence": 0.765625,
+          "frustration": 1.0,
+          "neither": 0.7578125,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.90625,
+          "third": 0.89375
+        }
+      },
+      {
+        "auc": 0.925,
+        "versus": {
+          "discomfort": 1.0,
+          "flatulence": 0.8125,
+          "frustration": 1.0,
+          "neither": 0.8125,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.93125,
+          "third": 0.93125
+        }
+      },
+      {
+        "auc": 0.9515625,
+        "versus": {
+          "discomfort": 1.0,
+          "flatulence": 0.90625,
+          "frustration": 1.0,
+          "neither": 0.8515625,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.95,
+          "third": 0.9625
+        }
+      },
+      {
+        "auc": 0.9640625,
+        "versus": {
+          "discomfort": 1.0,
+          "flatulence": 0.8671875,
+          "frustration": 1.0,
+          "neither": 0.953125,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.95625,
+          "third": 0.96875
+        }
+      },
+      {
+        "auc": 0.921875,
+        "versus": {
+          "discomfort": 1.0,
+          "flatulence": 0.71875,
+          "frustration": 1.0,
+          "neither": 0.890625,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9125,
+          "third": 0.925
+        }
+      },
+      {
+        "auc": 0.875,
+        "versus": {
+          "discomfort": 0.8671875,
+          "flatulence": 0.6328125,
+          "frustration": 0.984375,
+          "neither": 0.90625,
+          "pain": 0.984375
+        },
+        "perspective": {
+          "first": 0.9,
+          "third": 0.86875
+        }
+      },
+      {
+        "auc": 0.659375,
+        "versus": {
+          "discomfort": 0.578125,
+          "flatulence": 0.5390625,
+          "frustration": 0.703125,
+          "neither": 0.75,
+          "pain": 0.7265625
+        },
+        "perspective": {
+          "first": 0.7125,
+          "third": 0.59375
+        }
+      },
+      {
+        "auc": 0.6546875,
+        "versus": {
+          "discomfort": 0.65625,
+          "flatulence": 0.5390625,
+          "frustration": 0.5625,
+          "neither": 0.7578125,
+          "pain": 0.7578125
+        },
+        "perspective": {
+          "first": 0.70625,
+          "third": 0.60625
+        }
+      },
+      {
+        "auc": 0.5890625,
+        "versus": {
+          "discomfort": 0.609375,
+          "flatulence": 0.515625,
+          "frustration": 0.375,
+          "neither": 0.8203125,
+          "pain": 0.625
+        },
+        "perspective": {
+          "first": 0.675,
+          "third": 0.49375
+        }
+      },
+      {
+        "auc": 0.540625,
+        "versus": {
+          "discomfort": 0.4375,
+          "flatulence": 0.65625,
+          "frustration": 0.203125,
+          "neither": 0.8984375,
+          "pain": 0.5078125
+        },
+        "perspective": {
+          "first": 0.60625,
+          "third": 0.425
+        }
+      },
+      {
+        "auc": 0.4734375,
+        "versus": {
+          "discomfort": 0.375,
+          "flatulence": 0.6171875,
+          "frustration": 0.171875,
+          "neither": 0.796875,
+          "pain": 0.40625
+        },
+        "perspective": {
+          "first": 0.525,
+          "third": 0.425
+        }
+      },
+      {
+        "auc": 0.490625,
+        "versus": {
+          "discomfort": 0.3671875,
+          "flatulence": 0.6796875,
+          "frustration": 0.1875,
+          "neither": 0.859375,
+          "pain": 0.359375
+        },
+        "perspective": {
+          "first": 0.575,
+          "third": 0.40625
+        }
+      },
+      {
+        "auc": 0.4796875,
+        "versus": {
+          "discomfort": 0.2734375,
+          "flatulence": 0.703125,
+          "frustration": 0.2421875,
+          "neither": 0.8671875,
+          "pain": 0.3125
+        },
+        "perspective": {
+          "first": 0.54375,
+          "third": 0.4125
+        }
+      },
+      {
+        "auc": 0.5390625,
+        "versus": {
+          "discomfort": 0.40625,
+          "flatulence": 0.7421875,
+          "frustration": 0.3125,
+          "neither": 0.8359375,
+          "pain": 0.3984375
+        },
+        "perspective": {
+          "first": 0.625,
+          "third": 0.45
+        }
+      },
+      {
+        "auc": 0.5734375,
+        "versus": {
+          "discomfort": 0.3984375,
+          "flatulence": 0.84375,
+          "frustration": 0.3515625,
+          "neither": 0.8671875,
+          "pain": 0.40625
+        },
+        "perspective": {
+          "first": 0.65,
+          "third": 0.49375
+        }
+      },
+      {
+        "auc": 0.59375,
+        "versus": {
+          "discomfort": 0.4296875,
+          "flatulence": 0.8359375,
+          "frustration": 0.3828125,
+          "neither": 0.8515625,
+          "pain": 0.46875
+        },
+        "perspective": {
+          "first": 0.6375,
+          "third": 0.53125
+        }
+      },
+      {
+        "auc": 0.65,
+        "versus": {
+          "discomfort": 0.53125,
+          "flatulence": 0.859375,
+          "frustration": 0.453125,
+          "neither": 0.828125,
+          "pain": 0.578125
+        },
+        "perspective": {
+          "first": 0.65625,
+          "third": 0.65
+        }
+      },
+      {
+        "auc": 0.6484375,
+        "versus": {
+          "discomfort": 0.53125,
+          "flatulence": 0.8203125,
+          "frustration": 0.515625,
+          "neither": 0.8125,
+          "pain": 0.5625
+        },
+        "perspective": {
+          "first": 0.65625,
+          "third": 0.63125
+        }
+      },
+      {
+        "auc": 0.7796875,
+        "versus": {
+          "discomfort": 0.75,
+          "flatulence": 0.8203125,
+          "frustration": 0.7265625,
+          "neither": 0.8046875,
+          "pain": 0.796875
+        },
+        "perspective": {
+          "first": 0.7875,
+          "third": 0.7875
+        }
+      },
+      {
+        "auc": 0.825,
+        "versus": {
+          "discomfort": 0.8203125,
+          "flatulence": 0.7734375,
+          "frustration": 0.8515625,
+          "neither": 0.7734375,
+          "pain": 0.90625
+        },
+        "perspective": {
+          "first": 0.8375,
+          "third": 0.83125
+        }
+      },
+      {
+        "auc": 0.8390625,
+        "versus": {
+          "discomfort": 0.875,
+          "flatulence": 0.734375,
+          "frustration": 0.90625,
+          "neither": 0.734375,
+          "pain": 0.9453125
+        },
+        "perspective": {
+          "first": 0.84375,
+          "third": 0.85625
+        }
+      },
+      {
+        "auc": 0.8421875,
+        "versus": {
+          "discomfort": 0.8984375,
+          "flatulence": 0.71875,
+          "frustration": 0.9296875,
+          "neither": 0.703125,
+          "pain": 0.9609375
+        },
+        "perspective": {
+          "first": 0.85,
+          "third": 0.86875
+        }
+      },
+      {
+        "auc": 0.840625,
+        "versus": {
+          "discomfort": 0.90625,
+          "flatulence": 0.6875,
+          "frustration": 0.953125,
+          "neither": 0.6875,
+          "pain": 0.96875
+        },
+        "perspective": {
+          "first": 0.85,
+          "third": 0.85625
+        }
+      },
+      {
+        "auc": 0.846875,
+        "versus": {
+          "discomfort": 0.9296875,
+          "flatulence": 0.6953125,
+          "frustration": 0.9765625,
+          "neither": 0.65625,
+          "pain": 0.9765625
+        },
+        "perspective": {
+          "first": 0.86875,
+          "third": 0.84375
+        }
+      },
+      {
+        "auc": 0.8375,
+        "versus": {
+          "discomfort": 0.9453125,
+          "flatulence": 0.671875,
+          "frustration": 0.984375,
+          "neither": 0.609375,
+          "pain": 0.9765625
+        },
+        "perspective": {
+          "first": 0.85625,
+          "third": 0.83125
+        }
+      },
+      {
+        "auc": 0.8296875,
+        "versus": {
+          "discomfort": 0.9296875,
+          "flatulence": 0.6640625,
+          "frustration": 0.984375,
+          "neither": 0.6015625,
+          "pain": 0.96875
+        },
+        "perspective": {
+          "first": 0.84375,
+          "third": 0.83125
+        }
+      },
+      {
+        "auc": 0.825,
+        "versus": {
+          "discomfort": 0.9453125,
+          "flatulence": 0.6484375,
+          "frustration": 0.984375,
+          "neither": 0.5703125,
+          "pain": 0.9765625
+        },
+        "perspective": {
+          "first": 0.8375,
+          "third": 0.81875
+        }
+      },
+      {
+        "auc": 0.821875,
+        "versus": {
+          "discomfort": 0.9296875,
+          "flatulence": 0.65625,
+          "frustration": 0.984375,
+          "neither": 0.5625,
+          "pain": 0.9765625
+        },
+        "perspective": {
+          "first": 0.83125,
+          "third": 0.81875
+        }
+      },
+      {
+        "auc": 0.8359375,
+        "versus": {
+          "discomfort": 0.953125,
+          "flatulence": 0.65625,
+          "frustration": 1.0,
+          "neither": 0.5859375,
+          "pain": 0.984375
+        },
+        "perspective": {
+          "first": 0.8625,
+          "third": 0.8125
+        }
+      },
+      {
+        "auc": 0.8265625,
+        "versus": {
+          "discomfort": 0.9453125,
+          "flatulence": 0.65625,
+          "frustration": 0.9921875,
+          "neither": 0.5625,
+          "pain": 0.9765625
+        },
+        "perspective": {
+          "first": 0.8375,
+          "third": 0.81875
+        }
+      },
+      {
+        "auc": 0.83125,
+        "versus": {
+          "discomfort": 0.984375,
+          "flatulence": 0.5859375,
+          "frustration": 1.0,
+          "neither": 0.5859375,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.86875,
+          "third": 0.8
+        }
+      }
+    ],
+    "flatulence": [
+      {
+        "auc": 0.4046875,
+        "versus": {
+          "constipation": 0.90625,
+          "discomfort": 0.03125,
+          "frustration": 0.171875,
+          "neither": 0.90625,
+          "pain": 0.0078125
+        },
+        "perspective": {
+          "first": 0.4,
+          "third": 0.39375
+        }
+      },
+      {
+        "auc": 0.6015625,
+        "versus": {
+          "constipation": 0.90625,
+          "discomfort": 0.34375,
+          "frustration": 0.5546875,
+          "neither": 0.921875,
+          "pain": 0.28125
+        },
+        "perspective": {
+          "first": 0.6,
+          "third": 0.625
+        }
+      },
+      {
+        "auc": 0.5546875,
+        "versus": {
+          "constipation": 0.8203125,
+          "discomfort": 0.3359375,
+          "frustration": 0.359375,
+          "neither": 0.921875,
+          "pain": 0.3359375
+        },
+        "perspective": {
+          "first": 0.6,
+          "third": 0.5
+        }
+      },
+      {
+        "auc": 0.5671875,
+        "versus": {
+          "constipation": 0.8203125,
+          "discomfort": 0.375,
+          "frustration": 0.328125,
+          "neither": 0.8984375,
+          "pain": 0.4140625
+        },
+        "perspective": {
+          "first": 0.58125,
+          "third": 0.55
+        }
+      },
+      {
+        "auc": 0.5859375,
+        "versus": {
+          "constipation": 0.6875,
+          "discomfort": 0.296875,
+          "frustration": 0.4609375,
+          "neither": 0.859375,
+          "pain": 0.625
+        },
+        "perspective": {
+          "first": 0.59375,
+          "third": 0.59375
+        }
+      },
+      {
+        "auc": 0.80625,
+        "versus": {
+          "constipation": 0.71875,
+          "discomfort": 0.75,
+          "frustration": 0.828125,
+          "neither": 0.8515625,
+          "pain": 0.8828125
+        },
+        "perspective": {
+          "first": 0.79375,
+          "third": 0.84375
+        }
+      },
+      {
+        "auc": 0.4828125,
+        "versus": {
+          "constipation": 0.7265625,
+          "discomfort": 0.3203125,
+          "frustration": 0.2265625,
+          "neither": 0.796875,
+          "pain": 0.34375
+        },
+        "perspective": {
+          "first": 0.425,
+          "third": 0.5375
+        }
+      },
+      {
+        "auc": 0.4734375,
+        "versus": {
+          "constipation": 0.7890625,
+          "discomfort": 0.21875,
+          "frustration": 0.125,
+          "neither": 0.875,
+          "pain": 0.359375
+        },
+        "perspective": {
+          "first": 0.4375,
+          "third": 0.51875
+        }
+      },
+      {
+        "auc": 0.50625,
+        "versus": {
+          "constipation": 0.8671875,
+          "discomfort": 0.2421875,
+          "frustration": 0.078125,
+          "neither": 0.96875,
+          "pain": 0.375
+        },
+        "perspective": {
+          "first": 0.50625,
+          "third": 0.51875
+        }
+      },
+      {
+        "auc": 0.43125,
+        "versus": {
+          "constipation": 0.90625,
+          "discomfort": 0.046875,
+          "frustration": 0.015625,
+          "neither": 0.9765625,
+          "pain": 0.2109375
+        },
+        "perspective": {
+          "first": 0.43125,
+          "third": 0.4375
+        }
+      },
+      {
+        "auc": 0.41875,
+        "versus": {
+          "constipation": 0.9765625,
+          "discomfort": 0.015625,
+          "frustration": 0.0,
+          "neither": 1.0,
+          "pain": 0.1015625
+        },
+        "perspective": {
+          "first": 0.41875,
+          "third": 0.41875
+        }
+      },
+      {
+        "auc": 0.415625,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 0.0,
+          "frustration": 0.0,
+          "neither": 1.0,
+          "pain": 0.078125
+        },
+        "perspective": {
+          "first": 0.425,
+          "third": 0.4125
+        }
+      },
+      {
+        "auc": 0.4140625,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 0.0,
+          "frustration": 0.0,
+          "neither": 1.0,
+          "pain": 0.0703125
+        },
+        "perspective": {
+          "first": 0.41875,
+          "third": 0.4125
+        }
+      },
+      {
+        "auc": 0.4046875,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 0.0,
+          "frustration": 0.0,
+          "neither": 1.0,
+          "pain": 0.0234375
+        },
+        "perspective": {
+          "first": 0.40625,
+          "third": 0.40625
+        }
+      },
+      {
+        "auc": 0.403125,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 0.0,
+          "frustration": 0.0,
+          "neither": 1.0,
+          "pain": 0.015625
+        },
+        "perspective": {
+          "first": 0.4,
+          "third": 0.40625
+        }
+      },
+      {
+        "auc": 0.4,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 0.0,
+          "frustration": 0.0,
+          "neither": 1.0,
+          "pain": 0.0
+        },
+        "perspective": {
+          "first": 0.4,
+          "third": 0.4
+        }
+      },
+      {
+        "auc": 0.4,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 0.0,
+          "frustration": 0.0,
+          "neither": 1.0,
+          "pain": 0.0
+        },
+        "perspective": {
+          "first": 0.4,
+          "third": 0.4
+        }
+      },
+      {
+        "auc": 0.4,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 0.0,
+          "frustration": 0.0,
+          "neither": 1.0,
+          "pain": 0.0
+        },
+        "perspective": {
+          "first": 0.4,
+          "third": 0.4
+        }
+      },
+      {
+        "auc": 0.4046875,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 0.0,
+          "frustration": 0.0234375,
+          "neither": 1.0,
+          "pain": 0.0
+        },
+        "perspective": {
+          "first": 0.4125,
+          "third": 0.4
+        }
+      },
+      {
+        "auc": 0.4078125,
+        "versus": {
+          "constipation": 0.984375,
+          "discomfort": 0.0,
+          "frustration": 0.046875,
+          "neither": 1.0,
+          "pain": 0.0078125
+        },
+        "perspective": {
+          "first": 0.41875,
+          "third": 0.39375
+        }
+      },
+      {
+        "auc": 0.4,
+        "versus": {
+          "constipation": 0.984375,
+          "discomfort": 0.0,
+          "frustration": 0.015625,
+          "neither": 1.0,
+          "pain": 0.0
+        },
+        "perspective": {
+          "first": 0.4125,
+          "third": 0.39375
+        }
+      },
+      {
+        "auc": 0.3984375,
+        "versus": {
+          "constipation": 0.984375,
+          "discomfort": 0.0,
+          "frustration": 0.015625,
+          "neither": 0.9921875,
+          "pain": 0.0
+        },
+        "perspective": {
+          "first": 0.4125,
+          "third": 0.39375
+        }
+      },
+      {
+        "auc": 0.4,
+        "versus": {
+          "constipation": 0.96875,
+          "discomfort": 0.0,
+          "frustration": 0.03125,
+          "neither": 1.0,
+          "pain": 0.0
+        },
+        "perspective": {
+          "first": 0.4125,
+          "third": 0.39375
+        }
+      },
+      {
+        "auc": 0.3890625,
+        "versus": {
+          "constipation": 0.9375,
+          "discomfort": 0.0,
+          "frustration": 0.015625,
+          "neither": 0.9921875,
+          "pain": 0.0
+        },
+        "perspective": {
+          "first": 0.4,
+          "third": 0.38125
+        }
+      },
+      {
+        "auc": 0.3828125,
+        "versus": {
+          "constipation": 0.921875,
+          "discomfort": 0.0,
+          "frustration": 0.015625,
+          "neither": 0.9765625,
+          "pain": 0.0
+        },
+        "perspective": {
+          "first": 0.4,
+          "third": 0.375
+        }
+      },
+      {
+        "auc": 0.3796875,
+        "versus": {
+          "constipation": 0.9296875,
+          "discomfort": 0.0,
+          "frustration": 0.0078125,
+          "neither": 0.953125,
+          "pain": 0.0078125
+        },
+        "perspective": {
+          "first": 0.39375,
+          "third": 0.375
+        }
+      },
+      {
+        "auc": 0.375,
+        "versus": {
+          "constipation": 0.9296875,
+          "discomfort": 0.0,
+          "frustration": 0.0234375,
+          "neither": 0.921875,
+          "pain": 0.0
+        },
+        "perspective": {
+          "first": 0.3875,
+          "third": 0.375
+        }
+      },
+      {
+        "auc": 0.371875,
+        "versus": {
+          "constipation": 0.9375,
+          "discomfort": 0.0,
+          "frustration": 0.015625,
+          "neither": 0.90625,
+          "pain": 0.0
+        },
+        "perspective": {
+          "first": 0.375,
+          "third": 0.375
+        }
+      },
+      {
+        "auc": 0.359375,
+        "versus": {
+          "constipation": 0.90625,
+          "discomfort": 0.0,
+          "frustration": 0.03125,
+          "neither": 0.859375,
+          "pain": 0.0
+        },
+        "perspective": {
+          "first": 0.375,
+          "third": 0.35
+        }
+      },
+      {
+        "auc": 0.353125,
+        "versus": {
+          "constipation": 0.8984375,
+          "discomfort": 0.0,
+          "frustration": 0.03125,
+          "neither": 0.8359375,
+          "pain": 0.0
+        },
+        "perspective": {
+          "first": 0.36875,
+          "third": 0.3375
+        }
+      },
+      {
+        "auc": 0.3421875,
+        "versus": {
+          "constipation": 0.8515625,
+          "discomfort": 0.0,
+          "frustration": 0.0234375,
+          "neither": 0.828125,
+          "pain": 0.0078125
+        },
+        "perspective": {
+          "first": 0.36875,
+          "third": 0.325
+        }
+      },
+      {
+        "auc": 0.346875,
+        "versus": {
+          "constipation": 0.84375,
+          "discomfort": 0.015625,
+          "frustration": 0.0390625,
+          "neither": 0.828125,
+          "pain": 0.0078125
+        },
+        "perspective": {
+          "first": 0.38125,
+          "third": 0.325
+        }
+      },
+      {
+        "auc": 0.3484375,
+        "versus": {
+          "constipation": 0.84375,
+          "discomfort": 0.015625,
+          "frustration": 0.046875,
+          "neither": 0.828125,
+          "pain": 0.0078125
+        },
+        "perspective": {
+          "first": 0.38125,
+          "third": 0.325
+        }
+      },
+      {
+        "auc": 0.346875,
+        "versus": {
+          "constipation": 0.84375,
+          "discomfort": 0.015625,
+          "frustration": 0.0390625,
+          "neither": 0.828125,
+          "pain": 0.0078125
+        },
+        "perspective": {
+          "first": 0.38125,
+          "third": 0.325
+        }
+      },
+      {
+        "auc": 0.34375,
+        "versus": {
+          "constipation": 0.8515625,
+          "discomfort": 0.015625,
+          "frustration": 0.046875,
+          "neither": 0.796875,
+          "pain": 0.0078125
+        },
+        "perspective": {
+          "first": 0.375,
+          "third": 0.3125
+        }
+      },
+      {
+        "auc": 0.3546875,
+        "versus": {
+          "constipation": 0.859375,
+          "discomfort": 0.0390625,
+          "frustration": 0.0703125,
+          "neither": 0.78125,
+          "pain": 0.0234375
+        },
+        "perspective": {
+          "first": 0.36875,
+          "third": 0.3375
+        }
+      }
+    ],
+    "interaction": [
+      {
+        "auc": 0.17447916666666666,
+        "versus": {
+          "constipation": 0.421875,
+          "discomfort": 0.0,
+          "flatulence": 0.328125,
+          "frustration": 0.0,
+          "neither": 0.296875,
+          "pain": 0.0
+        },
+        "perspective": {
+          "first": 0.1875,
+          "third": 0.125
+        }
+      },
+      {
+        "auc": 0.3671875,
+        "versus": {
+          "constipation": 0.609375,
+          "discomfort": 0.21875,
+          "flatulence": 0.40625,
+          "frustration": 0.234375,
+          "neither": 0.578125,
+          "pain": 0.15625
+        },
+        "perspective": {
+          "first": 0.375,
+          "third": 0.34375
+        }
+      },
+      {
+        "auc": 0.6119791666666666,
+        "versus": {
+          "constipation": 0.53125,
+          "discomfort": 0.921875,
+          "flatulence": 0.234375,
+          "frustration": 0.9375,
+          "neither": 0.46875,
+          "pain": 0.578125
+        },
+        "perspective": {
+          "first": 0.6041666666666666,
+          "third": 0.6145833333333334
+        }
+      },
+      {
+        "auc": 0.3411458333333333,
+        "versus": {
+          "constipation": 0.359375,
+          "discomfort": 0.453125,
+          "flatulence": 0.375,
+          "frustration": 0.390625,
+          "neither": 0.296875,
+          "pain": 0.171875
+        },
+        "perspective": {
+          "first": 0.375,
+          "third": 0.2708333333333333
+        }
+      },
+      {
+        "auc": 0.3151041666666667,
+        "versus": {
+          "constipation": 0.390625,
+          "discomfort": 0.546875,
+          "flatulence": 0.28125,
+          "frustration": 0.328125,
+          "neither": 0.21875,
+          "pain": 0.125
+        },
+        "perspective": {
+          "first": 0.34375,
+          "third": 0.28125
+        }
+      },
+      {
+        "auc": 0.3489583333333333,
+        "versus": {
+          "constipation": 0.4375,
+          "discomfort": 0.515625,
+          "flatulence": 0.359375,
+          "frustration": 0.296875,
+          "neither": 0.328125,
+          "pain": 0.15625
+        },
+        "perspective": {
+          "first": 0.40625,
+          "third": 0.3020833333333333
+        }
+      },
+      {
+        "auc": 0.3828125,
+        "versus": {
+          "constipation": 0.421875,
+          "discomfort": 0.546875,
+          "flatulence": 0.390625,
+          "frustration": 0.4375,
+          "neither": 0.3125,
+          "pain": 0.1875
+        },
+        "perspective": {
+          "first": 0.4166666666666667,
+          "third": 0.3125
+        }
+      },
+      {
+        "auc": 0.3776041666666667,
+        "versus": {
+          "constipation": 0.40625,
+          "discomfort": 0.578125,
+          "flatulence": 0.375,
+          "frustration": 0.40625,
+          "neither": 0.3125,
+          "pain": 0.1875
+        },
+        "perspective": {
+          "first": 0.4166666666666667,
+          "third": 0.3125
+        }
+      },
+      {
+        "auc": 0.265625,
+        "versus": {
+          "constipation": 0.40625,
+          "discomfort": 0.3125,
+          "flatulence": 0.328125,
+          "frustration": 0.28125,
+          "neither": 0.21875,
+          "pain": 0.046875
+        },
+        "perspective": {
+          "first": 0.25,
+          "third": 0.22916666666666666
+        }
+      },
+      {
+        "auc": 0.4114583333333333,
+        "versus": {
+          "constipation": 0.4375,
+          "discomfort": 0.46875,
+          "flatulence": 0.390625,
+          "frustration": 0.609375,
+          "neither": 0.328125,
+          "pain": 0.234375
+        },
+        "perspective": {
+          "first": 0.4375,
+          "third": 0.375
+        }
+      },
+      {
+        "auc": 0.4479166666666667,
+        "versus": {
+          "constipation": 0.4375,
+          "discomfort": 0.59375,
+          "flatulence": 0.375,
+          "frustration": 0.71875,
+          "neither": 0.25,
+          "pain": 0.3125
+        },
+        "perspective": {
+          "first": 0.4583333333333333,
+          "third": 0.4270833333333333
+        }
+      },
+      {
+        "auc": 0.4036458333333333,
+        "versus": {
+          "constipation": 0.265625,
+          "discomfort": 0.609375,
+          "flatulence": 0.234375,
+          "frustration": 0.875,
+          "neither": 0.078125,
+          "pain": 0.359375
+        },
+        "perspective": {
+          "first": 0.4166666666666667,
+          "third": 0.3854166666666667
+        }
+      },
+      {
+        "auc": 0.09635416666666667,
+        "versus": {
+          "constipation": 0.296875,
+          "discomfort": 0.0,
+          "flatulence": 0.125,
+          "frustration": 0.15625,
+          "neither": 0.0,
+          "pain": 0.0
+        },
+        "perspective": {
+          "first": 0.09375,
+          "third": 0.11458333333333333
+        }
+      },
+      {
+        "auc": 0.13802083333333334,
+        "versus": {
+          "constipation": 0.296875,
+          "discomfort": 0.0625,
+          "flatulence": 0.078125,
+          "frustration": 0.390625,
+          "neither": 0.0,
+          "pain": 0.0
+        },
+        "perspective": {
+          "first": 0.125,
+          "third": 0.16666666666666666
+        }
+      },
+      {
+        "auc": 0.14583333333333334,
+        "versus": {
+          "constipation": 0.28125,
+          "discomfort": 0.109375,
+          "flatulence": 0.234375,
+          "frustration": 0.25,
+          "neither": 0.0,
+          "pain": 0.0
+        },
+        "perspective": {
+          "first": 0.09375,
+          "third": 0.17708333333333334
+        }
+      },
+      {
+        "auc": 0.3098958333333333,
+        "versus": {
+          "constipation": 0.234375,
+          "discomfort": 0.53125,
+          "flatulence": 0.171875,
+          "frustration": 0.578125,
+          "neither": 0.0,
+          "pain": 0.34375
+        },
+        "perspective": {
+          "first": 0.2708333333333333,
+          "third": 0.3541666666666667
+        }
+      },
+      {
+        "auc": 0.3880208333333333,
+        "versus": {
+          "constipation": 0.359375,
+          "discomfort": 0.65625,
+          "flatulence": 0.3125,
+          "frustration": 0.609375,
+          "neither": 0.03125,
+          "pain": 0.359375
+        },
+        "perspective": {
+          "first": 0.3958333333333333,
+          "third": 0.40625
+        }
+      },
+      {
+        "auc": 0.5182291666666666,
+        "versus": {
+          "constipation": 0.484375,
+          "discomfort": 0.765625,
+          "flatulence": 0.453125,
+          "frustration": 0.703125,
+          "neither": 0.140625,
+          "pain": 0.5625
+        },
+        "perspective": {
+          "first": 0.5208333333333334,
+          "third": 0.53125
+        }
+      },
+      {
+        "auc": 0.4453125,
+        "versus": {
+          "constipation": 0.625,
+          "discomfort": 0.5625,
+          "flatulence": 0.4375,
+          "frustration": 0.390625,
+          "neither": 0.203125,
+          "pain": 0.453125
+        },
+        "perspective": {
+          "first": 0.4375,
+          "third": 0.4270833333333333
+        }
+      },
+      {
+        "auc": 0.4192708333333333,
+        "versus": {
+          "constipation": 0.625,
+          "discomfort": 0.5625,
+          "flatulence": 0.34375,
+          "frustration": 0.34375,
+          "neither": 0.171875,
+          "pain": 0.46875
+        },
+        "perspective": {
+          "first": 0.4270833333333333,
+          "third": 0.4166666666666667
+        }
+      },
+      {
+        "auc": 0.46875,
+        "versus": {
+          "constipation": 0.75,
+          "discomfort": 0.578125,
+          "flatulence": 0.359375,
+          "frustration": 0.421875,
+          "neither": 0.25,
+          "pain": 0.453125
+        },
+        "perspective": {
+          "first": 0.4583333333333333,
+          "third": 0.46875
+        }
+      },
+      {
+        "auc": 0.4609375,
+        "versus": {
+          "constipation": 0.71875,
+          "discomfort": 0.546875,
+          "flatulence": 0.359375,
+          "frustration": 0.484375,
+          "neither": 0.25,
+          "pain": 0.40625
+        },
+        "perspective": {
+          "first": 0.5104166666666666,
+          "third": 0.40625
+        }
+      },
+      {
+        "auc": 0.3984375,
+        "versus": {
+          "constipation": 0.671875,
+          "discomfort": 0.4375,
+          "flatulence": 0.359375,
+          "frustration": 0.375,
+          "neither": 0.25,
+          "pain": 0.296875
+        },
+        "perspective": {
+          "first": 0.4791666666666667,
+          "third": 0.3229166666666667
+        }
+      },
+      {
+        "auc": 0.3880208333333333,
+        "versus": {
+          "constipation": 0.71875,
+          "discomfort": 0.453125,
+          "flatulence": 0.375,
+          "frustration": 0.328125,
+          "neither": 0.234375,
+          "pain": 0.21875
+        },
+        "perspective": {
+          "first": 0.4583333333333333,
+          "third": 0.3333333333333333
+        }
+      },
+      {
+        "auc": 0.3932291666666667,
+        "versus": {
+          "constipation": 0.6875,
+          "discomfort": 0.4375,
+          "flatulence": 0.453125,
+          "frustration": 0.34375,
+          "neither": 0.25,
+          "pain": 0.1875
+        },
+        "perspective": {
+          "first": 0.46875,
+          "third": 0.3229166666666667
+        }
+      },
+      {
+        "auc": 0.4166666666666667,
+        "versus": {
+          "constipation": 0.734375,
+          "discomfort": 0.4375,
+          "flatulence": 0.53125,
+          "frustration": 0.359375,
+          "neither": 0.25,
+          "pain": 0.1875
+        },
+        "perspective": {
+          "first": 0.4895833333333333,
+          "third": 0.3541666666666667
+        }
+      },
+      {
+        "auc": 0.3854166666666667,
+        "versus": {
+          "constipation": 0.71875,
+          "discomfort": 0.375,
+          "flatulence": 0.515625,
+          "frustration": 0.296875,
+          "neither": 0.265625,
+          "pain": 0.140625
+        },
+        "perspective": {
+          "first": 0.4270833333333333,
+          "third": 0.3333333333333333
+        }
+      },
+      {
+        "auc": 0.3854166666666667,
+        "versus": {
+          "constipation": 0.71875,
+          "discomfort": 0.40625,
+          "flatulence": 0.5,
+          "frustration": 0.28125,
+          "neither": 0.265625,
+          "pain": 0.140625
+        },
+        "perspective": {
+          "first": 0.4270833333333333,
+          "third": 0.3541666666666667
+        }
+      },
+      {
+        "auc": 0.3619791666666667,
+        "versus": {
+          "constipation": 0.71875,
+          "discomfort": 0.328125,
+          "flatulence": 0.484375,
+          "frustration": 0.21875,
+          "neither": 0.28125,
+          "pain": 0.140625
+        },
+        "perspective": {
+          "first": 0.3854166666666667,
+          "third": 0.3125
+        }
+      },
+      {
+        "auc": 0.375,
+        "versus": {
+          "constipation": 0.71875,
+          "discomfort": 0.328125,
+          "flatulence": 0.515625,
+          "frustration": 0.1875,
+          "neither": 0.359375,
+          "pain": 0.140625
+        },
+        "perspective": {
+          "first": 0.40625,
+          "third": 0.34375
+        }
+      },
+      {
+        "auc": 0.375,
+        "versus": {
+          "constipation": 0.703125,
+          "discomfort": 0.359375,
+          "flatulence": 0.46875,
+          "frustration": 0.1875,
+          "neither": 0.3125,
+          "pain": 0.21875
+        },
+        "perspective": {
+          "first": 0.375,
+          "third": 0.34375
+        }
+      },
+      {
+        "auc": 0.3645833333333333,
+        "versus": {
+          "constipation": 0.703125,
+          "discomfort": 0.3125,
+          "flatulence": 0.484375,
+          "frustration": 0.171875,
+          "neither": 0.375,
+          "pain": 0.140625
+        },
+        "perspective": {
+          "first": 0.3958333333333333,
+          "third": 0.3125
+        }
+      },
+      {
+        "auc": 0.375,
+        "versus": {
+          "constipation": 0.703125,
+          "discomfort": 0.34375,
+          "flatulence": 0.46875,
+          "frustration": 0.171875,
+          "neither": 0.359375,
+          "pain": 0.203125
+        },
+        "perspective": {
+          "first": 0.40625,
+          "third": 0.3125
+        }
+      },
+      {
+        "auc": 0.3671875,
+        "versus": {
+          "constipation": 0.71875,
+          "discomfort": 0.3125,
+          "flatulence": 0.515625,
+          "frustration": 0.140625,
+          "neither": 0.328125,
+          "pain": 0.1875
+        },
+        "perspective": {
+          "first": 0.3958333333333333,
+          "third": 0.3125
+        }
+      },
+      {
+        "auc": 0.3515625,
+        "versus": {
+          "constipation": 0.671875,
+          "discomfort": 0.328125,
+          "flatulence": 0.46875,
+          "frustration": 0.125,
+          "neither": 0.328125,
+          "pain": 0.1875
+        },
+        "perspective": {
+          "first": 0.3645833333333333,
+          "third": 0.3125
+        }
+      },
+      {
+        "auc": 0.3697916666666667,
+        "versus": {
+          "constipation": 0.6875,
+          "discomfort": 0.359375,
+          "flatulence": 0.4375,
+          "frustration": 0.21875,
+          "neither": 0.296875,
+          "pain": 0.21875
+        },
+        "perspective": {
+          "first": 0.3854166666666667,
+          "third": 0.34375
+        }
+      }
+    ],
+    "pain": [
+      {
+        "auc": 0.9036458333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.578125,
+          "flatulence": 1.0,
+          "frustration": 0.84375,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.9166666666666666,
+          "third": 0.8958333333333334
+        }
+      },
+      {
+        "auc": 0.90625,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.734375,
+          "flatulence": 1.0,
+          "frustration": 0.703125,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.9166666666666666,
+          "third": 0.8958333333333334
+        }
+      },
+      {
+        "auc": 0.7734375,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.421875,
+          "flatulence": 1.0,
+          "frustration": 0.21875,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.7604166666666666,
+          "third": 0.7916666666666666
+        }
+      },
+      {
+        "auc": 0.8255208333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.65625,
+          "flatulence": 1.0,
+          "frustration": 0.296875,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.8125,
+          "third": 0.8333333333333334
+        }
+      },
+      {
+        "auc": 0.8854166666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.875,
+          "flatulence": 1.0,
+          "frustration": 0.4375,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.9166666666666666
+        }
+      },
+      {
+        "auc": 0.8723958333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.765625,
+          "flatulence": 1.0,
+          "frustration": 0.46875,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.8333333333333334,
+          "third": 0.9166666666666666
+        }
+      },
+      {
+        "auc": 0.8489583333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.609375,
+          "flatulence": 1.0,
+          "frustration": 0.484375,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.8229166666666666,
+          "third": 0.8645833333333334
+        }
+      },
+      {
+        "auc": 0.8229166666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.484375,
+          "flatulence": 1.0,
+          "frustration": 0.453125,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.7916666666666666,
+          "third": 0.84375
+        }
+      },
+      {
+        "auc": 0.7864583333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.328125,
+          "flatulence": 1.0,
+          "frustration": 0.390625,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.75,
+          "third": 0.8541666666666666
+        }
+      },
+      {
+        "auc": 0.796875,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.3125,
+          "flatulence": 1.0,
+          "frustration": 0.46875,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.7604166666666666,
+          "third": 0.8333333333333334
+        }
+      },
+      {
+        "auc": 0.7786458333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.15625,
+          "flatulence": 1.0,
+          "frustration": 0.515625,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.7395833333333334,
+          "third": 0.8229166666666666
+        }
+      },
+      {
+        "auc": 0.7838541666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.25,
+          "flatulence": 1.0,
+          "frustration": 0.453125,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.75,
+          "third": 0.8229166666666666
+        }
+      },
+      {
+        "auc": 0.765625,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.5,
+          "flatulence": 1.0,
+          "frustration": 0.09375,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.75,
+          "third": 0.7708333333333334
+        }
+      },
+      {
+        "auc": 0.7630208333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.515625,
+          "flatulence": 1.0,
+          "frustration": 0.0625,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.75,
+          "third": 0.78125
+        }
+      },
+      {
+        "auc": 0.7552083333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.4375,
+          "flatulence": 1.0,
+          "frustration": 0.09375,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.7395833333333334,
+          "third": 0.7708333333333334
+        }
+      },
+      {
+        "auc": 0.8307291666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.546875,
+          "flatulence": 1.0,
+          "frustration": 0.4375,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.7916666666666666,
+          "third": 0.8645833333333334
+        }
+      },
+      {
+        "auc": 0.8385416666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.609375,
+          "flatulence": 1.0,
+          "frustration": 0.421875,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.8020833333333334,
+          "third": 0.84375
+        }
+      },
+      {
+        "auc": 0.8671875,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.625,
+          "flatulence": 1.0,
+          "frustration": 0.578125,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.8333333333333334,
+          "third": 0.8958333333333334
+        }
+      },
+      {
+        "auc": 0.8697916666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.59375,
+          "flatulence": 1.0,
+          "frustration": 0.625,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.8541666666666666,
+          "third": 0.875
+        }
+      },
+      {
+        "auc": 0.8776041666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.609375,
+          "flatulence": 1.0,
+          "frustration": 0.65625,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.8541666666666666,
+          "third": 0.90625
+        }
+      },
+      {
+        "auc": 0.8958333333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.71875,
+          "flatulence": 1.0,
+          "frustration": 0.65625,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.9166666666666666
+        }
+      },
+      {
+        "auc": 0.8984375,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.75,
+          "flatulence": 1.0,
+          "frustration": 0.640625,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.8854166666666666,
+          "third": 0.90625
+        }
+      },
+      {
+        "auc": 0.90625,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.71875,
+          "flatulence": 1.0,
+          "frustration": 0.71875,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.90625,
+          "third": 0.9166666666666666
+        }
+      },
+      {
+        "auc": 0.8958333333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.703125,
+          "flatulence": 1.0,
+          "frustration": 0.671875,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.90625
+        }
+      },
+      {
+        "auc": 0.9010416666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.703125,
+          "flatulence": 1.0,
+          "frustration": 0.703125,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.8958333333333334,
+          "third": 0.90625
+        }
+      },
+      {
+        "auc": 0.8984375,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.65625,
+          "flatulence": 1.0,
+          "frustration": 0.734375,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.9166666666666666,
+          "third": 0.8958333333333334
+        }
+      },
+      {
+        "auc": 0.90625,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.6875,
+          "flatulence": 1.0,
+          "frustration": 0.75,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.90625,
+          "third": 0.90625
+        }
+      },
+      {
+        "auc": 0.9036458333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.671875,
+          "flatulence": 1.0,
+          "frustration": 0.75,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.90625,
+          "third": 0.8958333333333334
+        }
+      },
+      {
+        "auc": 0.9036458333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.65625,
+          "flatulence": 1.0,
+          "frustration": 0.765625,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.9166666666666666,
+          "third": 0.8854166666666666
+        }
+      },
+      {
+        "auc": 0.9036458333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.640625,
+          "flatulence": 1.0,
+          "frustration": 0.78125,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.9166666666666666,
+          "third": 0.8958333333333334
+        }
+      },
+      {
+        "auc": 0.9010416666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.65625,
+          "flatulence": 1.0,
+          "frustration": 0.75,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.90625,
+          "third": 0.8958333333333334
+        }
+      },
+      {
+        "auc": 0.9114583333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.6875,
+          "flatulence": 1.0,
+          "frustration": 0.78125,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.9166666666666666,
+          "third": 0.8958333333333334
+        }
+      },
+      {
+        "auc": 0.9114583333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.6875,
+          "flatulence": 1.0,
+          "frustration": 0.78125,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.9166666666666666,
+          "third": 0.8958333333333334
+        }
+      },
+      {
+        "auc": 0.9114583333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.6875,
+          "flatulence": 1.0,
+          "frustration": 0.78125,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.9166666666666666,
+          "third": 0.8958333333333334
+        }
+      },
+      {
+        "auc": 0.9088541666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.6875,
+          "flatulence": 1.0,
+          "frustration": 0.765625,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.9270833333333334,
+          "third": 0.8958333333333334
+        }
+      },
+      {
+        "auc": 0.90625,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.71875,
+          "flatulence": 1.0,
+          "frustration": 0.71875,
+          "neither": 1.0
+        },
+        "perspective": {
+          "first": 0.9270833333333334,
+          "third": 0.8958333333333334
+        }
+      }
+    ],
+    "discomfort": [
+      {
+        "auc": 0.9322916666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.9375,
+          "neither": 1.0,
+          "pain": 0.65625
+        },
+        "perspective": {
+          "first": 0.9479166666666666,
+          "third": 0.9270833333333334
+        }
+      },
+      {
+        "auc": 0.9010416666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.765625,
+          "neither": 1.0,
+          "pain": 0.640625
+        },
+        "perspective": {
+          "first": 0.9166666666666666,
+          "third": 0.90625
+        }
+      },
+      {
+        "auc": 0.9010416666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.546875,
+          "neither": 1.0,
+          "pain": 0.859375
+        },
+        "perspective": {
+          "first": 0.8958333333333334,
+          "third": 0.90625
+        }
+      },
+      {
+        "auc": 0.9348958333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.609375,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9166666666666666,
+          "third": 0.9479166666666666
+        }
+      },
+      {
+        "auc": 0.9713541666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.828125,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9583333333333334,
+          "third": 0.9895833333333334
+        }
+      },
+      {
+        "auc": 0.9895833333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.9375,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9791666666666666,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 0.9635416666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.78125,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9583333333333334,
+          "third": 0.96875
+        }
+      },
+      {
+        "auc": 0.9635416666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.78125,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9479166666666666,
+          "third": 0.9791666666666666
+        }
+      },
+      {
+        "auc": 0.9401041666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.65625,
+          "neither": 1.0,
+          "pain": 0.984375
+        },
+        "perspective": {
+          "first": 0.9270833333333334,
+          "third": 0.96875
+        }
+      },
+      {
+        "auc": 0.9505208333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.703125,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9166666666666666,
+          "third": 0.9791666666666666
+        }
+      },
+      {
+        "auc": 0.9765625,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.859375,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9583333333333334,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 0.9348958333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.609375,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.90625,
+          "third": 0.96875
+        }
+      },
+      {
+        "auc": 0.8723958333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.25,
+          "neither": 1.0,
+          "pain": 0.984375
+        },
+        "perspective": {
+          "first": 0.8645833333333334,
+          "third": 0.875
+        }
+      },
+      {
+        "auc": 0.8541666666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.21875,
+          "neither": 1.0,
+          "pain": 0.90625
+        },
+        "perspective": {
+          "first": 0.8541666666666666,
+          "third": 0.8541666666666666
+        }
+      },
+      {
+        "auc": 0.8619791666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.296875,
+          "neither": 1.0,
+          "pain": 0.875
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.8541666666666666
+        }
+      },
+      {
+        "auc": 0.8463541666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.3125,
+          "neither": 1.0,
+          "pain": 0.765625
+        },
+        "perspective": {
+          "first": 0.84375,
+          "third": 0.84375
+        }
+      },
+      {
+        "auc": 0.8177083333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.28125,
+          "neither": 1.0,
+          "pain": 0.625
+        },
+        "perspective": {
+          "first": 0.8125,
+          "third": 0.8229166666666666
+        }
+      },
+      {
+        "auc": 0.8177083333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.28125,
+          "neither": 1.0,
+          "pain": 0.625
+        },
+        "perspective": {
+          "first": 0.8020833333333334,
+          "third": 0.8333333333333334
+        }
+      },
+      {
+        "auc": 0.8359375,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.265625,
+          "neither": 1.0,
+          "pain": 0.75
+        },
+        "perspective": {
+          "first": 0.84375,
+          "third": 0.8229166666666666
+        }
+      },
+      {
+        "auc": 0.8671875,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.4375,
+          "neither": 1.0,
+          "pain": 0.765625
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.8541666666666666
+        }
+      },
+      {
+        "auc": 0.84375,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.421875,
+          "neither": 1.0,
+          "pain": 0.640625
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.8229166666666666
+        }
+      },
+      {
+        "auc": 0.8411458333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.40625,
+          "neither": 1.0,
+          "pain": 0.640625
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.8229166666666666
+        }
+      },
+      {
+        "auc": 0.8489583333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.578125,
+          "neither": 1.0,
+          "pain": 0.515625
+        },
+        "perspective": {
+          "first": 0.8645833333333334,
+          "third": 0.8333333333333334
+        }
+      },
+      {
+        "auc": 0.84375,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.5,
+          "neither": 1.0,
+          "pain": 0.5625
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.8229166666666666
+        }
+      },
+      {
+        "auc": 0.8489583333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.53125,
+          "neither": 1.0,
+          "pain": 0.5625
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.8125
+        }
+      },
+      {
+        "auc": 0.8697916666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.609375,
+          "neither": 1.0,
+          "pain": 0.609375
+        },
+        "perspective": {
+          "first": 0.8958333333333334,
+          "third": 0.8229166666666666
+        }
+      },
+      {
+        "auc": 0.8567708333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.59375,
+          "neither": 1.0,
+          "pain": 0.546875
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.8333333333333334
+        }
+      },
+      {
+        "auc": 0.8333333333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.484375,
+          "neither": 1.0,
+          "pain": 0.515625
+        },
+        "perspective": {
+          "first": 0.8541666666666666,
+          "third": 0.8125
+        }
+      },
+      {
+        "auc": 0.8098958333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.421875,
+          "neither": 1.0,
+          "pain": 0.4375
+        },
+        "perspective": {
+          "first": 0.8229166666666666,
+          "third": 0.8020833333333334
+        }
+      },
+      {
+        "auc": 0.8229166666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.46875,
+          "neither": 1.0,
+          "pain": 0.46875
+        },
+        "perspective": {
+          "first": 0.8229166666666666,
+          "third": 0.8020833333333334
+        }
+      },
+      {
+        "auc": 0.8072916666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.421875,
+          "neither": 1.0,
+          "pain": 0.421875
+        },
+        "perspective": {
+          "first": 0.8229166666666666,
+          "third": 0.7916666666666666
+        }
+      },
+      {
+        "auc": 0.8020833333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.40625,
+          "neither": 1.0,
+          "pain": 0.40625
+        },
+        "perspective": {
+          "first": 0.8229166666666666,
+          "third": 0.7708333333333334
+        }
+      },
+      {
+        "auc": 0.796875,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.375,
+          "neither": 1.0,
+          "pain": 0.40625
+        },
+        "perspective": {
+          "first": 0.8125,
+          "third": 0.7708333333333334
+        }
+      },
+      {
+        "auc": 0.8020833333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.40625,
+          "neither": 1.0,
+          "pain": 0.40625
+        },
+        "perspective": {
+          "first": 0.8229166666666666,
+          "third": 0.78125
+        }
+      },
+      {
+        "auc": 0.7994791666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.375,
+          "neither": 1.0,
+          "pain": 0.421875
+        },
+        "perspective": {
+          "first": 0.8229166666666666,
+          "third": 0.78125
+        }
+      },
+      {
+        "auc": 0.7838541666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "flatulence": 1.0,
+          "frustration": 0.234375,
+          "neither": 1.0,
+          "pain": 0.46875
+        },
+        "perspective": {
+          "first": 0.7708333333333334,
+          "third": 0.8020833333333334
+        }
+      }
+    ],
+    "frustration": [
+      {
+        "auc": 0.8307291666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.515625,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 0.46875
+        },
+        "perspective": {
+          "first": 0.8333333333333334,
+          "third": 0.8333333333333334
+        }
+      },
+      {
+        "auc": 0.9192708333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.796875,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 0.71875
+        },
+        "perspective": {
+          "first": 0.9375,
+          "third": 0.8958333333333334
+        }
+      },
+      {
+        "auc": 0.9869791666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.921875,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9895833333333334,
+          "third": 0.9895833333333334
+        }
+      },
+      {
+        "auc": 1.0,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 1.0,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 0.9947916666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.96875,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 0.9895833333333334
+        }
+      },
+      {
+        "auc": 0.984375,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.90625,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9791666666666666,
+          "third": 0.9791666666666666
+        }
+      },
+      {
+        "auc": 0.9947916666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.96875,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 0.9895833333333334
+        }
+      },
+      {
+        "auc": 0.9895833333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.9375,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9895833333333334,
+          "third": 0.9895833333333334
+        }
+      },
+      {
+        "auc": 1.0,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 1.0,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 0.9973958333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.984375,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 0.9895833333333334
+        }
+      },
+      {
+        "auc": 0.9895833333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.9375,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 0.9791666666666666
+        }
+      },
+      {
+        "auc": 0.9869791666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.921875,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 0.9791666666666666
+        }
+      },
+      {
+        "auc": 0.9947916666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.96875,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 1.0,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 1.0,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 1.0,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 1.0,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 1.0,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 0.9973958333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.984375,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 0.9895833333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.953125,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 0.984375
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 0.9791666666666666
+        }
+      },
+      {
+        "auc": 0.9895833333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.96875,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 0.96875
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 0.9791666666666666
+        }
+      },
+      {
+        "auc": 0.9895833333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.96875,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 0.96875
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 0.96875
+        }
+      },
+      {
+        "auc": 0.9869791666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.953125,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 0.96875
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 0.9791666666666666
+        }
+      },
+      {
+        "auc": 0.9817708333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.9375,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 0.953125
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 0.9791666666666666
+        }
+      },
+      {
+        "auc": 0.9791666666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.9375,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 0.9375
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 0.96875
+        }
+      },
+      {
+        "auc": 0.9817708333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.96875,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 0.921875
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 0.9583333333333334
+        }
+      },
+      {
+        "auc": 0.9635416666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.9375,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 0.84375
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 0.9583333333333334
+        }
+      },
+      {
+        "auc": 0.9505208333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.875,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 0.828125
+        },
+        "perspective": {
+          "first": 0.9583333333333334,
+          "third": 0.9479166666666666
+        }
+      },
+      {
+        "auc": 0.9348958333333334,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.84375,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 0.765625
+        },
+        "perspective": {
+          "first": 0.9270833333333334,
+          "third": 0.9375
+        }
+      },
+      {
+        "auc": 0.9244791666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.8125,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 0.734375
+        },
+        "perspective": {
+          "first": 0.9166666666666666,
+          "third": 0.9270833333333334
+        }
+      },
+      {
+        "auc": 0.9375,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.84375,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 0.78125
+        },
+        "perspective": {
+          "first": 0.9270833333333334,
+          "third": 0.9270833333333334
+        }
+      },
+      {
+        "auc": 0.9296875,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.8125,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 0.765625
+        },
+        "perspective": {
+          "first": 0.9270833333333334,
+          "third": 0.9270833333333334
+        }
+      },
+      {
+        "auc": 0.9713541666666666,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 0.9375,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 0.890625
+        },
+        "perspective": {
+          "first": 0.9479166666666666,
+          "third": 0.9895833333333334
+        }
+      },
+      {
+        "auc": 1.0,
+        "versus": {
+          "both": 1.0,
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "flatulence": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      }
+    ],
+    "constipation_adjusted": [
+      {
+        "auc": 0.8328125,
+        "versus": {
+          "discomfort": 0.8828125,
+          "flatulence": 0.734375,
+          "frustration": 0.8359375,
+          "neither": 0.7109375,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.825,
+          "third": 0.85
+        }
+      },
+      {
+        "auc": 0.821875,
+        "versus": {
+          "discomfort": 0.8125,
+          "flatulence": 0.7578125,
+          "frustration": 0.8203125,
+          "neither": 0.7265625,
+          "pain": 0.9921875
+        },
+        "perspective": {
+          "first": 0.8125,
+          "third": 0.83125
+        }
+      },
+      {
+        "auc": 0.7828125,
+        "versus": {
+          "discomfort": 0.765625,
+          "flatulence": 0.6875,
+          "frustration": 0.8828125,
+          "neither": 0.6953125,
+          "pain": 0.8828125
+        },
+        "perspective": {
+          "first": 0.8,
+          "third": 0.75625
+        }
+      },
+      {
+        "auc": 0.8078125,
+        "versus": {
+          "discomfort": 0.921875,
+          "flatulence": 0.59375,
+          "frustration": 0.859375,
+          "neither": 0.6640625,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.8125,
+          "third": 0.7875
+        }
+      },
+      {
+        "auc": 0.85,
+        "versus": {
+          "discomfort": 0.90625,
+          "flatulence": 0.7265625,
+          "frustration": 0.8828125,
+          "neither": 0.734375,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.8375,
+          "third": 0.85
+        }
+      },
+      {
+        "auc": 0.84375,
+        "versus": {
+          "discomfort": 0.921875,
+          "flatulence": 0.71875,
+          "frustration": 0.84375,
+          "neither": 0.734375,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.84375,
+          "third": 0.84375
+        }
+      },
+      {
+        "auc": 0.9015625,
+        "versus": {
+          "discomfort": 1.0,
+          "flatulence": 0.765625,
+          "frustration": 0.9296875,
+          "neither": 0.8125,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.90625,
+          "third": 0.9125
+        }
+      },
+      {
+        "auc": 0.9015625,
+        "versus": {
+          "discomfort": 0.9375,
+          "flatulence": 0.859375,
+          "frustration": 0.8515625,
+          "neither": 0.859375,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.89375,
+          "third": 0.91875
+        }
+      },
+      {
+        "auc": 0.9640625,
+        "versus": {
+          "discomfort": 1.0,
+          "flatulence": 0.8671875,
+          "frustration": 1.0,
+          "neither": 0.953125,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.95625,
+          "third": 0.9625
+        }
+      },
+      {
+        "auc": 0.9296875,
+        "versus": {
+          "discomfort": 0.984375,
+          "flatulence": 0.7421875,
+          "frustration": 1.0,
+          "neither": 0.9296875,
+          "pain": 0.9921875
+        },
+        "perspective": {
+          "first": 0.93125,
+          "third": 0.93125
+        }
+      },
+      {
+        "auc": 0.89375,
+        "versus": {
+          "discomfort": 0.9453125,
+          "flatulence": 0.6328125,
+          "frustration": 1.0,
+          "neither": 0.8984375,
+          "pain": 0.9921875
+        },
+        "perspective": {
+          "first": 0.90625,
+          "third": 0.89375
+        }
+      },
+      {
+        "auc": 0.784375,
+        "versus": {
+          "discomfort": 0.8046875,
+          "flatulence": 0.53125,
+          "frustration": 0.9453125,
+          "neither": 0.734375,
+          "pain": 0.90625
+        },
+        "perspective": {
+          "first": 0.85625,
+          "third": 0.74375
+        }
+      },
+      {
+        "auc": 0.796875,
+        "versus": {
+          "discomfort": 0.90625,
+          "flatulence": 0.546875,
+          "frustration": 0.859375,
+          "neither": 0.71875,
+          "pain": 0.953125
+        },
+        "perspective": {
+          "first": 0.83125,
+          "third": 0.7875
+        }
+      },
+      {
+        "auc": 0.7953125,
+        "versus": {
+          "discomfort": 0.9375,
+          "flatulence": 0.5390625,
+          "frustration": 0.8671875,
+          "neither": 0.71875,
+          "pain": 0.9140625
+        },
+        "perspective": {
+          "first": 0.84375,
+          "third": 0.76875
+        }
+      },
+      {
+        "auc": 0.8328125,
+        "versus": {
+          "discomfort": 0.921875,
+          "flatulence": 0.65625,
+          "frustration": 0.8828125,
+          "neither": 0.7890625,
+          "pain": 0.9140625
+        },
+        "perspective": {
+          "first": 0.88125,
+          "third": 0.79375
+        }
+      },
+      {
+        "auc": 0.759375,
+        "versus": {
+          "discomfort": 0.8515625,
+          "flatulence": 0.625,
+          "frustration": 0.796875,
+          "neither": 0.6953125,
+          "pain": 0.828125
+        },
+        "perspective": {
+          "first": 0.79375,
+          "third": 0.71875
+        }
+      },
+      {
+        "auc": 0.821875,
+        "versus": {
+          "discomfort": 0.8984375,
+          "flatulence": 0.6796875,
+          "frustration": 0.90625,
+          "neither": 0.734375,
+          "pain": 0.890625
+        },
+        "perspective": {
+          "first": 0.86875,
+          "third": 0.7875
+        }
+      },
+      {
+        "auc": 0.8234375,
+        "versus": {
+          "discomfort": 0.875,
+          "flatulence": 0.703125,
+          "frustration": 0.921875,
+          "neither": 0.71875,
+          "pain": 0.8984375
+        },
+        "perspective": {
+          "first": 0.88125,
+          "third": 0.7875
+        }
+      },
+      {
+        "auc": 0.8359375,
+        "versus": {
+          "discomfort": 0.8828125,
+          "flatulence": 0.7421875,
+          "frustration": 0.9296875,
+          "neither": 0.7265625,
+          "pain": 0.8984375
+        },
+        "perspective": {
+          "first": 0.88125,
+          "third": 0.8125
+        }
+      },
+      {
+        "auc": 0.88125,
+        "versus": {
+          "discomfort": 0.9375,
+          "flatulence": 0.78125,
+          "frustration": 0.9609375,
+          "neither": 0.7734375,
+          "pain": 0.953125
+        },
+        "perspective": {
+          "first": 0.9,
+          "third": 0.8625
+        }
+      },
+      {
+        "auc": 0.8875,
+        "versus": {
+          "discomfort": 0.9453125,
+          "flatulence": 0.78125,
+          "frustration": 0.96875,
+          "neither": 0.7734375,
+          "pain": 0.96875
+        },
+        "perspective": {
+          "first": 0.9125,
+          "third": 0.86875
+        }
+      },
+      {
+        "auc": 0.9015625,
+        "versus": {
+          "discomfort": 0.9609375,
+          "flatulence": 0.796875,
+          "frustration": 0.984375,
+          "neither": 0.765625,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9375,
+          "third": 0.86875
+        }
+      },
+      {
+        "auc": 0.9109375,
+        "versus": {
+          "discomfort": 1.0,
+          "flatulence": 0.796875,
+          "frustration": 1.0,
+          "neither": 0.7578125,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.93125,
+          "third": 0.8875
+        }
+      },
+      {
+        "auc": 0.909375,
+        "versus": {
+          "discomfort": 0.984375,
+          "flatulence": 0.8046875,
+          "frustration": 1.0,
+          "neither": 0.7578125,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.925,
+          "third": 0.89375
+        }
+      },
+      {
+        "auc": 0.89375,
+        "versus": {
+          "discomfort": 0.984375,
+          "flatulence": 0.765625,
+          "frustration": 1.0,
+          "neither": 0.71875,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.90625,
+          "third": 0.8875
+        }
+      },
+      {
+        "auc": 0.8765625,
+        "versus": {
+          "discomfort": 0.9609375,
+          "flatulence": 0.734375,
+          "frustration": 0.9921875,
+          "neither": 0.703125,
+          "pain": 0.9921875
+        },
+        "perspective": {
+          "first": 0.8875,
+          "third": 0.875
+        }
+      },
+      {
+        "auc": 0.8671875,
+        "versus": {
+          "discomfort": 0.9453125,
+          "flatulence": 0.7109375,
+          "frustration": 0.9921875,
+          "neither": 0.6953125,
+          "pain": 0.9921875
+        },
+        "perspective": {
+          "first": 0.8875,
+          "third": 0.85625
+        }
+      },
+      {
+        "auc": 0.85625,
+        "versus": {
+          "discomfort": 0.921875,
+          "flatulence": 0.703125,
+          "frustration": 0.984375,
+          "neither": 0.6953125,
+          "pain": 0.9765625
+        },
+        "perspective": {
+          "first": 0.86875,
+          "third": 0.8625
+        }
+      },
+      {
+        "auc": 0.8484375,
+        "versus": {
+          "discomfort": 0.8984375,
+          "flatulence": 0.71875,
+          "frustration": 0.9765625,
+          "neither": 0.6796875,
+          "pain": 0.96875
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.85625
+        }
+      },
+      {
+        "auc": 0.8265625,
+        "versus": {
+          "discomfort": 0.890625,
+          "flatulence": 0.6796875,
+          "frustration": 0.9609375,
+          "neither": 0.6484375,
+          "pain": 0.953125
+        },
+        "perspective": {
+          "first": 0.84375,
+          "third": 0.8375
+        }
+      },
+      {
+        "auc": 0.8109375,
+        "versus": {
+          "discomfort": 0.875,
+          "flatulence": 0.671875,
+          "frustration": 0.953125,
+          "neither": 0.6328125,
+          "pain": 0.921875
+        },
+        "perspective": {
+          "first": 0.825,
+          "third": 0.825
+        }
+      },
+      {
+        "auc": 0.8078125,
+        "versus": {
+          "discomfort": 0.8671875,
+          "flatulence": 0.671875,
+          "frustration": 0.96875,
+          "neither": 0.625,
+          "pain": 0.90625
+        },
+        "perspective": {
+          "first": 0.8125,
+          "third": 0.81875
+        }
+      },
+      {
+        "auc": 0.8,
+        "versus": {
+          "discomfort": 0.8515625,
+          "flatulence": 0.6640625,
+          "frustration": 0.9609375,
+          "neither": 0.6171875,
+          "pain": 0.90625
+        },
+        "perspective": {
+          "first": 0.8125,
+          "third": 0.80625
+        }
+      },
+      {
+        "auc": 0.80625,
+        "versus": {
+          "discomfort": 0.8671875,
+          "flatulence": 0.6484375,
+          "frustration": 0.9609375,
+          "neither": 0.6484375,
+          "pain": 0.90625
+        },
+        "perspective": {
+          "first": 0.81875,
+          "third": 0.81875
+        }
+      },
+      {
+        "auc": 0.8015625,
+        "versus": {
+          "discomfort": 0.8671875,
+          "flatulence": 0.671875,
+          "frustration": 0.9609375,
+          "neither": 0.625,
+          "pain": 0.8828125
+        },
+        "perspective": {
+          "first": 0.8125,
+          "third": 0.8125
+        }
+      },
+      {
+        "auc": 0.80625,
+        "versus": {
+          "discomfort": 0.9140625,
+          "flatulence": 0.6015625,
+          "frustration": 0.984375,
+          "neither": 0.6484375,
+          "pain": 0.8828125
+        },
+        "perspective": {
+          "first": 0.825,
+          "third": 0.79375
+        }
+      }
+    ],
+    "flatulence_adjusted": [
+      {
+        "auc": 0.9390625,
+        "versus": {
+          "constipation": 0.90625,
+          "discomfort": 0.984375,
+          "frustration": 0.96875,
+          "neither": 0.921875,
+          "pain": 0.9140625
+        },
+        "perspective": {
+          "first": 0.96875,
+          "third": 0.96875
+        }
+      },
+      {
+        "auc": 0.9515625,
+        "versus": {
+          "constipation": 0.8984375,
+          "discomfort": 1.0,
+          "frustration": 1.0,
+          "neither": 0.921875,
+          "pain": 0.9375
+        },
+        "perspective": {
+          "first": 0.99375,
+          "third": 0.9625
+        }
+      },
+      {
+        "auc": 0.925,
+        "versus": {
+          "constipation": 0.796875,
+          "discomfort": 0.984375,
+          "frustration": 0.9921875,
+          "neither": 0.890625,
+          "pain": 0.9609375
+        },
+        "perspective": {
+          "first": 0.9375,
+          "third": 0.9375
+        }
+      },
+      {
+        "auc": 0.925,
+        "versus": {
+          "constipation": 0.8203125,
+          "discomfort": 0.984375,
+          "frustration": 0.9609375,
+          "neither": 0.8828125,
+          "pain": 0.9765625
+        },
+        "perspective": {
+          "first": 0.93125,
+          "third": 0.9375
+        }
+      },
+      {
+        "auc": 0.86875,
+        "versus": {
+          "constipation": 0.71875,
+          "discomfort": 0.8984375,
+          "frustration": 0.921875,
+          "neither": 0.84375,
+          "pain": 0.9609375
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.875
+        }
+      },
+      {
+        "auc": 0.8859375,
+        "versus": {
+          "constipation": 0.734375,
+          "discomfort": 0.953125,
+          "frustration": 0.9453125,
+          "neither": 0.8359375,
+          "pain": 0.9609375
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.9
+        }
+      },
+      {
+        "auc": 0.89375,
+        "versus": {
+          "constipation": 0.7265625,
+          "discomfort": 0.9765625,
+          "frustration": 0.9609375,
+          "neither": 0.8203125,
+          "pain": 0.984375
+        },
+        "perspective": {
+          "first": 0.875,
+          "third": 0.91875
+        }
+      },
+      {
+        "auc": 0.9375,
+        "versus": {
+          "constipation": 0.828125,
+          "discomfort": 0.9921875,
+          "frustration": 1.0,
+          "neither": 0.8671875,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9375,
+          "third": 0.9375
+        }
+      },
+      {
+        "auc": 0.959375,
+        "versus": {
+          "constipation": 0.828125,
+          "discomfort": 1.0,
+          "frustration": 1.0,
+          "neither": 0.96875,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9625,
+          "third": 0.95625
+        }
+      },
+      {
+        "auc": 0.9578125,
+        "versus": {
+          "constipation": 0.8984375,
+          "discomfort": 0.8984375,
+          "frustration": 1.0,
+          "neither": 0.9921875,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.9875,
+          "third": 0.9375
+        }
+      },
+      {
+        "auc": 0.9921875,
+        "versus": {
+          "constipation": 0.984375,
+          "discomfort": 0.9765625,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 0.99375,
+          "third": 0.9875
+        }
+      },
+      {
+        "auc": 1.0,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 1.0,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 1.0,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 1.0,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 1.0,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 1.0,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 1.0
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 0.996875,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 0.984375
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 0.9953125,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 0.9765625
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 0.996875,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 0.984375
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 1.0
+        }
+      },
+      {
+        "auc": 0.9921875,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 1.0,
+          "frustration": 1.0,
+          "neither": 1.0,
+          "pain": 0.9609375
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 0.9875
+        }
+      },
+      {
+        "auc": 0.975,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 0.9609375,
+          "frustration": 0.984375,
+          "neither": 0.9921875,
+          "pain": 0.9375
+        },
+        "perspective": {
+          "first": 1.0,
+          "third": 0.95
+        }
+      },
+      {
+        "auc": 0.9734375,
+        "versus": {
+          "constipation": 1.0,
+          "discomfort": 0.96875,
+          "frustration": 0.9921875,
+          "neither": 1.0,
+          "pain": 0.90625
+        },
+        "perspective": {
+          "first": 0.99375,
+          "third": 0.94375
+        }
+      },
+      {
+        "auc": 0.91875,
+        "versus": {
+          "constipation": 0.984375,
+          "discomfort": 0.8671875,
+          "frustration": 0.9609375,
+          "neither": 0.9609375,
+          "pain": 0.8203125
+        },
+        "perspective": {
+          "first": 0.94375,
+          "third": 0.8875
+        }
+      },
+      {
+        "auc": 0.871875,
+        "versus": {
+          "constipation": 0.953125,
+          "discomfort": 0.8203125,
+          "frustration": 0.9453125,
+          "neither": 0.921875,
+          "pain": 0.71875
+        },
+        "perspective": {
+          "first": 0.9125,
+          "third": 0.84375
+        }
+      },
+      {
+        "auc": 0.828125,
+        "versus": {
+          "constipation": 0.9375,
+          "discomfort": 0.765625,
+          "frustration": 0.890625,
+          "neither": 0.875,
+          "pain": 0.671875
+        },
+        "perspective": {
+          "first": 0.8625,
+          "third": 0.8
+        }
+      },
+      {
+        "auc": 0.7875,
+        "versus": {
+          "constipation": 0.9375,
+          "discomfort": 0.7265625,
+          "frustration": 0.8671875,
+          "neither": 0.8359375,
+          "pain": 0.5703125
+        },
+        "perspective": {
+          "first": 0.825,
+          "third": 0.75
+        }
+      },
+      {
+        "auc": 0.7625,
+        "versus": {
+          "constipation": 0.9375,
+          "discomfort": 0.71875,
+          "frustration": 0.8359375,
+          "neither": 0.7890625,
+          "pain": 0.53125
+        },
+        "perspective": {
+          "first": 0.80625,
+          "third": 0.70625
+        }
+      },
+      {
+        "auc": 0.7234375,
+        "versus": {
+          "constipation": 0.8984375,
+          "discomfort": 0.6640625,
+          "frustration": 0.78125,
+          "neither": 0.7734375,
+          "pain": 0.5
+        },
+        "perspective": {
+          "first": 0.775,
+          "third": 0.65625
+        }
+      },
+      {
+        "auc": 0.696875,
+        "versus": {
+          "constipation": 0.8828125,
+          "discomfort": 0.640625,
+          "frustration": 0.7421875,
+          "neither": 0.734375,
+          "pain": 0.484375
+        },
+        "perspective": {
+          "first": 0.74375,
+          "third": 0.6375
+        }
+      },
+      {
+        "auc": 0.6734375,
+        "versus": {
+          "constipation": 0.8359375,
+          "discomfort": 0.6328125,
+          "frustration": 0.6953125,
+          "neither": 0.734375,
+          "pain": 0.46875
+        },
+        "perspective": {
+          "first": 0.71875,
+          "third": 0.61875
+        }
+      },
+      {
+        "auc": 0.66875,
+        "versus": {
+          "constipation": 0.84375,
+          "discomfort": 0.625,
+          "frustration": 0.6875,
+          "neither": 0.7265625,
+          "pain": 0.4609375
+        },
+        "perspective": {
+          "first": 0.70625,
+          "third": 0.61875
+        }
+      },
+      {
+        "auc": 0.678125,
+        "versus": {
+          "constipation": 0.8515625,
+          "discomfort": 0.6328125,
+          "frustration": 0.71875,
+          "neither": 0.734375,
+          "pain": 0.453125
+        },
+        "perspective": {
+          "first": 0.725,
+          "third": 0.61875
+        }
+      },
+      {
+        "auc": 0.671875,
+        "versus": {
+          "constipation": 0.859375,
+          "discomfort": 0.609375,
+          "frustration": 0.7265625,
+          "neither": 0.734375,
+          "pain": 0.4296875
+        },
+        "perspective": {
+          "first": 0.7125,
+          "third": 0.61875
+        }
+      },
+      {
+        "auc": 0.684375,
+        "versus": {
+          "constipation": 0.859375,
+          "discomfort": 0.6328125,
+          "frustration": 0.75,
+          "neither": 0.7421875,
+          "pain": 0.4375
+        },
+        "perspective": {
+          "first": 0.725,
+          "third": 0.6375
+        }
+      },
+      {
+        "auc": 0.7125,
+        "versus": {
+          "constipation": 0.859375,
+          "discomfort": 0.671875,
+          "frustration": 0.796875,
+          "neither": 0.734375,
+          "pain": 0.5
+        },
+        "perspective": {
+          "first": 0.74375,
+          "third": 0.68125
+        }
+      }
+    ]
+  },
+  "selected_layers": {
+    "constipation": 8,
+    "flatulence": 5,
+    "interaction": 2,
+    "pain": 31,
+    "discomfort": 5,
+    "frustration": 3,
+    "constipation_adjusted": 8,
+    "flatulence_adjusted": 11
+  },
+  "selection_rule": "Max validation AUC against all non-target conditions, excluding final block; earliest wins ties."
+}

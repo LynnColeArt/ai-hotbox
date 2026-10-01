@@ -1,0 +1,30 @@
+{
+  "before_failures": 6,
+  "before_test_count": 6,
+  "sources": {
+    "exp34_optimized_valence.py": {
+      "before_sha256": "24861dabc9def301fcbc292589bc72c6b0f10a1923584ea0387df92841b4d49e",
+      "after_sha256": "1f11dc926947b27e848af97e727f8b59295fb183cec3fdd9f226c20541d87af7"
+    },
+    "exp37_framing_battery.py": {
+      "before_sha256": "73ddc6098243e03367a5b303b338fb8c657466d4a6b586fb6d285c86593e073e",
+      "after_sha256": "99ac817a68e8b3ec5973983e905f2f79c7c00a0734a17545528ac76be8b2d2c1"
+    },
+    "exp23_pain_axis.py": {
+      "before_sha256": "cc6e3fefff04939d3bec21074264541ccbf8a45b81fc6bfe96031d1e3940b94a",
+      "after_sha256": "3c47b587b8deb06cd42b42fdb9444515069780cd5a5c313ece602a613ec754d6"
+    },
+    "exp33_nonhuman_valences.py": {
+      "before_sha256": "9a97b2d9500a1db6b874fd7e454d4f2dbbbcf5e71a6cf01d9c4576b481c1c0a0",
+      "after_sha256": "af8b5f1092f03efb77c4be7a6a9375ab84513a764264d013b2b02dceff539262"
+    },
+    "exp37_replot.py": {
+      "before_sha256": "a0e247062a8316cb3c61fc3561e6b3102c776f282bf66d7cbe0fddea6eac6394",
+      "after_sha256": "9f468d987c2ea72d363990d2cd2defd696256fd37e3f9e9fe96dd382a3cc0ff7"
+    },
+    "exp36_signal_batteries.py": {
+      "before_sha256": "79f1333819ac45d4a30e5b8fba68ab5bba2c2d3bfc99538f68a27a7ea39ed475",
+      "after_sha256": "90980ee7304a6ba44bec574d0596c70ef1450405f204bf3f3ba5e68a6c5e639b"
+    }
+  }
+}
